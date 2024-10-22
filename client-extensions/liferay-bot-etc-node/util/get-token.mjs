@@ -1,11 +1,13 @@
-import {lookupConfig} from '@rotty3000/config-node';
+import {lookupConfig, lxcConfig} from '@rotty3000/config-node';
+import {applicationExternalReferenceCodes} from './constants.mjs';
 
+const serverOauthApp = lxcConfig.oauthApplication(applicationExternalReferenceCodes.OAUTH_SERVER_EXTERNAL_REFERENCE_CODE);
 
-const protocol = lookupConfig("com.liferay.lxc.dxp.server.protocol");
-const domain = lookupConfig("com.liferay.lxc.dxp.main.domain");
-const tokenURL = lookupConfig("liferay-bot-etc-node-oauth-application-headless-server.oauth2.token.uri");
-const clientId = lookupConfig("liferay-bot-etc-node-oauth-application-headless-server.oauth2.headless.server.client.id");
-const clientSecret = lookupConfig("liferay-bot-etc-node-oauth-application-headless-server.oauth2.headless.server.client.secret");
+const protocol = lxcConfig.dxpProtocol();
+const domain = lxcConfig.dxpMainDomain();
+const tokenURL = serverOauthApp.tokenUri();
+const clientId = serverOauthApp.clientId();
+const clientSecret = serverOauthApp.clientSecret();
 
 
 export default async function getToken(){

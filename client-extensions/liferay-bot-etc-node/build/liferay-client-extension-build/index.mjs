@@ -15,6 +15,9 @@ import { readyRouter } from "./routes/public/ready.mjs";
 import initializeBots from "./functions/initialize-telegram-bots.mjs";
 
 const serverPort = lookupConfig("server.port");
+console.log("MOMEN");
+console.log("Printing port number:")
+console.log(serverPort);
 const app = express();
 
 app.use(express.json());

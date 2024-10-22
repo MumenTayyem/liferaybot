@@ -9,7 +9,7 @@
 			"deploy": false
 		}
 	},
-	"id": "liferaybotetcnode",
+	"id": "__PROJECT_ID__",
 	"kind": "Deployment",
 	"livenessProbe": {
 		"httpGet": {
