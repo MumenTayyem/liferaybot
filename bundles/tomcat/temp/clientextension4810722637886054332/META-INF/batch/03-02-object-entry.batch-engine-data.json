@@ -1,0 +1,1644 @@
+{
+    "configuration": {
+        "className": "com.liferay.object.rest.dto.v1_0.ObjectEntry",
+        "parameters": {
+            "containsHeaders": "true",
+            "createStrategy": "UPSERT",
+            "onErrorFail": "false",
+            "updateStrategy": "UPDATE"
+        },
+        "taskItemDelegateName": "C_BankTransaction"
+    },
+    "items": [
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 20247,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 20247",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-08-09T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 770,
+            "transactionDestinationERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "description": "Between Accounts 770",
+            "transactionSourceERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionDate": "2024-05-01T00:00:00.000Z",
+            "liabilityType": {
+                "key": "insurance",
+                "name": "Insurance"
+            },
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionType": {
+                "key": "betweenAccounts",
+                "name": "Between Accounts"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 85821,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 85821",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-06-03T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 39290,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 39290",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-03-03T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 123999,
+            "transactionDestinationERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "description": "To A Payee 123999",
+            "transactionSourceERC": "",
+            "transactionDate": "2024-06-10T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionType": {
+                "key": "toAPayee",
+                "name": "To A Payee"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            "r_transactionSource_c_bankAccountId": 0,
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 932031,
+            "transactionDestinationERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "description": "To A Payee 932031",
+            "transactionSourceERC": "",
+            "transactionDate": "2024-04-04T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionType": {
+                "key": "toAPayee",
+                "name": "To A Payee"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            "r_transactionSource_c_bankAccountId": 0,
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 51818,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 51818",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-03-07T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 106,
+            "transactionDestinationERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "description": "Between Accounts 106",
+            "transactionSourceERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionDate": "2024-05-03T00:00:00.000Z",
+            "liabilityType": {
+                "key": "food",
+                "name": "Food"
+            },
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionType": {
+                "key": "betweenAccounts",
+                "name": "Between Accounts"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 268995,
+            "transactionDestinationERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "description": "To A Payee 268995",
+            "transactionSourceERC": "",
+            "transactionDate": "2024-06-05T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionType": {
+                "key": "toAPayee",
+                "name": "To A Payee"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            "r_transactionSource_c_bankAccountId": 0,
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 662,
+            "transactionDestinationERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "description": "Between Accounts 662",
+            "transactionSourceERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionDate": "2024-08-04T00:00:00.000Z",
+            "liabilityType": {
+                "key": "mortgage",
+                "name": "Mortgage"
+            },
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionType": {
+                "key": "betweenAccounts",
+                "name": "Between Accounts"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 48438,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 48438",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-06-01T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 417951,
+            "transactionDestinationERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "description": "To A Payee 417951",
+            "transactionSourceERC": "",
+            "transactionDate": "2024-04-05T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionType": {
+                "key": "toAPayee",
+                "name": "To A Payee"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            "r_transactionSource_c_bankAccountId": 0,
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 35505,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 35505",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-03-01T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 809,
+            "transactionDestinationERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "description": "Between Accounts 809",
+            "transactionSourceERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionDate": "2024-05-07T00:00:00.000Z",
+            "liabilityType": {
+                "key": "utilities",
+                "name": "Utilities"
+            },
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionType": {
+                "key": "betweenAccounts",
+                "name": "Between Accounts"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 73385,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 73385",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-03-08T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 32236,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 32236",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-08-08T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 53806,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 53806",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-03-04T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 918,
+            "transactionDestinationERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "description": "Between Accounts 918",
+            "transactionSourceERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionDate": "2024-08-03T00:00:00.000Z",
+            "liabilityType": {
+                "key": "food",
+                "name": "Food"
+            },
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionType": {
+                "key": "betweenAccounts",
+                "name": "Between Accounts"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 636,
+            "transactionDestinationERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "description": "Between Accounts 636",
+            "transactionSourceERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionDate": "2024-07-06T00:00:00.000Z",
+            "liabilityType": {
+                "key": "transportation",
+                "name": "Transportation"
+            },
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionType": {
+                "key": "betweenAccounts",
+                "name": "Between Accounts"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 26,
+            "transactionDestinationERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "description": "Between Accounts 26",
+            "transactionSourceERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionDate": "2024-05-10T00:00:00.000Z",
+            "liabilityType": {
+                "key": "insurance",
+                "name": "Insurance"
+            },
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionType": {
+                "key": "betweenAccounts",
+                "name": "Between Accounts"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 237157,
+            "transactionDestinationERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "description": "To A Payee 237157",
+            "transactionSourceERC": "",
+            "transactionDate": "2024-04-07T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionType": {
+                "key": "toAPayee",
+                "name": "To A Payee"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            "r_transactionSource_c_bankAccountId": 0,
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 273550,
+            "transactionDestinationERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "description": "To A Payee 273550",
+            "transactionSourceERC": "",
+            "transactionDate": "2024-06-06T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionType": {
+                "key": "toAPayee",
+                "name": "To A Payee"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            "r_transactionSource_c_bankAccountId": 0,
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 13733,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 13733",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-08-06T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 53745,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 53745",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-06-09T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 509411,
+            "transactionDestinationERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "description": "To A Payee 509411",
+            "transactionSourceERC": "",
+            "transactionDate": "2024-07-10T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionType": {
+                "key": "toAPayee",
+                "name": "To A Payee"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            "r_transactionSource_c_bankAccountId": 0,
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 5282,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 5282",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-05-05T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 177637,
+            "transactionDestinationERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "description": "To A Payee 177637",
+            "transactionSourceERC": "",
+            "transactionDate": "2024-04-08T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionType": {
+                "key": "toAPayee",
+                "name": "To A Payee"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            "r_transactionSource_c_bankAccountId": 0,
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 681,
+            "transactionDestinationERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "description": "Between Accounts 681",
+            "transactionSourceERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionDate": "2024-03-06T00:00:00.000Z",
+            "liabilityType": {
+                "key": "transportation",
+                "name": "Transportation"
+            },
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionType": {
+                "key": "betweenAccounts",
+                "name": "Between Accounts"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 78355,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 78355",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-07-07T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 331634,
+            "transactionDestinationERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "description": "To A Payee 331634",
+            "transactionSourceERC": "",
+            "transactionDate": "2024-05-08T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionType": {
+                "key": "toAPayee",
+                "name": "To A Payee"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            "r_transactionSource_c_bankAccountId": 0,
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 61162,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 61162",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-03-10T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 98108,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 98108",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-07-08T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 63028,
+            "transactionDestinationERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "description": "To A Payee 63028",
+            "transactionSourceERC": "",
+            "transactionDate": "2024-05-02T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionType": {
+                "key": "toAPayee",
+                "name": "To A Payee"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            "r_transactionSource_c_bankAccountId": 0,
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 741,
+            "transactionDestinationERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "description": "Between Accounts 741",
+            "transactionSourceERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionDate": "2024-05-04T00:00:00.000Z",
+            "liabilityType": {
+                "key": "mortgage",
+                "name": "Mortgage"
+            },
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionType": {
+                "key": "betweenAccounts",
+                "name": "Between Accounts"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 18149,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 18149",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-04-10T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 49950,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 49950",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-04-03T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 77104,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 77104",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-08-07T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 984,
+            "transactionDestinationERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "description": "Between Accounts 984",
+            "transactionSourceERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionDate": "2024-06-07T00:00:00.000Z",
+            "liabilityType": {
+                "key": "utilities",
+                "name": "Utilities"
+            },
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionType": {
+                "key": "betweenAccounts",
+                "name": "Between Accounts"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 80363,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 80363",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-08-02T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 40189,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 40189",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-06-08T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 639324,
+            "transactionDestinationERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "description": "To A Payee 639324",
+            "transactionSourceERC": "",
+            "transactionDate": "2024-04-09T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionType": {
+                "key": "toAPayee",
+                "name": "To A Payee"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            "r_transactionSource_c_bankAccountId": 0,
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 71685,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 71685",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-07-02T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 9832,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 9832",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-03-02T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 395,
+            "transactionDestinationERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "description": "Between Accounts 395",
+            "transactionSourceERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionDate": "2024-08-05T00:00:00.000Z",
+            "liabilityType": {
+                "key": "transportation",
+                "name": "Transportation"
+            },
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionType": {
+                "key": "betweenAccounts",
+                "name": "Between Accounts"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 361,
+            "transactionDestinationERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "description": "Between Accounts 361",
+            "transactionSourceERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionDate": "2024-07-01T00:00:00.000Z",
+            "liabilityType": {
+                "key": "insurance",
+                "name": "Insurance"
+            },
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionType": {
+                "key": "betweenAccounts",
+                "name": "Between Accounts"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 18510,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 18510",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-07-05T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 72463,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 72463",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-05-09T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 406378,
+            "transactionDestinationERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "description": "To A Payee 406378",
+            "transactionSourceERC": "",
+            "transactionDate": "2024-03-09T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionType": {
+                "key": "toAPayee",
+                "name": "To A Payee"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            "r_transactionSource_c_bankAccountId": 0,
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 429,
+            "transactionDestinationERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "description": "Between Accounts 429",
+            "transactionSourceERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionDate": "2024-03-05T00:00:00.000Z",
+            "liabilityType": {
+                "key": "mortgage",
+                "name": "Mortgage"
+            },
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionType": {
+                "key": "betweenAccounts",
+                "name": "Between Accounts"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 483,
+            "transactionDestinationERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "description": "Between Accounts 483",
+            "transactionSourceERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionDate": "2024-08-10T00:00:00.000Z",
+            "liabilityType": {
+                "key": "utilities",
+                "name": "Utilities"
+            },
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionType": {
+                "key": "betweenAccounts",
+                "name": "Between Accounts"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 731983,
+            "transactionDestinationERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "description": "To A Payee 731983",
+            "transactionSourceERC": "",
+            "transactionDate": "2024-07-09T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionType": {
+                "key": "toAPayee",
+                "name": "To A Payee"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            "r_transactionSource_c_bankAccountId": 0,
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 905,
+            "transactionDestinationERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "description": "Between Accounts 905",
+            "transactionSourceERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionDate": "2024-07-03T00:00:00.000Z",
+            "liabilityType": {
+                "key": "food",
+                "name": "Food"
+            },
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionType": {
+                "key": "betweenAccounts",
+                "name": "Between Accounts"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 236518,
+            "transactionDestinationERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "description": "To A Payee 236518",
+            "transactionSourceERC": "",
+            "transactionDate": "2024-04-01T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionType": {
+                "key": "toAPayee",
+                "name": "To A Payee"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            "r_transactionSource_c_bankAccountId": 0,
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 43818,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 43818",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-06-02T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 72573,
+            "transactionDestinationERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "description": "By IBAN 72573",
+            "transactionSourceERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionDate": "2024-08-01T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "transactionType": {
+                "key": "byIBAN",
+                "name": "By IBAN"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": "AE600356614285456539522"
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 417579,
+            "transactionDestinationERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "description": "To A Payee 417579",
+            "transactionSourceERC": "",
+            "transactionDate": "2024-04-06T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionType": {
+                "key": "toAPayee",
+                "name": "To A Payee"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            "r_transactionSource_c_bankAccountId": 0,
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 271,
+            "transactionDestinationERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "description": "Between Accounts 271",
+            "transactionSourceERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionDate": "2024-04-02T00:00:00.000Z",
+            "liabilityType": {
+                "key": "food",
+                "name": "Food"
+            },
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionType": {
+                "key": "betweenAccounts",
+                "name": "Between Accounts"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 202,
+            "transactionDestinationERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "description": "Between Accounts 202",
+            "transactionSourceERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionDate": "2024-05-06T00:00:00.000Z",
+            "liabilityType": {
+                "key": "transportation",
+                "name": "Transportation"
+            },
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionType": {
+                "key": "betweenAccounts",
+                "name": "Between Accounts"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 513,
+            "transactionDestinationERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "description": "Between Accounts 513",
+            "transactionSourceERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionDate": "2024-07-04T00:00:00.000Z",
+            "liabilityType": {
+                "key": "mortgage",
+                "name": "Mortgage"
+            },
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "transactionType": {
+                "key": "betweenAccounts",
+                "name": "Between Accounts"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            
+            "destinationIBAN": ""
+        },
+        {
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "amount": 511391,
+            "transactionDestinationERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "description": "To A Payee 511391",
+            "transactionSourceERC": "",
+            "transactionDate": "2024-06-04T00:00:00.000Z",
+            "r_transactionDestination_c_bankAccountERC": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "transactionType": {
+                "key": "toAPayee",
+                "name": "To A Payee"
+            },
+            "r_transactionPayee_c_bankPayeeERC": "",
+            "r_transactionSource_c_bankAccountERC": "",
+            "currency": {
+                "key": "usd",
+                "name": "USD"
+            },
+            "r_transactionPayee_c_bankPayeeId": 0,
+            "r_transactionSource_c_bankAccountId": 0,
+            "destinationIBAN": ""
+        }
+    ]
+}

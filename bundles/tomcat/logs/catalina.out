@@ -1,0 +1,35 @@
+05-Aug-2024 09:11:33.009 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [326] milliseconds
+Loading jar:file:/opt/java/jenkins/workspace/build-release/release/release-data/dev/projects/bundles/tomcat/webapps/ROOT/WEB-INF/shielded-container-lib/portal-impl.jar!/system.properties
+Loading jar:file:/opt/java/jenkins/workspace/build-release/release/release-data/dev/projects/bundles/tomcat/webapps/ROOT/WEB-INF/shielded-container-lib/portal-impl.jar!/portal.properties
+2024-08-05 09:11:34.023 INFO  [main][PortalContextLoaderListener:114] JVM arguments: -Djava.util.logging.config.file=/opt/java/jenkins/workspace/build-release/release/release-data/dev/projects/bundles/tomcat/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xmx8g -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dfile.encoding=UTF-8 -Djava.locale.providers=JRE,COMPAT,CLDR -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=/opt/java/jenkins/workspace/build-release/release/release-data/dev/projects/bundles/tomcat -Dcatalina.home=/opt/java/jenkins/workspace/build-release/release/release-data/dev/projects/bundles/tomcat -Djava.io.tmpdir=/opt/java/jenkins/workspace/build-release/release/release-data/dev/projects/bundles/tomcat/temp
+2024-08-05 09:11:37.410 WARN  [SystemExecutorServiceUtil-1][DialectDetector:73] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2024-08-05 09:11:37.410 INFO  [SystemExecutorServiceUtil-1][DialectDetector:144] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.7
+2024-08-05 09:11:37.493 INFO  [main][ModuleFrameworkImpl:1355] Starting initial bundles
+2024-08-05 09:11:38.745 INFO  [main][InterpolationConfigurationPlugin:109] Configured directory for secrets: /opt/java/jenkins/workspace/build-release/release/release-data/dev/projects/bundles/osgi/configs
+2024-08-05 09:11:39.131 INFO  [main][ModuleFrameworkImpl:1645] Started initial bundles
+2024-08-05 09:11:39.131 INFO  [main][ModuleFrameworkImpl:1690] Starting dynamic bundles
+2024-08-05 09:11:40.327 WARN  [Start Level: Equinox Container: 58ee1cea-3c9a-4a84-b3ff-db2a77ec75ca][SidecarManager:72] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2024-08-05 09:11:45.928 INFO  [main][ModuleFrameworkImpl:1713] Started dynamic bundles
+2024-08-05 09:11:45.928 INFO  [main][ModuleFrameworkImpl:1720] Starting web bundles
+2024-08-05 09:11:47.874 INFO  [main][ModuleFrameworkImpl:1774] Started web bundles
+2024-08-05 09:11:47.874 INFO  [main][ModuleFrameworkImpl:283] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+
+    __    ____________________  _____  __
+   / /   /  _/ ____/ ____/ __ \/   \ \/ /
+  / /    / // /_  / __/ / /_/ / /| |\  /
+ / /____/ // __/ / /___/ _, _/ ___ |/ /
+/_____/___/_/   /_____/_/ |_/_/  |_/_/
+
+Starting Liferay Digital Experience Platform 2024.Q2.8 (August 05, 2024)
+
+2024-08-05 09:11:48.938 INFO  [main][StartupHelperUtil:97] There are no patches installed
+2024-08-05 09:11:49.034 INFO  [main][LoggingTimer:74] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2024-08-05 09:11:49.058 INFO  [main][LoggingTimer:35] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 24 ms
+2024-08-05 09:11:49.068 INFO  [main][LicenseManager:-1] Failed to find directory /opt/java/jenkins/workspace/build-release/release/release-data/dev/projects/bundles/data/license
+2024-08-05 09:11:49.069 INFO  [main][LicenseManager:-1] No binary licenses found
+2024-08-05 09:11:49.463 INFO  [main][AutoDeployDir:152] Auto deploy scanner started for /opt/java/jenkins/workspace/build-release/release/release-data/dev/projects/bundles/deploy
+2024-08-05 09:11:53.388 INFO  [SystemExecutorServiceUtil-4][Sidecar:103] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+05-Aug-2024 09:11:58.844 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [25833] milliseconds
+2024-08-05 09:11:59.532 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:212] Processing biz.aQute.remote.agent-6.4.0.jar
+Host localhost 29998
+2024-08-05 09:12:05.235 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:68] STARTED biz.aQute.remote.agent_6.4.0.202211291949 [1453]

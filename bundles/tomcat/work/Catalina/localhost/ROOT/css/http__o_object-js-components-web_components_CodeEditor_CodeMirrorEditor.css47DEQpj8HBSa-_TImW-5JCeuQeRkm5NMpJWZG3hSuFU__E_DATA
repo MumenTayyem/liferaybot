@@ -1,0 +1,3 @@
+.lfr-objects__editor{width:100%}.lfr-objects__editor .CodeMirror{height:100%}.lfr-objects__editor .CodeMirror-empty{color:#a7a9bc}.lfr-objects__editor .CodeMirror-wrap pre{word-break:break-word}.lfr-objects__editor .CodeMirror-gutters{background-color:#f7f8f9}.lfr-objects__editor--disabled{cursor:not-allowed;opacity:.5}.has-error .lfr-objects__editor .CodeMirror{background-color:#feefef}
+
+/*# sourceMappingURL=CodeMirrorEditor.css.map */

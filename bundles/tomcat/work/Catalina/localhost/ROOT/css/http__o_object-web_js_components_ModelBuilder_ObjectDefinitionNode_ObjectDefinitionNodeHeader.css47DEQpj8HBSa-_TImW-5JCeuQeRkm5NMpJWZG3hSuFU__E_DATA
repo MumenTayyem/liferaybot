@@ -1,0 +1,3 @@
+hr{margin:6px}.lfr-objects__model-builder-node-header-container{background:#f7f8f9;border-radius:.25rem .25rem 0 0;height:5.3rem;min-width:17.5rem;padding:1rem}.lfr-objects__model-builder-node-header-label-container{align-items:center;display:flex;justify-content:space-between}.lfr-objects__model-builder-node-header-label-title{font-size:14px;font-weight:600;line-height:1.3rem;overflow:hidden;padding-right:4rem;text-overflow:ellipsis;white-space:nowrap;width:10rem}.lfr-objects__model-builder-node-header-label-title--danger{color:#da1414}
+
+/*# sourceMappingURL=ObjectDefinitionNodeHeader.css.map */

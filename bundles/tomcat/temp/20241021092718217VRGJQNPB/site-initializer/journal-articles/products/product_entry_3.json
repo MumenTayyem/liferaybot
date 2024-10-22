@@ -1,0 +1,8 @@
+{
+    "articleId": "product_3",
+    "ddmStructureKey": "product",
+    "ddmTemplateKey": "",
+    "folder": "products",
+    "name": "commercial-banking",
+    "content": "<?xml version=\"1.0\"?>\n\n<root available-locales=\"en_US\" default-locale=\"en_US\" version=\"1.0\">\n\t<dynamic-element field-reference=\"Text67124109\" index-type=\"keyword\" instance-id=\"WS8hsKx2\" name=\"Text67124109\" type=\"text\">\n\t\t<dynamic-content language-id=\"en_US\"><![CDATA[Commercial Banking]]></dynamic-content>\n\t</dynamic-element>\n\t<dynamic-element field-reference=\"Image36393748\" index-type=\"text\" instance-id=\"ByWDQorP\" name=\"Image36393748\" type=\"image\">\n\t\t<dynamic-content language-id=\"en_US\"><![CDATA[{\"groupId\":\"33467\",\"alt\":\"\",\"name\":\"commercial-banking.svg\",\"width\":\"88\",\"description\":\"\",\"title\":\"commercial-banking\",\"type\":\"document\",\"uuid\":\"425526f8-7280-93e6-d7bf-c0d72d6cceea\",\"fileEntryId\":\"34313\",\"resourcePrimKey\":\"34388\",\"url\":\"/documents/d/pillar/commercial-banking\",\"height\":\"82\"}]]></dynamic-content>\n\t</dynamic-element>\n</root>"
+}

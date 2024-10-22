@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US" version="1.0">
+	<dynamic-element field-reference="image" index-type="text" name="image" type="image">
+		<dynamic-content language-id="en_US">
+			<![CDATA[[$DOCUMENT_JSON:/site-initializer/documents/group/assets/web-content/services/service_2.svg$]]]>
+		</dynamic-content>
+	</dynamic-element>
+	<dynamic-element field-reference="serviceTitle" index-type="keyword" name="serviceTitle" type="text">
+		<dynamic-content language-id="en_US"><![CDATA[Wealth & Estate Planning]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element field-reference="serviceDescription" index-type="keyword" name="serviceDescription" type="text">
+		<dynamic-content language-id="en_US"><![CDATA[We’ve seen the most complicated situations and help create order out of chaos. Our advisor team is expert at estate planning.]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element field-reference="actionText" index-type="keyword" name="actionText" type="text">
+		<dynamic-content language-id="en_US"><![CDATA[Meet our advisors]]></dynamic-content>
+	</dynamic-element>
+</root>

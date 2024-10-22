@@ -1,0 +1,317 @@
+[
+    {
+        "name": "accounts-menu",
+        "type": "node",
+        "menuItems": [
+            {
+                "name_i18n": {
+					"en_US": "Investment"
+				},
+                "name": "Investment",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Checking"
+				},
+                "name": "Checking",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Credit Cards"
+				},
+                "name": "Credit Cards",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Saving"
+				},
+                "name": "Saving",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Loands"
+				},
+                "name": "Loands",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            }
+        ]
+    },
+    {
+        "name": "investments-menu",
+        "type": "node",
+        "menuItems": [
+            {
+                "name_i18n": {
+					"en_US": "IRAs"
+				},
+                "name": "IRAs",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Stocks"
+				},
+                "name": "Stocks",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Bonds"
+				},
+                "name": "Bonds",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "529 College Savings"
+				},
+                "name": "529 College Savings",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "TIPS"
+				},
+                "name": "TIPS",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            }
+        ]
+    },
+    {
+        "name": "planning-menu",
+        "type": "node",
+        "menuItems": [
+            {
+                "name_i18n": {
+					"en_US": "Financial Planning"
+				},
+                "name": "Financial Planning",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Retirement Planning"
+				},
+                "name": "Retirement Planning",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Wealth Management"
+				},
+                "name": "Wealth Management",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            }
+        ]
+    },
+    {
+        "name": "tools-menu",
+        "type": "node",
+        "menuItems": [
+            {
+                "name_i18n": {
+					"en_US": "Loan Calculator"
+				},
+                "name": "Loan Calculator",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Depreciation Calculator"
+				},
+                "name": "Depreciation Calculator",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Credit Score"
+				},
+                "name": "Credit Score",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            }
+        ]
+    },
+    {
+        "name": "insurance-menu",
+        "type": "node",
+        "menuItems": [
+            {
+                "name_i18n": {
+					"en_US": "Life"
+				},
+                "name": "Life",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Health"
+				},
+                "name": "Health",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Property"
+				},
+                "name": "Property",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Business"
+				},
+                "name": "Business",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Auto"
+				},
+                "name": "Auto",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            }
+        ]
+    },
+    {
+        "name": "company-menu",
+        "type": "node",
+        "menuItems": [
+            {
+                "name_i18n": {
+					"en_US": "About Pillar"
+				},
+                "name": "About Pillar",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Our Mission"
+				},
+                "name": "Our Mission",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Blog"
+				},
+                "name": "Blog",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "FAQ"
+				},
+                "name": "FAQ",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Terms & Conditions"
+				},
+                "name": "Terms & Conditions",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Impressum"
+				},
+                "name": "Impressum",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            }
+        ]
+    },
+    {
+        "name": "pillar-menu",
+        "navigationType": "Primary",
+        "type": "node",
+        "menuItems": [
+            {
+                "friendlyURL": "/banking",
+                "name_i18n": {
+					"en_US": "Banking"
+				},
+                "name": "Banking",
+                "type": "layout"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Investing"
+				},
+                "name": "Investing",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Planning"
+				},
+                "name": "Planning",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Business Loans"
+				},
+                "name": "Business Loans",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            },
+            {
+                "name_i18n": {
+					"en_US": "Insurance"
+				},
+                "name": "Insurance",
+                "type": "url",
+                "url": "https://www.liferay.com"
+            }
+        ]
+    },
+    {
+        "name": "main-menu",
+        "type": "node",
+        "menuItems": [
+            {
+                "name_i18n": {
+					"en_US": "Banking"
+				},
+                "link": "/banking",
+                "name": "Banking",
+                "sitePageURL": "http://localhost:8080/o/headless-delivery/v1.0/sites/33467/site-pages/banking",
+                "type": "url",
+                "useCustomName": true
+            }
+        ]
+    }
+]

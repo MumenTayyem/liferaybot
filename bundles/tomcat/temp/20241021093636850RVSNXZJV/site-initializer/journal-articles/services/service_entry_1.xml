@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US" version="1.0">
+	<dynamic-element field-reference="image" index-type="text" name="image" type="image">
+		<dynamic-content language-id="en_US">
+			<![CDATA[[$DOCUMENT_JSON:/site-initializer/documents/group/assets/web-content/services/service_1.svg$]]]>
+		</dynamic-content>
+	</dynamic-element>
+	<dynamic-element field-reference="serviceTitle" index-type="keyword" name="serviceTitle" type="text">
+		<dynamic-content language-id="en_US"><![CDATA[Managed & Automated Portfolios]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element field-reference="serviceDescription" index-type="keyword" name="serviceDescription" type="text">
+		<dynamic-content language-id="en_US"><![CDATA[Leverage the most advanced robo-advisor to create an automated portfolio or take a hybrid apprach with Managed portfolios.]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element field-reference="actionText" index-type="keyword" name="actionText" type="text">
+		<dynamic-content language-id="en_US"><![CDATA[Start Investing]]></dynamic-content>
+	</dynamic-element>
+</root>

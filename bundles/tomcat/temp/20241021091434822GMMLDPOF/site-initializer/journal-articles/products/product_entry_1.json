@@ -1,0 +1,8 @@
+{
+    "articleId": "product_1",
+    "ddmStructureKey": "product",
+    "ddmTemplateKey": "",
+    "folder": "products",
+    "name": "credit-cards",
+    "content": "<?xml version=\"1.0\"?>\n\n<root available-locales=\"en_US\" default-locale=\"en_US\" version=\"1.0\">\n\t<dynamic-element field-reference=\"Text67124109\" index-type=\"keyword\" instance-id=\"0yQeN1mo\" name=\"Text67124109\" type=\"text\">\n\t\t<dynamic-content language-id=\"en_US\"><![CDATA[Credit Cards]]></dynamic-content>\n\t</dynamic-element>\n\t<dynamic-element field-reference=\"Image36393748\" index-type=\"text\" instance-id=\"rRotIe5r\" name=\"Image36393748\" type=\"image\">\n\t\t<dynamic-content language-id=\"en_US\"><![CDATA[{\"groupId\":\"33467\",\"alt\":\"\",\"name\":\"credit-cards.svg\",\"width\":\"95\",\"description\":\"\",\"title\":\"credit-cards\",\"type\":\"document\",\"uuid\":\"d378eea4-d841-9dc2-dcb4-936dea9ee05e\",\"fileEntryId\":\"34323\",\"resourcePrimKey\":\"34368\",\"url\":\"/documents/d/pillar/credit-cards\",\"height\":\"82\"}]]></dynamic-content>\n\t</dynamic-element>\n</root>"
+}

@@ -1,0 +1,3 @@
+.lfr-objects__code-editor{display:flex;flex-direction:column;margin-bottom:0;width:100%}.lfr-objects__code-editor-source{border:1px solid #e7e7ed;border-radius:.25rem;display:flex;overflow:hidden}.lfr-objects__code-editor-source.form-control{height:603px;overflow:hidden;padding:0}.lfr-objects__expression-builder-modal .modal-dialog.modal-lg .modal-content{height:790px;width:898px}
+
+/*# sourceMappingURL=index.css.map */

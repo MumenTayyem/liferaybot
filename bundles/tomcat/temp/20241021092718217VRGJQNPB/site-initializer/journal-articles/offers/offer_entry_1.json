@@ -1,0 +1,8 @@
+{
+    "articleId": "offer_1",
+    "ddmStructureKey": "offer",
+    "ddmTemplateKey": "",
+    "folder": "offers",
+    "name": "send-money-from-anywhere",
+    "content": "<?xml version=\"1.0\"?>\n\n<root available-locales=\"en_US\" default-locale=\"en_US\" version=\"1.0\">\n\t<dynamic-element field-reference=\"Text81265758\" index-type=\"keyword\" instance-id=\"KO3oudAA\" name=\"Text81265758\" type=\"text\">\n\t\t<dynamic-content language-id=\"en_US\"><![CDATA[Send money from anywhere]]></dynamic-content>\n\t</dynamic-element>\n\t<dynamic-element field-reference=\"Image53931646\" index-type=\"text\" instance-id=\"jnqFe0Dk\" name=\"Image53931646\" type=\"image\">\n\t\t<dynamic-content language-id=\"en_US\"><![CDATA[{\"groupId\":\"33467\",\"alt\":\"\",\"name\":\"send-money-from-anywhere.svg\",\"width\":\"390\",\"description\":\"\",\"title\":\"send-money-from-anywhere\",\"type\":\"document\",\"uuid\":\"7b1e1628-9a1e-9585-8f00-4a9b9b2a0c10\",\"fileEntryId\":\"34640\",\"resourcePrimKey\":\"34656\",\"url\":\"/documents/d/pillar/send-money-from-anywhere\",\"height\":\"260\"}]]></dynamic-content>\n\t</dynamic-element>\n\t<dynamic-element field-reference=\"Text40518169\" index-type=\"keyword\" instance-id=\"SpQwLmLU\" name=\"Text40518169\" type=\"text\">\n\t\t<dynamic-content language-id=\"en_US\"><![CDATA[Pillar Pay allows you to make transfers anywhere in the world. Sign up today through the Pillar App.¹]]></dynamic-content>\n\t</dynamic-element>\n</root>"
+}

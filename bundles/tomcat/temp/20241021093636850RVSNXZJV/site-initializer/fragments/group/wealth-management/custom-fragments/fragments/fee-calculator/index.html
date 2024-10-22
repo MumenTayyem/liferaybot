@@ -1,0 +1,119 @@
+<div class="fragment_447">
+    <div class="container">
+        <div class="row">
+            <div id="amounts-container" class="col-8">
+
+            </div>
+            <div class="col-4">
+                <div class="calculator h-100 d-flex justify-content-center flex-column align-content-center">
+                    <h4 class="mb-3">Estimate your cost</h4>
+                    <p class="mb-2">Total Assets Managed</p>
+                    <div class="calculator-input w-100 mb-4 border">
+                        <span>$</span>
+                        <input id="amountValue" value="1320000" type="number" class="w-50 border-0" />
+                        <span class="text-brand-primary-darken-3">
+                            <span>x</span>
+                            <span id="fee-percentage">0.30%</span>
+                        </span>
+                    </div>
+                    <h4 class="result font-weight-light">
+                        <span id="fee" class="result-amount text-brand-primary-darken-3">$402</span> annual fee
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+    DATA = [
+        {
+            amountHTML: "<div class='amount-text'>Up to <span class='amount-highlight'>$500k</span> managed</div>",
+            percentageHTML: "<div class='fee-text'>0.70% Fee</div>",
+            percentageAmount: 0.7
+        },
+        {
+            amountHTML: "<div class='amount-text'>Up to <span class='amount-highlight'>$2.5M</span> managed</div>",
+            percentageHTML: "<div class='fee-text'>0.30% Fee</div>",
+            percentageAmount: 0.3
+        },
+        {
+            amountHTML: "<div class='amount-text'>Up to <span class='amount-highlight'>$5M</span> managed</div>",
+            percentageHTML: "<div class='fee-text'>0.20% Fee</div>",
+            percentageAmount: 0.2
+        },
+        {
+            amountHTML: "<div class='amount-text'>Up to <span class='amount-highlight'>$10M</span> managed</div>",
+            percentageHTML: "<div class='fee-text'>0.15% Fee</div>",
+            percentageAmount: 0.15
+        },
+        {
+            amountHTML: "<div class='amount-text'>More than <span class='amount-highlight'>$10M</span> managed</div>",
+            percentageHTML: "<div class='fee-text'>0.09% Fee</div>",
+            percentageAmount: 0.09
+        },
+    ];
+
+    CONTAINER = document.getElementById("amounts-container");
+
+    for (let index = 0; index < DATA.length; index++) {
+        const element = DATA[index];
+
+        let parent = document.createElement("div");
+        parent.classList.add("custom-row", "row", "mb-3", "py-2");
+
+        if (index === 1) {
+            parent.classList.add("custom-row-selected");
+        }
+
+        parent.onclick = () => handleSelection(element, parent);
+
+        let child1 = document.createElement("div");
+        child1.classList.add("col-8");
+        let child1Header = document.createElement("h3");
+        child1Header.innerHTML = element.amountHTML;
+        child1.appendChild(child1Header);
+
+        let child2 = document.createElement("div");
+        child2.classList.add("col-4");
+        let child2Header = document.createElement("h3");
+        child2Header.innerHTML = element.percentageHTML;
+        child2.appendChild(child2Header);
+
+        parent.appendChild(child1);
+        parent.appendChild(child2);
+
+        CONTAINER.appendChild(parent);
+    }
+
+    function handleSelection(selectedElementData, selectedElement) {
+        clearSelection();
+        updatePercentage(selectedElementData);
+        calculate(selectedElementData, selectedElement);
+
+        selectedElement.classList.add("custom-row-selected");
+    }
+
+    function updatePercentage(selectedElementData) {
+        const PERCENTAGE_FEE_ELEMENT = document.getElementById("fee-percentage");
+
+        PERCENTAGE_FEE_ELEMENT.innerText = selectedElementData.percentageAmount + "%";
+    }
+
+    function clearSelection() {
+        let customRows = document.getElementsByClassName("custom-row");
+
+        for (let index = 0; index < customRows.length; index++) {
+            let customRow = customRows.item(index).classList.remove("custom-row-selected");;
+        }
+    }
+
+    function calculate(selectedElementData, selectedElement) {
+        const amountInput = document.getElementById("amountValue");
+        const VALUE = amountInput.value;
+
+        const feeElement = document.getElementById("fee");
+
+        feeElement.innerText = "$" + Math.round(VALUE * selectedElementData.percentageAmount / 100);
+    }
+</script>

@@ -1,0 +1,137 @@
+
+    <?xml version="1.0"?>
+
+<root>
+	<structure>
+		<name>resource</name>
+		<description></description>
+		<definition>
+			<![CDATA[
+{
+    "definitionSchemaVersion": "2.0",
+    "availableLanguageIds": [
+        "en_US"
+    ],
+    "successPage": {
+        "body": {},
+        "title": {},
+        "enabled": false
+    },
+    "defaultLanguageId": "en_US",
+    "fields": [
+        {
+            "labelAtStructureLevel": true,
+            "ddmDataProviderInstanceId": "[]",
+            "predefinedValue": {},
+            "tooltip": {
+                "en_US": ""
+            },
+            "requireConfirmation": false,
+            "type": "text",
+            "showLabel": true,
+            "required": true,
+            "displayStyle": "singleline",
+            "ddmDataProviderInstanceOutput": "[]",
+            "repeatable": false,
+            "nativeField": false,
+            "confirmationLabel": {
+                "en_US": ""
+            },
+            "fieldReference": "resourceTitle",
+            "tip": {
+                "en_US": ""
+            },
+            "placeholder": {
+                "en_US": ""
+            },
+            "htmlAutocompleteAttribute": "",
+            "direction": "[\"vertical\"]",
+            "hideField": false,
+            "confirmationErrorMessage": {
+                "en_US": ""
+            },
+            "autocomplete": false,
+            "dataType": "string",
+            "readOnly": false,
+            "label": {
+                "en_US": "Title"
+            },
+            "indexType": "keyword",
+            "fieldNamespace": "",
+            "visibilityExpression": "",
+            "name": "resourceTitle",
+            "localizable": true,
+            "dataSourceType": ""
+        },
+        {
+            "labelAtStructureLevel": true,
+            "ddmDataProviderInstanceId": "[]",
+            "predefinedValue": {},
+            "tooltip": {
+                "en_US": ""
+            },
+            "requireConfirmation": false,
+            "type": "text",
+            "showLabel": true,
+            "required": false,
+            "displayStyle": "multiline",
+            "ddmDataProviderInstanceOutput": "[]",
+            "repeatable": false,
+            "nativeField": false,
+            "confirmationLabel": {
+                "en_US": ""
+            },
+            "fieldReference": "resourceDescription",
+            "tip": {
+                "en_US": ""
+            },
+            "placeholder": {
+                "en_US": ""
+            },
+            "htmlAutocompleteAttribute": "",
+            "direction": "[\"vertical\"]",
+            "hideField": false,
+            "confirmationErrorMessage": {
+                "en_US": ""
+            },
+            "autocomplete": false,
+            "dataType": "string",
+            "readOnly": false,
+            "label": {
+                "en_US": "Description"
+            },
+            "indexType": "keyword",
+            "fieldNamespace": "",
+            "visibilityExpression": "",
+            "name": "resourceDescription",
+            "localizable": true,
+            "dataSourceType": ""
+        },
+        {
+            "dataType": "image",
+            "predefinedValue": {},
+            "readOnly": false,
+            "label": {
+                "en_US": "Image"
+            },
+            "type": "image",
+            "showLabel": true,
+            "required": true,
+            "indexType": "text",
+            "fieldNamespace": "",
+            "visibilityExpression": "",
+            "repeatable": false,
+            "requiredDescription": false,
+            "name": "image",
+            "localizable": true,
+            "fieldReference": "image",
+            "tip": {
+                "en_US": ""
+            }
+        }
+    ]
+}
+			]]>
+		</definition>
+	</structure>
+</root>

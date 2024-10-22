@@ -1,0 +1,193 @@
+
+    <?xml version="1.0"?>
+
+<root>
+	<structure>
+		<name>service</name>
+		<description></description>
+		<definition>
+			<![CDATA[
+{
+    "definitionSchemaVersion": "2.0",
+    "availableLanguageIds": [
+        "en_US"
+    ],
+    "successPage": {
+        "body": {},
+        "title": {},
+        "enabled": false
+    },
+    "defaultLanguageId": "en_US",
+    "fields": [
+        {
+            "dataType": "image",
+            "predefinedValue": {
+                "en_US": "{}"
+            },
+            "readOnly": false,
+            "label": {
+                "en_US": "Image"
+            },
+            "type": "image",
+            "showLabel": true,
+            "required": true,
+            "indexType": "text",
+            "fieldNamespace": "",
+            "requiredErrorMessage": {
+                "en_US": ""
+            },
+            "visibilityExpression": "",
+            "objectFieldName": "",
+            "repeatable": false,
+            "requiredDescription": false,
+            "name": "image",
+            "localizable": true,
+            "fieldReference": "image",
+            "tip": {
+                "en_US": ""
+            }
+        },
+        {
+            "labelAtStructureLevel": true,
+            "predefinedValue": {
+                "en_US": ""
+            },
+            "tooltip": {
+                "en_US": ""
+            },
+            "requireConfirmation": false,
+            "type": "text",
+            "showLabel": true,
+            "required": true,
+            "displayStyle": "singleline",
+            "requiredErrorMessage": {
+                "en_US": ""
+            },
+            "objectFieldName": "",
+            "repeatable": false,
+            "nativeField": false,
+            "confirmationLabel": {
+                "en_US": ""
+            },
+            "fieldReference": "serviceTitle",
+            "tip": {
+                "en_US": ""
+            },
+            "placeholder": {
+                "en_US": ""
+            },
+            "htmlAutocompleteAttribute": "",
+            "direction": "[\"vertical\"]",
+            "hideField": false,
+            "confirmationErrorMessage": {
+                "en_US": ""
+            },
+            "dataType": "string",
+            "readOnly": false,
+            "label": {
+                "en_US": "Title"
+            },
+            "indexType": "keyword",
+            "fieldNamespace": "",
+            "visibilityExpression": "",
+            "name": "serviceTitle",
+            "localizable": true
+        },
+        {
+            "labelAtStructureLevel": true,
+            "predefinedValue": {
+                "en_US": ""
+            },
+            "tooltip": {
+                "en_US": ""
+            },
+            "requireConfirmation": false,
+            "type": "text",
+            "showLabel": true,
+            "required": false,
+            "displayStyle": "multiline",
+            "requiredErrorMessage": {
+                "en_US": ""
+            },
+            "objectFieldName": "",
+            "repeatable": false,
+            "nativeField": false,
+            "confirmationLabel": {
+                "en_US": ""
+            },
+            "fieldReference": "serviceDescription",
+            "tip": {
+                "en_US": ""
+            },
+            "placeholder": {
+                "en_US": ""
+            },
+            "htmlAutocompleteAttribute": "",
+            "direction": "[\"vertical\"]",
+            "hideField": false,
+            "confirmationErrorMessage": {
+                "en_US": ""
+            },
+            "dataType": "string",
+            "readOnly": false,
+            "label": {
+                "en_US": "Description"
+            },
+            "indexType": "keyword",
+            "fieldNamespace": "",
+            "visibilityExpression": "",
+            "name": "serviceDescription",
+            "localizable": true
+        },
+        {
+            "labelAtStructureLevel": true,
+            "predefinedValue": {
+                "en_US": ""
+            },
+            "tooltip": {
+                "en_US": ""
+            },
+            "requireConfirmation": false,
+            "type": "text",
+            "showLabel": true,
+            "required": true,
+            "displayStyle": "singleline",
+            "requiredErrorMessage": {
+                "en_US": ""
+            },
+            "objectFieldName": "",
+            "repeatable": false,
+            "nativeField": false,
+            "confirmationLabel": {
+                "en_US": ""
+            },
+            "fieldReference": "actionText",
+            "tip": {
+                "en_US": ""
+            },
+            "placeholder": {
+                "en_US": ""
+            },
+            "htmlAutocompleteAttribute": "",
+            "direction": "[\"vertical\"]",
+            "hideField": false,
+            "confirmationErrorMessage": {
+                "en_US": ""
+            },
+            "dataType": "string",
+            "readOnly": false,
+            "label": {
+                "en_US": "Action Text"
+            },
+            "indexType": "keyword",
+            "fieldNamespace": "",
+            "visibilityExpression": "",
+            "name": "actionText",
+            "localizable": true
+        }
+    ]
+}
+			]]>
+		</definition>
+	</structure>
+</root>

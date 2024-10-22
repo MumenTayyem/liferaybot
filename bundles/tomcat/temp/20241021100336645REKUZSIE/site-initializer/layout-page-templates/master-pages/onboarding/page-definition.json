@@ -1,0 +1,345 @@
+{
+	"pageElement": {
+		"pageElements": [
+			{
+				"definition": {
+					"cssClasses": [],
+					"fragmentStyle": {
+						"backgroundColor": "colorBrandPrimaryLighten6",
+						"paddingBottom": "7"
+					},
+					"indexed": true,
+					"layout": {"paddingBottom": 8}
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"fragmentStyle": {
+								"backgroundColor": "colorBrandPrimaryDarken2",
+								"height": "210px",
+								"textAlign": "center",
+								"width": "100%"
+							},
+							"indexed": true,
+							"layout": {
+								"align": "Start",
+								"contentDisplay": "FlexRow",
+								"flexWrap": "Wrap",
+								"justify": "Center"
+							}
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"fragment": {
+										"key": "BASIC_COMPONENT-image"
+									},
+									"fragmentConfig": {"imageSize": "w-100"},
+									"fragmentFields": [
+										{
+											"id": "image-square",
+											"value": {
+												"fragmentImage": {
+													"url": {
+                                                        "mapping": {
+                                                            "fieldKey": "FileEntry_previewImage",
+                                                            "itemReference": {
+                                                                "className": "com.liferay.portal.kernel.repository.model.FileEntry",
+                                                                "classPK": "[#DOCUMENT_FILE_ENTRY_ID:/site-initializer/documents/group/assets/master-pages/onboarding/pillar-logo.svg#]"
+                                                            }
+                                                        }
+                                                    }
+												},
+												"fragmentLink": {}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"height": "49px",
+										"marginTop": "3",
+										"width": "111px"
+									},
+									"indexed": true
+								},
+								"id": "84e237a4-f121-773b-eef0-096b80d733a4",
+								"type": "Fragment"
+							}
+						],
+						"type": "Section"
+					},
+					{
+						"definition": {"indexed": true, "layout": {}},
+						"pageElements": [
+							{
+								"definition": {
+									"fragmentSettings": {
+										"unallowedFragments": []
+									}
+								},
+								"type": "DropZone"
+							}
+						],
+						"type": "Section"
+					}
+				],
+				"type": "Section"
+			},
+			{
+				"definition": {
+					"fragmentStyle": {
+						"backgroundColor": "colorBrandPrimaryLighten6"
+					},
+					"indexed": true,
+					"layout": {}
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"fragmentStyle": {
+								"backgroundColor": "",
+								"paddingBottom": "6",
+								"paddingTop": "6"
+							},
+							"fragmentViewports": [
+								{
+									"fragmentViewportStyle": {
+										"paddingLeft": "3",
+										"paddingRight": "3"
+									},
+									"id": "portraitMobile"
+								}
+							],
+							"indexed": true,
+							"layout": {
+								"paddingBottom": 6,
+								"paddingTop": 6,
+								"widthType": "Fixed"
+							}
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"fragment": {"key": "DIALECT-dialect-text"},
+									"fragmentConfig": {
+										"textType": "text-paragraph-xs",
+										"truncateText": false
+									},
+									"fragmentFields": [
+										{
+											"id": "element-text",
+											"value": {
+												"fragmentLink": {},
+												"text": {
+													"value_i18n": {
+														"en_US": "Ipsum curabitur velit lectus lacus. Gravida ultrices non id platea ultrices adipiscing laoreet. Est gravida pretium habitant dui senectus urna, eros, purus. Mattis ullamcorper sed tempus platea cras nunc. Aliquam venenatis enim venenatis volutpat. Ut orci eu, elementum placerat luctus tempus velit. Turpis pellentesque urna ornare lectus. Ligula lacus imperdiet sodales interdum facilisis erat volutpat."
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"fontWeight": "fontWeightLight",
+										"marginBottom": "3",
+										"textColor": "colorNeutral10"
+									},
+									"indexed": true
+								},
+								"type": "Fragment"
+							},
+							{
+								"definition": {
+									"fragment": {"key": "DIALECT-dialect-text"},
+									"fragmentConfig": {
+										"textType": "text-paragraph-xs",
+										"truncateText": false
+									},
+									"fragmentFields": [
+										{
+											"id": "element-text",
+											"value": {
+												"fragmentLink": {},
+												"text": {
+													"value_i18n": {
+														"en_US": "Condimentum consequat dignissim pellentesque egestas. Aenean rhoncus duis cursus egestas nunc vitae. Sed lectus proin vulputate bibendum quis morbi id. Arcu feugiat integer adipiscing auctor venenatis. Urna nunc magnis ut sed dolor nibh. Sagittis, auctor vestibulum etiam nunc nullam leo. Sagittis, odio eleifend massa nascetur elementum sed bibendum feugiat. Dignissim et sit auctor varius augue. Potenti ornare nunc sit vulputate mauris amet. Malesuada enim quam scelerisque mauris purus cras. Sed diam parturient eget nullam vivamus donec diam a. Molestie interdum ullamcorper fringilla ac, quis diam, lectus risus."
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"fontWeight": "fontWeightLight",
+										"marginBottom": "3",
+										"textColor": "colorNeutral10"
+									},
+									"indexed": true
+								},
+								"type": "Fragment"
+							},
+							{
+								"definition": {
+									"fragment": {"key": "DIALECT-dialect-text"},
+									"fragmentConfig": {
+										"textType": "text-paragraph-xs",
+										"truncateText": false
+									},
+									"fragmentFields": [
+										{
+											"id": "element-text",
+											"value": {
+												"fragmentLink": {},
+												"text": {
+													"value_i18n": {
+														"en_US": "Sed dui, viverra pharetra at sit tincidunt arcu. Tristique dignissim blandit cursus nunc, orci, mattis dolor, fermentum. Id accumsan et, pellentesque integer consectetur massa enim feugiat. Quis neque lorem leo iaculis arcu, fringilla porta sit. Nibh neque, curabitur congue tortor, ut sociis. Nulla urna, sed quam ipsum dolor, metus ut augue. Pharetra euismod tellus sagittis viverra nulla amet, donec interdum. Risus nec, vulputate turpis condimentum dictum etiam diam pellentesque elementum."
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"fontWeight": "fontWeightLight",
+										"textColor": "colorNeutral10"
+									},
+									"indexed": true
+								},
+								"type": "Fragment"
+							},
+							{
+								"definition": {
+									"fragment": {"key": "DIALECT-dialect-text"},
+									"fragmentConfig": {
+										"textType": "text-paragraph-xs",
+										"truncateText": false
+									},
+									"fragmentFields": [
+										{
+											"id": "element-text",
+											"value": {
+												"fragmentLink": {},
+												"text": {
+													"value_i18n": {
+														"en_US": "Integer lectus sagittis mauris convallis vulputate morbi tristique. Odio elementum enim ante non ut mattis lacus ut. Odio scelerisque vitae neque, sed libero malesuada eu pretium ac. Ultricies quam augue elementum gravida ac euismod nec tincidunt nunc. Dictumst tortor luctus sit vulputate in nisl. Viverra enim non lectus duis a, habitant sed. Senectus morbi id congue nibh a fringilla. Massa, mauris purus eget felis pulvinar lobortis sodales. Leo eget egestas sit et parturient."
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"fontWeight": "fontWeightLight",
+										"marginBottom": "3",
+										"textColor": "colorNeutral10"
+									},
+									"indexed": true
+								},
+								"type": "Fragment"
+							},
+							{
+								"definition": {
+									"fragment": {"key": "DIALECT-dialect-text"},
+									"fragmentConfig": {
+										"textType": "text-paragraph-xs",
+										"truncateText": false
+									},
+									"fragmentFields": [
+										{
+											"id": "element-text",
+											"value": {
+												"fragmentLink": {},
+												"text": {
+													"value_i18n": {
+														"en_US": "Vulputate elit vitae scelerisque tortor. Mi eget cursus auctor sagittis vestibulum consectetur dui aliquet. Maecenas porttitor volutpat tincidunt mattis lacinia. Turpis diam tristique et potenti maecenas adipiscing lacus congue. Sed amet, imperdiet tortor sit vitae aliquet aliquam. Sem lobortis enim, nibh dui. Purus cras accumsan consectetur nibh adipiscing ut. Ac risus in venenatis rutrum. In nunc eu amet senectus sed nec vehicula. Amet ante lectus venenatis interdum egestas tincidunt amet, eget. Hendrerit venenatis egestas nisi, proin neque."
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"fontWeight": "fontWeightLight",
+										"textColor": "colorNeutral10"
+									},
+									"indexed": true
+								},
+								"type": "Fragment"
+							},
+							{
+								"definition": {
+									"fragment": {"key": "DIALECT-dialect-text"},
+									"fragmentConfig": {
+										"textType": "text-paragraph-xs",
+										"truncateText": false
+									},
+									"fragmentFields": [
+										{
+											"id": "element-text",
+											"value": {
+												"fragmentLink": {},
+												"text": {
+													"value_i18n": {
+														"en_US": "Donec nulla amet et morbi. Augue fames cursus eu porttitor facilisi massa sit amet velit. Aliquam vel tincidunt congue nec aliquam tempus. Ornare morbi at viverra ut sapien dui ullamcorper varius tempor. Sed eget facilisi in et, dolor accumsan pellentesque. Amet maecenas phasellus et lorem. Justo, commodo magna luctus magna nunc placerat integer mi augue. Euismod scelerisque ullamcorper vel scelerisque lectus vitae, ut donec risus. Nulla eu eu in quis ipsum mollis pellentesque sed nullam. Est massa dignissim et, sit neque nunc."
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"fontWeight": "fontWeightLight",
+										"marginBottom": "3",
+										"textColor": "colorNeutral10"
+									},
+									"indexed": true
+								},
+								"type": "Fragment"
+							},
+							{
+								"definition": {
+									"fragment": {"key": "DIALECT-dialect-text"},
+									"fragmentConfig": {
+										"textType": "text-paragraph-xs",
+										"truncateText": false
+									},
+									"fragmentFields": [
+										{
+											"id": "element-text",
+											"value": {
+												"fragmentLink": {},
+												"text": {
+													"value_i18n": {
+														"en_US": "© 2021 Reems Bank. All rights reserved"
+													}
+												}
+											}
+										}
+									],
+									"fragmentStyle": {
+										"fontWeight": "fontWeightLight",
+										"marginBottom": "3",
+										"textColor": "colorNeutral10"
+									},
+									"indexed": true
+								},
+								"type": "Fragment"
+							}
+						],
+						"type": "Section"
+					}
+				],
+				"type": "Section"
+			}
+		],
+		"type": "Root"
+	},
+	"settings": {
+		"colorSchemeName": "01",
+		"styleBook": {
+            "key": "main",
+            "name": "main"
+        },
+		"themeName": "Dialect",
+		"themeSettings": {
+			"lfr-theme:regular:show-header-search": "false",
+			"lfr-theme:regular:show-header": "false",
+			"lfr-theme:regular:show-footer": "false",
+			"lfr-theme:regular:wrap-widget-page-content": "false"
+		}
+	},
+	"version": 1.1
+}

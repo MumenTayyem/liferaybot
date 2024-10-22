@@ -1,0 +1,10 @@
+{
+  "configurationPath": "configuration.json",
+  "jsPath": "index.js",
+  "htmlPath": "index.html",
+  "cssPath": "index.css",
+  "icon": "slideshow",
+  "name": "slider-custom",
+  "thumbnailPath": "thumbnail.png",
+  "type": "component"
+}

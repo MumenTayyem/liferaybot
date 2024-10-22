@@ -1,0 +1,17 @@
+{
+  "com.liferay.client.extension.type.configuration.CETConfiguration~liferay-ticket-custom-element" : {
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/liferay-bot-custom-element-react",
+    "buildTimestamp" : 1729455021650,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "name" : "Liferay Ticket Custom Element",
+    "projectId" : "liferaybotcustomelementreact",
+    "projectName" : "liferay-bot-custom-element-react",
+    "properties" : [ "defaultScreen=dashboard" ],
+    "sourceCodeURL" : "",
+    "type" : "customElement",
+    "typeSettings" : [ "friendlyURLMapping=liferay-ticket-custom-element", "instanceable=false", "urls=http://localhost:5173/@vite/client\nhttp://localhost:5173/@vite/refresh.ts\nhttp://localhost:5173/src/main.tsx", "useESM=true", "htmlElementName=liferay-ticket-custom-element", "portletCategoryName=category.client-extensions" ],
+    "webContextPath" : "/liferay-bot-custom-element-react"
+  }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US" version="1.0">
+	<dynamic-element index-type="keyword" name="name" type="text">
+		<dynamic-content language-id="en_US"><![CDATA[Investing]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element index-type="text" name="image" type="image">
+		<dynamic-content language-id="en_US">
+			<![CDATA[[$DOCUMENT_JSON:/site-initializer/documents/group/assets/web-content/products/investing.svg$]]]>
+		</dynamic-content>
+	</dynamic-element>
+</root>

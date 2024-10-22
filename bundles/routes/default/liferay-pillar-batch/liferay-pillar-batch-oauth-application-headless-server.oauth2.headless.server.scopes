@@ -1,0 +1,7 @@
+c_bankaccount.everything
+c_banktransaction.everything
+c_bankpayee.everything
+Liferay.Headless.Batch.Engine.everything
+Liferay.Object.Admin.REST.everything
+Liferay.Headless.Admin.User.everything
+Liferay.Headless.Site.everything

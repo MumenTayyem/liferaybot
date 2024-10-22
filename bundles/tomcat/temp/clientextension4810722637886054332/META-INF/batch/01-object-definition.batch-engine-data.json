@@ -1,0 +1,1201 @@
+{
+	"configuration": {
+		"className": "com.liferay.object.admin.rest.dto.v1_0.ObjectDefinition",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "UPSERT",
+			"onErrorFail": "false",
+			"updateStrategy": "UPDATE"
+		},
+		"taskItemDelegateName": "DEFAULT"
+	},
+	"items": [
+		{
+			"externalReferenceCode": "BANK_ACCOUNT",
+			"enableComments": false,
+			"enableCategorization": true,
+			"accountEntryRestrictedObjectFieldName": "",
+			"objectActions": [],
+			"accountEntryRestricted": false,
+			"objectFields": [
+				{
+					"indexed": true,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "Double",
+					"label": {
+						"en_US": "Account Balance"
+					},
+					"type": "Double",
+					"required": false,
+					"indexedAsKeyword": false,
+					"system": false,
+					"indexedLanguageId": "",
+					"name": "accountBalance",
+					"state": false,
+					"businessType": "Decimal"
+				},
+				{
+					"indexed": true,
+					"defaultValue": "",
+					"objectFieldSettings": [
+						{
+							"name": "showCounter",
+							"value": "false"
+						}
+					],
+					"DBType": "String",
+					"label": {
+						"en_US": "Account Name"
+					},
+					"type": "String",
+					"required": true,
+					"indexedAsKeyword": false,
+					"system": false,
+					"indexedLanguageId": "en_US",
+					"name": "accountName",
+					"state": false,
+					"businessType": "Text"
+				},
+				{
+					"indexed": true,
+					"defaultValue": "",
+					"objectFieldSettings": [
+						{
+							"name": "showCounter",
+							"value": "false"
+						}
+					],
+					"DBType": "String",
+					"label": {
+						"en_US": "Account Number"
+					},
+					"type": "String",
+					"required": true,
+					"indexedAsKeyword": false,
+					"system": false,
+					"indexedLanguageId": "en_US",
+					"name": "accountNumber",
+					"state": false,
+					"businessType": "Text"
+				},
+				{
+					"listTypeDefinitionExternalReferenceCode": "BANK_ACCOUNT_TYPE",
+					"indexed": true,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "String",
+					"label": {
+						"en_US": "Account Type"
+					},
+					"type": "String",
+					"required": true,
+					"indexedAsKeyword": false,
+					"system": false,
+					"indexedLanguageId": "en_US",
+					"name": "accountType",
+					"state": false,
+					"businessType": "Picklist"
+				},
+				{
+					"indexed": false,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "Date",
+					"label": {
+						"en_US": "Create Date"
+					},
+					"type": "Date",
+					"required": false,
+					"indexedAsKeyword": false,
+					"system": true,
+					"indexedLanguageId": "",
+					"name": "createDate",
+					"state": false,
+					"businessType": "Date"
+				},
+				{
+					"indexed": false,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "String",
+					"label": {
+						"en_US": "Author"
+					},
+					"type": "String",
+					"required": false,
+					"indexedAsKeyword": false,
+					"system": true,
+					"indexedLanguageId": "",
+					"name": "creator",
+					"state": false,
+					"businessType": "Text"
+				},
+				{
+					"indexed": false,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "String",
+					"label": {
+						"en_US": "External Reference Code"
+					},
+					"type": "String",
+					"required": false,
+					"indexedAsKeyword": false,
+					"system": true,
+					"indexedLanguageId": "",
+					"name": "externalReferenceCode",
+					"state": false,
+					"businessType": "Text"
+				},
+				{
+					"indexed": true,
+					"defaultValue": "",
+					"objectFieldSettings": [
+						{
+							"name": "showCounter",
+							"value": "false"
+						}
+					],
+					"DBType": "String",
+					"label": {
+						"en_US": "IBAN"
+					},
+					"type": "String",
+					"required": true,
+					"indexedAsKeyword": false,
+					"system": false,
+					"indexedLanguageId": "en_US",
+					"name": "iban",
+					"state": false,
+					"businessType": "Text"
+				},
+				{
+					"indexed": true,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "Long",
+					"label": {
+						"en_US": "ID"
+					},
+					"type": "Long",
+					"required": false,
+					"indexedAsKeyword": true,
+					"system": true,
+					"indexedLanguageId": "",
+					"name": "id",
+					"state": false,
+					"businessType": "LongInteger"
+				},
+				{
+					"indexed": false,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "Date",
+					"label": {
+						"en_US": "Modified Date"
+					},
+					"type": "Date",
+					"required": false,
+					"indexedAsKeyword": false,
+					"system": true,
+					"indexedLanguageId": "",
+					"name": "modifiedDate",
+					"state": false,
+					"businessType": "Date"
+				},
+				{
+					"indexed": false,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "String",
+					"label": {
+						"en_US": "Status"
+					},
+					"type": "String",
+					"required": false,
+					"indexedAsKeyword": false,
+					"system": true,
+					"indexedLanguageId": "",
+					"name": "status",
+					"state": false,
+					"businessType": "Text"
+				}
+			],
+			"restContextPath": "/o/c/bankaccounts",
+			"scope": "company",
+			"portlet": true,
+			"parameterRequired": false,
+			"enableObjectEntryHistory": false,
+			"titleObjectFieldName": "accountName",
+			"active": true,
+			"defaultLanguageId": "en_US",
+			"label": {
+				"en_US": "Bank Account"
+			},
+			"panelCategoryKey": "applications_menu.applications.content",
+			"pluralLabel": {
+				"en_US": "Bank Accounts"
+			},
+			"objectLayouts": [],
+			"system": false,
+			"objectViews": [],
+			"name": "BankAccount",
+			"actions": {
+				"permissions": {},
+				"get": {},
+				"update": {},
+				"delete": {}
+			},
+			"status": {
+				"label_i18n": "Approved",
+				"code": 0,
+				"label": "approved"
+			}
+		},
+		{
+			"externalReferenceCode": "BANK_TRANSACTION",
+			"enableComments": false,
+			"objectRelationships": [],
+			"enableCategorization": true,
+			"accountEntryRestrictedObjectFieldName": "",
+			"accountEntryRestricted": false,
+			"objectActions":[
+				{
+					"conditionExpression": "",
+					"objectActionExecutorKey": "function#liferay-pillar-etc-node-object-bank-action-transactions",
+					"objectActionTriggerKey": "onAfterAdd",
+					"errorMessage": {},
+					"active": true,
+					"description": "",
+					"label": { "en_US": "Transaction Added" },
+					"externalReferenceCode": "ACTION_TRANSACTION_ADDED",
+					"name": "transactionAdded",
+					"status": { "label_i18n": "Success", "code": 1, "label": "success" },
+					"parameters": {
+					}
+				  }
+			],
+			"objectFields": [
+				{
+					"indexed": true,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "Double",
+					"label": {
+						"en_US": "Amount"
+					},
+					"type": "Double",
+					"required": true,
+					"indexedAsKeyword": false,
+					"system": false,
+					"indexedLanguageId": "",
+					"name": "amount",
+					"state": false,
+					"businessType": "Decimal"
+				},
+				{
+					"indexed": false,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "Date",
+					"label": {
+						"en_US": "Create Date"
+					},
+					"type": "Date",
+					"required": false,
+					"indexedAsKeyword": false,
+					"system": true,
+					"indexedLanguageId": "",
+					"name": "createDate",
+					"state": false,
+					"businessType": "Date"
+				},
+				{
+					"indexed": false,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "String",
+					"label": {
+						"en_US": "Author"
+					},
+					"type": "String",
+					"required": false,
+					"indexedAsKeyword": false,
+					"system": true,
+					"indexedLanguageId": "",
+					"name": "creator",
+					"state": false,
+					"businessType": "Text"
+				},
+				{
+					"listTypeDefinitionExternalReferenceCode": "CURRENCY",
+					"indexed": true,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "String",
+					"label": {
+						"en_US": "Currency"
+					},
+					"type": "String",
+					"required": true,
+					"indexedAsKeyword": false,
+					"system": false,
+					"indexedLanguageId": "en_US",
+					"name": "currency",
+					"state": false,
+					"businessType": "Picklist"
+				},
+				{
+					"indexed": true,
+					"defaultValue": "",
+					"objectFieldSettings": [
+						{
+							"name": "showCounter",
+							"value": "false"
+						}
+					],
+					"DBType": "String",
+					"label": {
+						"en_US": "Description"
+					},
+					"type": "String",
+					"required": true,
+					"indexedAsKeyword": false,
+					"system": false,
+					"indexedLanguageId": "en_US",
+					"name": "description",
+					"state": false,
+					"businessType": "Text"
+				},
+				{
+					"indexed": true,
+					"defaultValue": "",
+					"objectFieldSettings": [
+						{
+							"name": "showCounter",
+							"value": "false"
+						}
+					],
+					"DBType": "String",
+					"label": {
+						"en_US": "Destination IBAN"
+					},
+					"type": "String",
+					"required": false,
+					"indexedAsKeyword": false,
+					"system": false,
+					"indexedLanguageId": "en_US",
+					"name": "destinationIBAN",
+					"state": false,
+					"businessType": "Text"
+				},
+				{
+					"indexed": false,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "String",
+					"label": {
+						"en_US": "External Reference Code"
+					},
+					"type": "String",
+					"required": false,
+					"indexedAsKeyword": false,
+					"system": true,
+					"indexedLanguageId": "",
+					"name": "externalReferenceCode",
+					"state": false,
+					"businessType": "Text"
+				},
+				{
+					"indexed": true,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "Long",
+					"label": {
+						"en_US": "ID"
+					},
+					"type": "Long",
+					"required": false,
+					"indexedAsKeyword": true,
+					"system": true,
+					"indexedLanguageId": "",
+					"name": "id",
+					"state": false,
+					"businessType": "LongInteger"
+				},
+				{
+					"listTypeDefinitionExternalReferenceCode": "LIABILITY_TYPE",
+					"indexed": true,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "String",
+					"label": {
+						"en_US": "Liability Type"
+					},
+					"type": "String",
+					"required": false,
+					"indexedAsKeyword": false,
+					"system": false,
+					"indexedLanguageId": "en_US",
+					"name": "liabilityType",
+					"state": false,
+					"businessType": "Picklist"
+				},
+				{
+					"indexed": false,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "Date",
+					"label": {
+						"en_US": "Modified Date"
+					},
+					"type": "Date",
+					"required": false,
+					"indexedAsKeyword": false,
+					"system": true,
+					"indexedLanguageId": "",
+					"name": "modifiedDate",
+					"state": false,
+					"businessType": "Date"
+				},
+				{
+					"indexed": false,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "String",
+					"label": {
+						"en_US": "Status"
+					},
+					"type": "String",
+					"required": false,
+					"indexedAsKeyword": false,
+					"system": true,
+					"indexedLanguageId": "",
+					"name": "status",
+					"state": false,
+					"businessType": "Text"
+				},
+				{
+					"indexed": true,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "Date",
+					"label": {
+						"en_US": "Transaction Date"
+					},
+					"type": "Date",
+					"required": true,
+					"indexedAsKeyword": false,
+					"system": false,
+					"indexedLanguageId": "",
+					"name": "transactionDate",
+					"state": false,
+					"businessType": "Date"
+				},
+				{
+					"listTypeDefinitionExternalReferenceCode": "TRANSACTION_TYPE",
+					"indexed": true,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "String",
+					"label": {
+						"en_US": "Transaction Type"
+					},
+					"type": "String",
+					"required": true,
+					"indexedAsKeyword": false,
+					"system": false,
+					"indexedLanguageId": "en_US",
+					"name": "transactionType",
+					"state": false,
+					"businessType": "Picklist"
+				}
+			],
+			"restContextPath": "/o/c/banktransactions",
+			"scope": "company",
+			"portlet": true,
+			"parameterRequired": false,
+			"enableObjectEntryHistory": false,
+			"titleObjectFieldName": "amount",
+			"active": true,
+			"defaultLanguageId": "en_US",
+			"label": {
+				"en_US": "Bank Transaction"
+			},
+			"panelCategoryKey": "applications_menu.applications.content",
+			"pluralLabel": {
+				"en_US": "Bank Transactions"
+			},
+			"objectLayouts": [],
+			"system": false,
+			"objectViews": [],
+			"name": "BankTransaction",
+			"actions": {
+				"permissions": {},
+				"get": {},
+				"update": {},
+				"delete": {}
+			},
+			"status": {
+				"label_i18n": "Approved",
+				"code": 0,
+				"label": "approved"
+			}
+		},
+		{
+			"externalReferenceCode":"BANK_PAYEE",
+			"enableComments": false,
+			"enableCategorization": true,
+			"accountEntryRestrictedObjectFieldName": "",
+			"objectActions": [],
+			"accountEntryRestricted": false,
+			"objectFields": [
+				{
+					"indexed": false,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "Date",
+					"label": {
+						"en_US": "Create Date"
+					},
+					"type": "Date",
+					"required": false,
+					"indexedAsKeyword": false,
+					"system": true,
+					"indexedLanguageId": "",
+					"name": "createDate",
+					"state": false,
+					"businessType": "Date"
+				},
+				{
+					"indexed": false,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "String",
+					"label": {
+						"en_US": "Author"
+					},
+					"type": "String",
+					"required": false,
+					"indexedAsKeyword": false,
+					"system": true,
+					"indexedLanguageId": "",
+					"name": "creator",
+					"state": false,
+					"businessType": "Text"
+				},
+				{
+					"indexed": false,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "String",
+					"label": {
+						"en_US": "External Reference Code"
+					},
+					"type": "String",
+					"required": false,
+					"indexedAsKeyword": false,
+					"system": true,
+					"indexedLanguageId": "",
+					"name": "externalReferenceCode",
+					"state": false,
+					"businessType": "Text"
+				},
+				{
+					"indexed": true,
+					"defaultValue": "",
+					"objectFieldSettings": [
+						{
+							"name": "showCounter",
+							"value": "false"
+						}
+					],
+					"DBType": "String",
+					"label": {
+						"en_US": "IBAN"
+					},
+					"type": "String",
+					"required": true,
+					"indexedAsKeyword": false,
+					"system": false,
+					"indexedLanguageId": "en_US",
+					"name": "iban",
+					"state": false,
+					"businessType": "Text"
+				},
+				{
+					"indexed": true,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "Long",
+					"label": {
+						"en_US": "ID"
+					},
+					"type": "Long",
+					"required": false,
+					"indexedAsKeyword": true,
+					"system": true,
+					"indexedLanguageId": "",
+					"name": "id",
+					"state": false,
+					"businessType": "LongInteger"
+				},
+				{
+					"indexed": false,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "Date",
+					"label": {
+						"en_US": "Modified Date"
+					},
+					"type": "Date",
+					"required": false,
+					"indexedAsKeyword": false,
+					"system": true,
+					"indexedLanguageId": "",
+					"name": "modifiedDate",
+					"state": false,
+					"businessType": "Date"
+				},
+				{
+					"indexed": true,
+					"defaultValue": "",
+					"objectFieldSettings": [
+						{
+							"name": "showCounter",
+							"value": "false"
+						}
+					],
+					"DBType": "String",
+					"label": {
+						"en_US": "Payee Name"
+					},
+					"type": "String",
+					"required": true,
+					"indexedAsKeyword": false,
+					"system": false,
+					"indexedLanguageId": "en_US",
+					"name": "payeeName",
+					"state": false,
+					"businessType": "Text"
+				},
+				{
+					"indexed": false,
+					"defaultValue": "",
+					"objectFieldSettings": [],
+					"DBType": "String",
+					"label": {
+						"en_US": "Status"
+					},
+					"type": "String",
+					"required": false,
+					"indexedAsKeyword": false,
+					"system": true,
+					"indexedLanguageId": "",
+					"name": "status",
+					"state": false,
+					"businessType": "Text"
+				}
+			],
+			"restContextPath": "/o/c/bankpayees",
+			"scope": "company",
+			"portlet": true,
+			"parameterRequired": false,
+			"enableObjectEntryHistory": false,
+			"titleObjectFieldName": "payeeName",
+			"active": true,
+			"defaultLanguageId": "en_US",
+			"label": {
+				"en_US": "Bank Payee"
+			},
+			"panelCategoryKey": "applications_menu.applications.content",
+			"pluralLabel": {
+				"en_US": "Bank Payees"
+			},
+			"objectLayouts": [],
+			"system": false,
+			"objectViews": [],
+			"name": "BankPayee",
+			"status": {
+				"label_i18n": "Approved",
+				"code": 0,
+				"label": "approved"
+			}
+		},
+		{
+			"enableComments": false,
+			"objectRelationships": [],
+			"enableCategorization": true,
+			"accountEntryRestrictedObjectFieldName": "",
+			"accountEntryRestricted": false,
+			"externalReferenceCode": "ONBOARDING",
+			"objectActions": [
+				{
+					"conditionExpression": "wFStatus == \"approved\"",
+					"objectActionExecutorKey": "function#liferay-pillar-etc-node-object-onboarding-approved",
+					"objectActionTriggerKey": "onAfterUpdate",
+					"errorMessage": {},
+					"active": true,
+					"description": "",
+					"label": { "en_US": "Approved" },
+					"externalReferenceCode": "ACTION_ONBOARDING_APPROVED",
+					"name": "approved",
+					"status": { "label_i18n": "Success", "code": 1, "label": "success" },
+					"parameters": {
+					}
+				  }
+			],
+			"objectFields": [
+			  {
+				"indexed": true,
+				"defaultValue": "",
+				"objectFieldSettings": [],
+				"DBType": "String",
+				"label": { "en_US": "Account Name" },
+				"type": "String",
+				"required": true,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "en_US",
+				"name": "accountName",
+				"state": false,
+				"businessType": "Text"
+			  },
+			  {
+				"listTypeDefinitionExternalReferenceCode": "ACCOUNT_OWNER",
+				"indexed": true,
+				"defaultValue": "justMe",
+				"DBType": "String",
+				"label": { "en_US": "Account Owner" },
+				"type": "String",
+				"required": true,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "en_US",
+				"name": "accountOwner",
+				"state": false,
+				"businessType": "Picklist"
+			  },
+			  {
+				"indexed": true,
+				"defaultValue": "",
+				"objectFieldSettings": [{ "name": "showCounter", "value": "false" }],
+				"DBType": "String",
+				"label": { "en_US": "Address" },
+				"type": "String",
+				"required": false,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "en_US",
+				"name": "address",
+				"state": false,
+				"businessType": "Text"
+			  },
+			  {
+				"indexed": true,
+				"defaultValue": "",
+				"objectFieldSettings": [],
+				"DBType": "Date",
+				"label": { "en_US": "Birthday" },
+				"type": "Date",
+				"required": true,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "",
+				"name": "birthday",
+				"state": false,
+				"businessType": "Date"
+			  },
+			  {
+				"indexed": true,
+				"defaultValue": "",
+				"objectFieldSettings": [{ "name": "showCounter", "value": "false" }],
+				"DBType": "String",
+				"label": { "en_US": "City" },
+				"type": "String",
+				"required": false,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "en_US",
+				"name": "city",
+				"state": false,
+				"businessType": "Text"
+			  },
+			  {
+				"indexed": false,
+				"defaultValue": "",
+				"objectFieldSettings": [],
+				"DBType": "Date",
+				"label": { "en_US": "Create Date" },
+				"type": "Date",
+				"required": false,
+				"indexedAsKeyword": false,
+				"system": true,
+				"indexedLanguageId": "",
+				"name": "createDate",
+				"state": false,
+				"businessType": "Date"
+			  },
+			  {
+				"indexed": false,
+				"defaultValue": "",
+				"objectFieldSettings": [],
+				"DBType": "String",
+				"label": { "en_US": "Author" },
+				"type": "String",
+				"required": false,
+				"indexedAsKeyword": false,
+				"system": true,
+				"indexedLanguageId": "",
+				"name": "creator",
+				"state": false,
+				"businessType": "Text"
+			  },
+			  {
+				"indexed": true,
+				"defaultValue": "",
+				"objectFieldSettings": [{ "name": "showCounter", "value": "false" }],
+				"DBType": "String",
+				"label": { "en_US": "Email" },
+				"type": "String",
+				"required": true,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "en_US",
+				"name": "email",
+				"state": false,
+				"businessType": "Text"
+			  },
+			  {
+				"listTypeDefinitionExternalReferenceCode": "EMPLOYERS",
+				"indexed": true,
+				"defaultValue": "liferay",
+				"DBType": "String",
+				"label": { "en_US": "Employer" },
+				"type": "String",
+				"required": true,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "en_US",
+				"name": "employer",
+				"state": false,
+				"businessType": "Picklist"
+			  },
+			  {
+				"listTypeDefinitionExternalReferenceCode": "EMPLOYMENT_STATUS",
+				"indexed": true,
+				"defaultValue": "imEmployed",
+				"DBType": "String",
+				"label": { "en_US": "Employment Status" },
+				"type": "String",
+				"required": true,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "en_US",
+				"name": "employmentStatus",
+				"state": false,
+				"businessType": "Picklist"
+			  },
+			  {
+				"indexed": false,
+				"defaultValue": "",
+				"objectFieldSettings": [],
+				"DBType": "String",
+				"label": { "en_US": "External Reference Code" },
+				"type": "String",
+				"required": false,
+				"indexedAsKeyword": false,
+				"system": true,
+				"indexedLanguageId": "",
+				"name": "externalReferenceCode",
+				"state": false,
+				"businessType": "Text"
+			  },
+			  {
+				"indexed": true,
+				"defaultValue": "",
+				"objectFieldSettings": [{ "name": "showCounter", "value": "false" }],
+				"DBType": "String",
+				"label": { "en_US": "First Name" },
+				"type": "String",
+				"required": true,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "en_US",
+				"name": "firstName",
+				"state": false,
+				"businessType": "Text"
+			  },
+			  {
+				"indexed": true,
+				"defaultValue": "",
+				"objectFieldSettings": [],
+				"DBType": "Long",
+				"label": { "en_US": "ID" },
+				"type": "Long",
+				"required": false,
+				"indexedAsKeyword": true,
+				"system": true,
+				"indexedLanguageId": "",
+				"name": "id",
+				"state": false,
+				"businessType": "LongInteger"
+			  },
+			  {
+				"listTypeDefinitionExternalReferenceCode": "INVESTMENT_GOALS",
+				"indexed": true,
+				"defaultValue": "education",
+				"DBType": "String",
+				"label": { "en_US": "Investment Goals" },
+				"type": "String",
+				"required": true,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "en_US",
+				"name": "investmentGoals",
+				"state": false,
+				"businessType": "Picklist"
+			  },
+			  {
+				"indexed": true,
+				"defaultValue": "",
+				"objectFieldSettings": [{ "name": "showCounter", "value": "false" }],
+				"DBType": "String",
+				"label": { "en_US": "Last Name" },
+				"type": "String",
+				"required": true,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "en_US",
+				"name": "lastName",
+				"state": false,
+				"businessType": "Text"
+			  },
+			  {
+				"indexed": true,
+				"defaultValue": "",
+				"objectFieldSettings": [],
+				"DBType": "BigDecimal",
+				"label": { "en_US": "Liquid investments" },
+				"type": "BigDecimal",
+				"required": true,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "",
+				"name": "liquidInvestments",
+				"state": false,
+				"businessType": "PrecisionDecimal"
+			  },
+			  {
+				"indexed": false,
+				"defaultValue": "",
+				"objectFieldSettings": [],
+				"DBType": "Date",
+				"label": { "en_US": "Modified Date" },
+				"type": "Date",
+				"required": false,
+				"indexedAsKeyword": false,
+				"system": true,
+				"indexedLanguageId": "",
+				"name": "modifiedDate",
+				"state": false,
+				"businessType": "Date"
+			  },
+			  {
+				"indexed": true,
+				"defaultValue": "",
+				"objectFieldSettings": [{ "name": "showCounter", "value": "false" }],
+				"DBType": "String",
+				"label": { "en_US": "Phone Number" },
+				"type": "String",
+				"required": true,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "en_US",
+				"name": "phoneNumber",
+				"state": false,
+				"businessType": "Text"
+			  },
+			  {
+				"listTypeDefinitionExternalReferenceCode": "PORTFOLIO_TYPE",
+				"indexed": true,
+				"defaultValue": "customized",
+				"DBType": "String",
+				"label": { "en_US": "Portfolio Type" },
+				"type": "String",
+				"required": true,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "en_US",
+				"name": "portfolioType",
+				"state": false,
+				"businessType": "Picklist"
+			  },
+			  {
+				"indexed": true,
+				"defaultValue": "",
+				"objectFieldSettings": [],
+				"DBType": "BigDecimal",
+				"label": { "en_US": "Pre-tax income" },
+				"type": "BigDecimal",
+				"required": true,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "",
+				"name": "pretaxIncome",
+				"state": false,
+				"businessType": "PrecisionDecimal"
+			  },
+			  {
+				"indexed": true,
+				"defaultValue": "",
+				"objectFieldSettings": [],
+				"DBType": "Double",
+				"label": { "en_US": "Risk Range" },
+				"type": "Double",
+				"required": true,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "",
+				"name": "riskRange",
+				"state": false,
+				"businessType": "Decimal"
+			  },
+			  {
+				"indexed": true,
+				"defaultValue": "",
+				"objectFieldSettings": [],
+				"DBType": "String",
+				"label": { "en_US": "Social Security Number" },
+				"type": "String",
+				"required": false,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "en_US",
+				"name": "socialSecurityNumber",
+				"state": false,
+				"businessType": "Text"
+			  },
+			  {
+				"indexed": true,
+				"defaultValue": "",
+				"objectFieldSettings": [{ "name": "showCounter", "value": "false" }],
+				"DBType": "String",
+				"label": { "en_US": "State" },
+				"type": "String",
+				"required": false,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "en_US",
+				"name": "state",
+				"state": false,
+				"businessType": "Text"
+			  },
+			  {
+				"indexed": false,
+				"defaultValue": "",
+				"objectFieldSettings": [],
+				"DBType": "String",
+				"label": { "en_US": "Status" },
+				"type": "String",
+				"required": false,
+				"indexedAsKeyword": false,
+				"system": true,
+				"indexedLanguageId": "",
+				"name": "status",
+				"state": false,
+				"businessType": "Text"
+			  },
+			  {
+				"listTypeDefinitionExternalReferenceCode": "STOCK_ACTION",
+				"indexed": true,
+				"defaultValue": "doNothing",
+				"DBType": "String",
+				"label": { "en_US": "Stock Action" },
+				"type": "String",
+				"required": true,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "en_US",
+				"name": "stockAction",
+				"state": false,
+				"businessType": "Picklist"
+			  },
+			  {
+				"listTypeDefinitionExternalReferenceCode": "WF_STATUS",
+				"indexed": true,
+				"defaultValue": "draft",
+				"objectFieldSettings": [
+				  {
+					"name": "stateFlow",
+					"value": {
+					  "objectStates": [
+						{
+						  "objectStateTransitions": [
+							{ "key": "approved" },
+							{ "key": "rejected" }
+						  ],
+						  "key": "submitted"
+						},
+						{
+						  "objectStateTransitions": [{ "key": "done" }],
+						  "key": "approved"
+						},
+						{
+						  "objectStateTransitions": [{ "key": "submitted" }],
+						  "key": "draft"
+						},
+						{ "objectStateTransitions": [], "key": "rejected" },
+						{
+						  "objectStateTransitions": [{ "key": "approved" }],
+						  "key": "done"
+						}
+					  ]
+					}
+				  }
+				],
+				"DBType": "String",
+				"label": { "en_US": "WF Status" },
+				"type": "String",
+				"required": true,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "en_US",
+				"name": "wFStatus",
+				"state": true,
+				"businessType": "Picklist"
+			  },
+			  {
+				"indexed": true,
+				"defaultValue": "",
+				"objectFieldSettings": [{ "name": "showCounter", "value": "false" }],
+				"DBType": "String",
+				"label": { "en_US": "Zip" },
+				"type": "String",
+				"required": false,
+				"indexedAsKeyword": false,
+				"system": false,
+				"indexedLanguageId": "en_US",
+				"name": "zip",
+				"state": false,
+				"businessType": "Text"
+			  }
+			],
+			"restContextPath": "/o/c/onboardings",
+			"scope": "site",
+			"portlet": true,
+			"parameterRequired": false,
+			"enableObjectEntryHistory": false,
+			"titleObjectFieldName": "email",
+			"active": true,
+			"defaultLanguageId": "en_US",
+			"label": { "en_US": "Onboarding" },
+			"panelCategoryKey": "site_administration.members",
+			"pluralLabel": { "en_US": "Onboardings" },
+			"system": false,
+			"name": "Onboarding",
+			"status": { "label_i18n": "Approved", "code": 0, "label": "approved" }
+		  }		  
+	]
+}

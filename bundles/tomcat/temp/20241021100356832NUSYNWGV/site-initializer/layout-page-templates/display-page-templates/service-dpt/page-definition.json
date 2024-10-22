@@ -1,0 +1,185 @@
+{
+    "pageElement": {
+        "pageElements": [
+            {
+                "definition": {
+                    "fragmentStyle": {
+                        "backgroundColor": "colorBrandPrimaryLighten6",
+                        "marginBottom": "7",
+                        "marginTop": "5",
+                        "paddingBottom": "5",
+                        "paddingTop": "5"
+                    },
+                    "indexed": true,
+                    "layout": {
+                        "align": "Center",
+                        "contentDisplay": "FlexColumn",
+                        "flexWrap": "Wrap",
+                        "justify": "SpaceBetween",
+                        "marginBottom": 8,
+                        "marginTop": 4,
+                        "paddingBottom": 4,
+                        "paddingTop": 4,
+                        "widthType": "Fixed"
+                    }
+                },
+                "pageElements": [
+                    {
+                        "definition": {
+                            "fragment": {
+                                "key": "BASIC_COMPONENT-image"
+                            },
+                            "fragmentConfig": {
+                                "imageSize": "w-100"
+                            },
+                            "fragmentFields": [
+                                {
+                                    "id": "image-square",
+                                    "value": {
+                                        "fragmentImage": {
+                                            "url": {
+                                                "mapping": {
+                                                    "fieldKey": "image",
+                                                    "itemReference": {
+                                                        "contextSource": "DisplayPageItem"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "fragmentLink": {}
+                                    }
+                                }
+                            ],
+                            "fragmentStyle": {
+                                "marginBottom": "5"
+                            },
+                            "indexed": true
+                        },
+                        "type": "Fragment"
+                    },
+                    {
+                        "definition": {
+                            "fragment": {
+                                "key": "DIALECT-dialect-text"
+                            },
+                            "fragmentConfig": {
+                                "textType": "h1",
+                                "truncateText": false
+                            },
+                            "fragmentFields": [
+                                {
+                                    "id": "element-text",
+                                    "value": {
+                                        "fragmentLink": {},
+                                        "text": {
+                                            "mapping": {
+                                                "fieldKey": "serviceTitle",
+                                                "itemReference": {
+                                                    "contextSource": "DisplayPageItem"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "fragmentStyle": {
+                                "fontWeight": "fontWeightLight",
+                                "marginBottom": "3",
+                                "textColor": "colorBrandPrimaryDarken3"
+                            },
+                            "indexed": true
+                        },
+                        "type": "Fragment"
+                    },
+                    {
+                        "definition": {
+                            "fragment": {
+                                "key": "DIALECT-dialect-text"
+                            },
+                            "fragmentConfig": {
+                                "textType": "text-paragraph",
+                                "truncateText": false
+                            },
+                            "fragmentFields": [
+                                {
+                                    "id": "element-text",
+                                    "value": {
+                                        "fragmentLink": {},
+                                        "text": {
+                                            "mapping": {
+                                                "fieldKey": "serviceDescription",
+                                                "itemReference": {
+                                                    "contextSource": "DisplayPageItem"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "fragmentStyle": {
+                                "fontWeight": "fontWeightLight",
+                                "marginBottom": "5",
+                                "textColor": "colorNeutral10"
+                            },
+                            "indexed": true
+                        },
+                        "type": "Fragment"
+                    },
+                    {
+                        "definition": {
+                            "fragment": {
+                                "key": "DIALECT-dialect-button"
+                            },
+                            "fragmentConfig": {
+                                "uppercase": false,
+                                "style": "primary",
+                                "type": "solid",
+                                "inverted": false,
+                                "buttonSize": ""
+                            },
+                            "fragmentFields": [
+                                {
+                                    "id": "link",
+                                    "value": {
+                                        "fragmentLink": {
+                                            "value": {
+                                                "href": {
+                                                    "value_i18n": {
+                                                        "en_US": "https://liferay.com"
+                                                    }
+                                                },
+                                                "target": "Blank"
+                                            }
+                                        },
+                                        "text": {
+                                            "mapping": {
+                                                "fieldKey": "actionText",
+                                                "itemReference": {
+                                                    "contextSource": "DisplayPageItem"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "indexed": true
+                        },
+                        "type": "Fragment"
+                    }
+                ],
+                "type": "Section"
+            }
+        ],
+        "type": "Root"
+    },
+    "settings": {
+        "styleBook": {
+			"key": "main",
+			"name": "main"
+		},
+        "themeName": "Dialect",
+		"masterPage": {
+			"key": "main"
+		}
+	}
+}

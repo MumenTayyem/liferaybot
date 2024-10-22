@@ -1,0 +1,19 @@
+{
+    "configuration": {
+        "className": "com.liferay.headless.admin.user.dto.v1_0.Role",
+        "parameters": {
+            "containsHeaders": "true",
+            "createStrategy": "UPSERT",
+            "onErrorFail": "false"
+        },
+        "taskItemDelegateName": "default"
+    },
+    "items": [
+        {
+            "externalReferenceCode":"CUSTOMER",
+            "availableLanguages": ["en-US"],
+            "name": "Customer",
+            "roleType": "site"
+          }
+    ]
+}

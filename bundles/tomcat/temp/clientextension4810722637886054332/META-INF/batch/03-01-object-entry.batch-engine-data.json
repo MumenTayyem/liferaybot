@@ -1,0 +1,64 @@
+{
+    "configuration": {
+        "className": "com.liferay.object.rest.dto.v1_0.ObjectEntry",
+        "parameters": {
+            "containsHeaders": "true",
+            "createStrategy": "UPSERT",
+            "onErrorFail": "false",
+            "updateStrategy": "UPDATE"
+        },
+        "taskItemDelegateName": "C_BankAccount"
+    },
+    "items": [
+        {
+            "externalReferenceCode": "MUMEN_TAYYEM_CASH_ACCOUNT",
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "r_userBankAccounts_userERC": "",
+            "accountName": "Mumen Tayyem - Cash Account",
+            "accountType": {
+                "key": "cash",
+                "name": "Cash"
+            },
+            "iban": "AE600356614285456539522",
+            "userBankAccountsERC": "",
+            "accountBalance": 11792176,
+            "accountNumber": "29520696"
+        },
+        {
+            "externalReferenceCode": "MUMEN_TAYYEM_LIABILITY_ACCOUNT",
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "accountName": "Mumen Tayyem - Liability Account",
+            "accountType": {
+                "key": "liability",
+                "name": "Liability"
+            },
+            "iban": "AE040216181139445361796",
+            "accountBalance": -1284195,
+            "accountNumber": "15772616"
+        },
+        {
+            "externalReferenceCode": "MUMEN_TAYYEM_INVESTMENT_ACCOUNT",
+            "status": {
+                "code": 0,
+                "label": "approved",
+                "label_i18n": "Approved"
+            },
+            "accountName": "Mumen Tayyem - Investment Account",
+            "accountType": {
+                "key": "investment",
+                "name": "Investment"
+            },
+            "iban": "AE620359195592796956425",
+            "accountBalance": 1295087,
+            "accountNumber": "10891934"
+        }
+    ]
+}

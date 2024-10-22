@@ -1,0 +1,64 @@
+2024-10-20 19:47:16.912 INFO  [SystemExecutorServiceUtil-10][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-etc-node-oauth-application-headless-server and company ID 14401142882666 has client ID id-2235b03b-c4e4-ea6c-53c4-c436a62f53d
+2024-10-20 19:47:26.928 INFO  [SystemExecutorServiceUtil-10][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-etc-node-oauth-application-headless-server and company ID 14401142882666 has client ID id-2235b03b-c4e4-ea6c-53c4-c436a62f53d
+2024-10-20 19:47:27.037 INFO  [SystemExecutorServiceUtil-5][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-etc-node-oauth-application-headless-server and company ID 14401142882666 has client ID id-2235b03b-c4e4-ea6c-53c4-c436a62f53d
+2024-10-20 19:47:27.167 INFO  [SystemExecutorServiceUtil-5][OAuth2ProviderApplicationUserAgentConfigurationFactory:170] OAuth 2 application with external reference code liferay-bot-etc-node-oauth-application-user-agent and company ID 14401142882666 has client ID id-f25ae065-4e3f-18db-7761-ddd634e2944e
+2024-10-20 19:47:28.795 INFO  [SystemExecutorServiceUtil-5][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-etc-node-oauth-application-headless-server and company ID 14401142882666 has client ID id-2235b03b-c4e4-ea6c-53c4-c436a62f53d
+2024-10-20 19:47:28.897 INFO  [SystemExecutorServiceUtil-5][OAuth2ProviderApplicationUserAgentConfigurationFactory:170] OAuth 2 application with external reference code liferay-bot-etc-node-oauth-application-user-agent and company ID 14401142882666 has client ID id-f25ae065-4e3f-18db-7761-ddd634e2944e
+2024-10-20 19:47:29.371 INFO  [SystemExecutorServiceUtil-5][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-etc-node-oauth-application-headless-server and company ID 14401142882666 has client ID id-2235b03b-c4e4-ea6c-53c4-c436a62f53d
+2024-10-20 19:47:29.387 INFO  [SystemExecutorServiceUtil-5][OAuth2ProviderApplicationUserAgentConfigurationFactory:170] OAuth 2 application with external reference code liferay-bot-etc-node-oauth-application-user-agent and company ID 14401142882666 has client ID id-f25ae065-4e3f-18db-7761-ddd634e2944e
+2024-10-21 09:14:32.707 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-pillar-site-initializer-oauth-application-headless-server)][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-pillar-site-initializer-oauth-application-headless-server and company ID 14401142882666 has client ID id-50f8f9d7-e62e-b39a-93b0-850cf86f453
+2024-10-21 09:14:35.149 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:516] Initializing Liferay Pillar for group 33571
+2024-10-21 09:14:35.172 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateExpandoColumns took 1 ms
+2024-10-21 09:14:35.173 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateListTypeDefinitions took 0 ms
+2024-10-21 09:14:35.174 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateObjectFolders took 0 ms
+2024-10-21 09:14:35.174 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateDepotEntries took 0 ms
+2024-10-21 09:14:35.174 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addSiteConfiguration took 0 ms
+2024-10-21 09:14:35.174 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addSiteSettings took 0 ms
+2024-10-21 09:14:35.328 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addStyleBookEntries took 154 ms
+2024-10-21 09:14:35.337 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateDataDefinitions took 8 ms
+2024-10-21 09:14:35.338 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addAccounts took 0 ms
+2024-10-21 09:14:35.338 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addKeywords took 0 ms
+2024-10-21 09:14:35.347 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateRoles took 9 ms
+2024-10-21 09:14:35.347 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking setPLOEntries took 0 ms
+2024-10-21 09:14:35.347 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateOrganizations took 0 ms
+2024-10-21 09:14:35.533 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateDDMStructures took 186 ms
+2024-10-21 09:14:35.558 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addAccountGroups took 24 ms
+2024-10-21 09:14:35.558 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateUserGroups took 0 ms
+2024-10-21 09:14:35.558 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateKnowledgeBaseArticles took 0 ms
+2024-10-21 09:14:35.559 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateSAPEntries took 0 ms
+2024-10-21 09:14:35.560 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addAccountGroupAssignments took 0 ms
+2024-10-21 09:14:35.561 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addWorkflowDefinitions took 0 ms
+2024-10-21 09:14:35.735 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateLayouts took 174 ms
+2024-10-21 09:14:35.736 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addAccountsOrganizations took 0 ms
+2024-10-21 09:14:35.737 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateTaxonomyVocabularies took 1 ms
+2024-10-21 09:14:35.802 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking updateLayoutSets took 65 ms
+2024-10-21 09:14:35.802 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addPortletSettings took 0 ms
+2024-10-21 09:14:35.802 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateSXPBlueprint took 0 ms
+2024-10-21 09:14:38.746 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateDocuments took 2942 ms
+2024-10-21 09:14:38.748 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateBlogPostings took 0 ms
+2024-10-21 09:14:39.621 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addFragmentEntries took 873 ms
+2024-10-21 09:14:39.622 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateAssetLinkEntries took 0 ms
+2024-10-21 09:14:39.622 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addUserAccounts took 0 ms
+2024-10-21 09:14:39.623 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addRolesAssignments took 0 ms
+2024-10-21 09:14:39.633 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addObjectDefinitions took 10 ms
+2024-10-21 09:14:39.642 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateClientExtensionEntries took 5 ms
+2024-10-21 09:14:39.642 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addUserRoles took 0 ms
+2024-10-21 09:14:39.642 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateSegmentsEntries took 0 ms
+2024-10-21 09:14:39.642 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateObjectRelationships took 0 ms
+2024-10-21 09:14:39.642 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateObjectFields took 0 ms
+2024-10-21 09:14:39.642 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking publishObjectDefinitions took 0 ms
+2024-10-21 09:14:39.643 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateAccountEntryRestrictions took 0 ms
+2024-10-21 09:14:39.643 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateObjectActions took 0 ms
+2024-10-21 09:14:39.643 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateNotificationTemplates took 0 ms
+2024-10-21 09:14:39.643 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateObjectEntries took 0 ms
+2024-10-21 09:14:39.711 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addAssetListEntries took 68 ms
+2024-10-21 09:14:39.794 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateDDMTemplates took 83 ms
+2024-10-21 09:14:39.795 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addCPDefinitions took 1 ms
+2024-10-21 09:14:40.803 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateJournalArticles took 1008 ms
+2024-10-21 09:14:42.702 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addLayoutPageTemplates took 1896 ms
+2024-10-21 09:14:42.712 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addLayoutUtilityPageEntries took 8 ms
+2024-10-21 09:14:43.305 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateLayoutsContent took 593 ms
+2024-10-21 09:14:43.305 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addSegmentsExperiences took 0 ms
+2024-10-21 09:14:43.306 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addOrUpdateResourcePermissions took 0 ms
+2024-10-21 09:14:43.306 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:5572] Invoking addExpandoValues took 0 ms
+2024-10-21 09:14:43.306 INFO  [fileinstall-directory-watcher][BundleSiteInitializer:534] Initialized Liferay Pillar for group 33571 in 8158 ms

@@ -1,0 +1,149 @@
+{
+    "pageElement": {
+        "pageElements": [
+            {
+                "definition": {
+                    "fragmentStyle": {
+                        "backgroundColor": "colorBrandPrimaryLighten6"
+                    },
+                    "indexed": true,
+                    "layout": {}
+                },
+                "pageElements": [
+                    {
+                        "definition": {
+                            "fragmentStyle": {
+                                "marginBottom": "6",
+                                "paddingBottom": "5",
+                                "paddingTop": "5",
+                                "textAlign": "center"
+                            },
+                            "indexed": true,
+                            "layout": {
+                                "marginBottom": 6,
+                                "paddingBottom": 4,
+                                "paddingTop": 4,
+                                "widthType": "Fixed"
+                            }
+                        },
+                        "pageElements": [
+                            {
+                                "definition": {
+                                    "fragment": {
+                                        "key": "DIALECT-dialect-text"
+                                    },
+                                    "fragmentConfig": {
+                                        "textType": "h1",
+                                        "truncateText": false
+                                    },
+                                    "fragmentFields": [
+                                        {
+                                            "id": "element-text",
+                                            "value": {
+                                                "fragmentLink": {},
+                                                "text": {
+                                                    "mapping": {
+                                                        "fieldKey": "offerTitle",
+                                                        "itemReference": {
+                                                            "contextSource": "DisplayPageItem"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "fragmentStyle": {
+                                        "fontWeight": "fontWeightLight",
+                                        "marginBottom": "4",
+                                        "textColor": "colorBrandPrimaryDarken2"
+                                    },
+                                    "indexed": true
+                                },
+                                "type": "Fragment"
+                            },
+                            {
+                                "definition": {
+                                    "fragment": {
+                                        "key": "BASIC_COMPONENT-image"
+                                    },
+                                    "fragmentConfig": {
+                                        "imageSize": "w-0"
+                                    },
+                                    "fragmentFields": [
+                                        {
+                                            "id": "image-square",
+                                            "value": {
+                                                "fragmentImage": {
+                                                    "url": {
+                                                        "mapping": {
+                                                            "fieldKey": "image",
+                                                            "itemReference": {
+                                                                "contextSource": "DisplayPageItem"
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "fragmentLink": {}
+                                            }
+                                        }
+                                    ],
+                                    "fragmentStyle": {
+                                        "marginBottom": "4"
+                                    },
+                                    "indexed": true
+                                },
+                                "type": "Fragment"
+                            },
+                            {
+                                "definition": {
+                                    "fragment": {
+                                        "key": "DIALECT-dialect-text"
+                                    },
+                                    "fragmentConfig": {
+                                        "textType": "text-paragraph",
+                                        "truncateText": false
+                                    },
+                                    "fragmentFields": [
+                                        {
+                                            "id": "element-text",
+                                            "value": {
+                                                "fragmentLink": {},
+                                                "text": {
+                                                    "mapping": {
+                                                        "fieldKey": "offerDescription",
+                                                        "itemReference": {
+                                                            "contextSource": "DisplayPageItem"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "fragmentStyle": {
+                                        "textColor": "colorBrandPrimaryDarken5"
+                                    },
+                                    "indexed": true
+                                },
+                                "type": "Fragment"
+                            }
+                        ],
+                        "type": "Section"
+                    }
+                ],
+                "type": "Section"
+            }
+        ],
+        "type": "Root"
+    },
+    "settings": {
+        "styleBook": {
+			"key": "main",
+			"name": "main"
+		},
+        "themeName": "Dialect",
+		"masterPage": {
+			"key": "main"
+		}
+	},
+	"version": 1.1
+}

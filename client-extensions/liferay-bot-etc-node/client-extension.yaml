@@ -1,0 +1,29 @@
+assemble:
+    - include:
+          - "**/*.mjs"
+          - package.json
+liferay-bot-etc-node-oauth-application-user-agent:
+    .serviceAddress: localhost:3001
+    .serviceScheme: http
+    name: Liferay Bot Etc Node OAuth Application User Agent
+    type: oAuthApplicationUserAgent
+liferay-bot-etc-node-oauth-application-headless-server:
+    .serviceAddress: localhost:3001
+    .serviceScheme: http
+    name: Liferay Bot Etc Node OAuth Application Headless Server
+    scopes:
+        - c_bot.everything
+        - c_botcommand.everything
+        - c_botchat.everything
+    type: oAuthApplicationHeadlessServer
+    userAccountScreenName: default-service-account
+liferay-bot-etc-node-object-action-bot-registered:
+    name: Liferay Bot Node Object Action Bot Registered
+    oAuth2ApplicationExternalReferenceCode: liferay-telegram-etc-node-oauth-application-user-agent
+    resourcePath: /bot_registered
+    type: objectAction
+liferay-bot-etc-node-object-action-bot-removed:
+    name: Liferay Bot Node Object Action Bot Removed
+    oAuth2ApplicationExternalReferenceCode: liferay-telegram-etc-node-oauth-application-user-agent
+    resourcePath: /bot_removed
+    type: objectAction

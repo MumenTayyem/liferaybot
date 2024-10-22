@@ -1,0 +1,8 @@
+{
+    "articleId": "product_4",
+    "ddmStructureKey": "product",
+    "ddmTemplateKey": "",
+    "folder": "products",
+    "name": "personal-loans",
+    "content": "<?xml version=\"1.0\"?>\n\n<root available-locales=\"en_US\" default-locale=\"en_US\" version=\"1.0\">\n\t<dynamic-element field-reference=\"Text67124109\" index-type=\"keyword\" instance-id=\"ihvtFM77\" name=\"Text67124109\" type=\"text\">\n\t\t<dynamic-content language-id=\"en_US\"><![CDATA[Personal Loans]]></dynamic-content>\n\t</dynamic-element>\n\t<dynamic-element field-reference=\"Image36393748\" index-type=\"text\" instance-id=\"iuQ8pDNl\" name=\"Image36393748\" type=\"image\">\n\t\t<dynamic-content language-id=\"en_US\"><![CDATA[{\"groupId\":\"33467\",\"alt\":\"\",\"name\":\"personal-loans.svg\",\"width\":\"104\",\"description\":\"\",\"title\":\"personal-loans\",\"type\":\"document\",\"uuid\":\"b5d6be81-ec84-f596-adcf-941524e9c9e0\",\"fileEntryId\":\"34343\",\"resourcePrimKey\":\"34398\",\"url\":\"/documents/d/pillar/personal-loans\",\"height\":\"82\"}]]></dynamic-content>\n\t</dynamic-element>\n</root>"
+}

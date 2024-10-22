@@ -1,0 +1,35 @@
+{
+	"configuration": {
+		"className": "com.liferay.object.admin.rest.dto.v1_0.ObjectRelationship",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "INSERT",
+			"externalReferenceCode": "BANK_ACCOUNT",
+			"onErrorFail": "false",
+			"updateStrategy": "UPDATE"
+		},
+		"taskItemDelegateName": "DEFAULT"
+	},
+	"items": [
+		{
+			"deletionType": "prevent",
+			"label": {
+				"en_US": "Source"
+			},
+			"name": "transactionSource",
+			"objectDefinitionExternalReferenceCode1": "BANK_ACCOUNT",
+			"objectDefinitionExternalReferenceCode2": "BANK_TRANSACTION",
+			"type": "oneToMany"
+		},
+		{
+			"deletionType": "prevent",
+			"label": {
+				"en_US": "Destination"
+			},
+			"name": "transactionDestination",
+			"objectDefinitionExternalReferenceCode1": "BANK_ACCOUNT",
+			"objectDefinitionExternalReferenceCode2": "BANK_TRANSACTION",
+			"type": "oneToMany"
+		}
+	]
+}

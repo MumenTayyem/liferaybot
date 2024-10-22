@@ -1,0 +1,8 @@
+{
+    "articleId": "offer_2",
+    "ddmStructureKey": "offer",
+    "ddmTemplateKey": "",
+    "folder": "offers",
+    "name": "earn-100000-points-intro-offer",
+    "content": "<?xml version=\"1.0\"?>\n\n<root available-locales=\"en_US\" default-locale=\"en_US\" version=\"1.0\">\n\t<dynamic-element field-reference=\"Text81265758\" index-type=\"keyword\" instance-id=\"ZDTccnH8\" name=\"Text81265758\" type=\"text\">\n\t\t<dynamic-content language-id=\"en_US\"><![CDATA[Earn 100,000 points intro offer]]></dynamic-content>\n\t</dynamic-element>\n\t<dynamic-element field-reference=\"Image53931646\" index-type=\"text\" instance-id=\"OpC1PN6d\" name=\"Image53931646\" type=\"image\">\n\t\t<dynamic-content language-id=\"en_US\"><![CDATA[{\"groupId\":\"33467\",\"alt\":\"\",\"name\":\"earn.svg\",\"width\":\"390\",\"description\":\"\",\"title\":\"earn\",\"type\":\"document\",\"uuid\":\"d16bddcb-d203-2a16-1d86-540d6bb87b88\",\"fileEntryId\":\"34620\",\"resourcePrimKey\":\"34666\",\"url\":\"/documents/d/pillar/earn\",\"height\":\"260\"}]]></dynamic-content>\n\t</dynamic-element>\n\t<dynamic-element field-reference=\"Text40518169\" index-type=\"keyword\" instance-id=\"LiZ4pZ0O\" name=\"Text40518169\" type=\"text\">\n\t\t<dynamic-content language-id=\"en_US\"><![CDATA[Open a Pillar Premier card and get 100,000 points if you spend $4,000 in the first 3 months. That’s $1,250!²]]></dynamic-content>\n\t</dynamic-element>\n</root>"
+}

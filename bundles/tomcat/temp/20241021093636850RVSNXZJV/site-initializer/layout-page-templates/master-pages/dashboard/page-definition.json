@@ -1,0 +1,356 @@
+{
+	"pageElement": {
+		"pageElements": [
+			{
+				"definition": {
+					"fragmentStyle": {
+						"backgroundColor": "colorBrandPrimaryLighten6",
+						"height": "80px",
+						"paddingBottom": "3",
+						"paddingLeft": "7",
+						"paddingRight": "7",
+						"paddingTop": "3"
+					},
+					"indexed": true,
+					"layout": {
+						"borderWidth": 0,
+						"marginBottom": 0,
+						"marginLeft": 0,
+						"marginRight": 0,
+						"marginTop": 0,
+						"opacity": 100,
+						"paddingBottom": 1,
+						"paddingLeft": 8,
+						"paddingRight": 8,
+						"paddingTop": 1,
+						"widthType": "Fluid"
+					}
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"gutters": true,
+							"indexed": true,
+							"modulesPerRow": 3,
+							"numberOfColumns": 3,
+							"reverseOrder": false,
+							"rowViewports": [
+								{
+									"id": "landscapeMobile",
+									"rowViewportDefinition": {
+										"modulesPerRow": 1
+									}
+								},
+								{
+									"id": "portraitMobile",
+									"rowViewportDefinition": {}
+								},
+								{
+									"id": "tablet",
+									"rowViewportDefinition": {}
+								}
+							],
+							"verticalAlignment": "top"
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"columnViewports": [
+										{
+											"columnViewportDefinition": {
+												"size": 12
+											},
+											"id": "landscapeMobile"
+										},
+										{
+											"columnViewportDefinition": {},
+											"id": "portraitMobile"
+										},
+										{
+											"columnViewportDefinition": {},
+											"id": "tablet"
+										}
+									],
+									"size": 1
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"fragment": {
+												"key": "BASIC_COMPONENT-image"
+											},
+											"fragmentConfig": {
+												"imageSize": "w-100"
+											},
+											"fragmentFields": [
+												{
+													"id": "image-square",
+													"value": {
+														"fragmentImage": {
+															"url": {
+																"mapping": {
+																	"fieldKey": "FileEntry_previewImage",
+																	"itemReference": {
+																		"className": "com.liferay.portal.kernel.repository.model.FileEntry",
+																		"classPK": "[#DOCUMENT_FILE_ENTRY_ID:/site-initializer/documents/group/assets/master-pages/dashboard/pillar-logo.svg#]"
+																	}
+																}
+															}
+														},
+														"fragmentLink": {
+															"value": {
+																"href": {
+																	"mapping": {
+																		"itemReference": {
+																			"className": "com.liferay.portal.kernel.model.Layout",
+																			"fields": [
+																				{
+																					"fieldName": "friendlyURL",
+																					"fieldValue": "/what-we-offer"
+																				},
+																				{
+																					"fieldName": "privatePage",
+																					"fieldValue": "false"
+																				},
+																				{
+																					"fieldName": "siteKey",
+																					"fieldValue": "[$GROUP_KEY$]"
+																				}
+																			]
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											],
+											"fragmentStyle": {
+												"height": "41.74px",
+												"marginRight": "4",
+												"width": "94.56px"
+											},
+											"indexed": true
+										},
+										"type": "Fragment"
+									}
+								],
+								"type": "Column"
+							},
+							{
+								"definition": {
+									"columnViewports": [
+										{
+											"columnViewportDefinition": {
+												"size": 12
+											},
+											"id": "landscapeMobile"
+										},
+										{
+											"columnViewportDefinition": {},
+											"id": "portraitMobile"
+										},
+										{
+											"columnViewportDefinition": {},
+											"id": "tablet"
+										}
+									],
+									"size": 8
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"fragmentStyle": {
+												"marginLeft": "5"
+											},
+											"widgetInstance": {
+												"widgetConfig": {
+													"siteNavigationMenuName": "dashboard-menu",
+													"displayStyle": "ddmTemplate_NAV-PILLS-FTL",
+													"displayDepth": "0",
+													"siteNavigationMenuType": "-1",
+													"rootMenuItemType": "absolute",
+													"expandedLevels": "auto",
+													"rootMenuItemLevel": "0",
+													"displayStyleGroupId": "[$GROUP_ID$]"
+												},
+												"widgetName": "com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet"
+											}
+										},
+										"type": "Widget"
+									}
+								],
+								"type": "Column"
+							},
+							{
+								"definition": {
+									"columnViewports": [
+										{
+											"columnViewportDefinition": {
+												"size": 12
+											},
+											"id": "landscapeMobile"
+										},
+										{
+											"columnViewportDefinition": {},
+											"id": "portraitMobile"
+										},
+										{
+											"columnViewportDefinition": {},
+											"id": "tablet"
+										}
+									],
+									"size": 3
+								},
+								"pageElements": [],
+								"type": "Column"
+							}
+						],
+						"type": "Row"
+					}
+				],
+				"type": "Section"
+			},
+			{
+				"definition": {
+					"fragmentSettings": {
+						"unallowedFragments": []
+					}
+				},
+				"type": "DropZone"
+			},
+			{
+				"definition": {
+					"fragmentStyle": {
+						"backgroundColor": "colorBrandPrimaryLighten6",
+						"height": "68px",
+						"paddingLeft": "7"
+					},
+					"indexed": true,
+					"layout": {
+						"align": "Center",
+						"borderWidth": 0,
+						"contentDisplay": "FlexRow",
+						"marginBottom": 0,
+						"marginLeft": 0,
+						"marginRight": 0,
+						"marginTop": 0,
+						"opacity": 100,
+						"paddingBottom": 0,
+						"paddingLeft": 8,
+						"paddingRight": 0,
+						"paddingTop": 0,
+						"widthType": "Fluid"
+					}
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"fragment": {
+								"key": "BASIC_COMPONENT-button"
+							},
+							"fragmentConfig": {
+								"buttonType": "link",
+								"buttonSize": "sm"
+							},
+							"fragmentFields": [
+								{
+									"id": "link",
+									"value": {
+										"fragmentLink": {},
+										"text": {
+											"value_i18n": {
+												"en_US": "Help"
+											}
+										}
+									}
+								}
+							],
+							"fragmentStyle": {
+								"fontFamily": "fontFamilyMonospace",
+								"textColor": "colorActionNeutralDefault"
+							},
+							"indexed": true
+						},
+						"type": "Fragment"
+					},
+					{
+						"definition": {
+							"fragment": {
+								"key": "BASIC_COMPONENT-button"
+							},
+							"fragmentConfig": {
+								"buttonType": "link",
+								"buttonSize": "sm"
+							},
+							"fragmentFields": [
+								{
+									"id": "link",
+									"value": {
+										"fragmentLink": {},
+										"text": {
+											"value_i18n": {
+												"en_US": "Security Center"
+											}
+										}
+									}
+								}
+							],
+							"fragmentStyle": {
+								"textColor": "colorActionNeutralDefault"
+							},
+							"indexed": true
+						},
+						"type": "Fragment"
+					},
+					{
+						"definition": {
+							"fragment": {
+								"key": "BASIC_COMPONENT-button"
+							},
+							"fragmentConfig": {
+								"buttonType": "link",
+								"buttonSize": "sm"
+							},
+							"fragmentFields": [
+								{
+									"id": "link",
+									"value": {
+										"fragmentLink": {},
+										"text": {
+											"value_i18n": {
+												"en_US": "Contact Your Agent: (274) 389-7183"
+											}
+										}
+									}
+								}
+							],
+							"fragmentStyle": {
+								"textColor": "colorActionNeutralDefault"
+							},
+							"indexed": true
+						},
+						"type": "Fragment"
+					}
+				],
+				"type": "Section"
+			}
+		],
+		"type": "Root"
+	},
+	"settings": {
+		"colorSchemeName": "01",
+		"styleBook": {
+			"key": "main",
+			"name": "main"
+		},
+		"themeName": "Dialect",
+		"themeSettings": {
+			"lfr-theme:regular:show-header-search": "false",
+			"lfr-theme:regular:show-header": "false",
+			"lfr-theme:regular:show-footer": "false",
+			"lfr-theme:regular:wrap-widget-page-content": "false"
+		}
+	},
+	"version": 1.1
+}

@@ -1,0 +1,8 @@
+{
+    "articleId": "offer_3",
+    "ddmStructureKey": "offer",
+    "ddmTemplateKey": "",
+    "folder": "offers",
+    "name": "get-2-ARP-on-home-loan",
+    "content": "<?xml version=\"1.0\"?>\n\n<root available-locales=\"en_US\" default-locale=\"en_US\" version=\"1.0\">\n\t<dynamic-element field-reference=\"Text81265758\" index-type=\"keyword\" instance-id=\"v7oWdP5L\" name=\"Text81265758\" type=\"text\">\n\t\t<dynamic-content language-id=\"en_US\"><![CDATA[Get 2.52% ARP on a home loan]]></dynamic-content>\n\t</dynamic-element>\n\t<dynamic-element field-reference=\"Image53931646\" index-type=\"text\" instance-id=\"6OhvhyLz\" name=\"Image53931646\" type=\"image\">\n\t\t<dynamic-content language-id=\"en_US\"><![CDATA[{\"groupId\":\"33467\",\"alt\":\"\",\"name\":\"get-arp-on-home-loan.svg\",\"width\":\"390\",\"description\":\"\",\"title\":\"get-arp-on-home-loan\",\"type\":\"document\",\"uuid\":\"175e469c-231f-ee51-4060-4e85d9428b3a\",\"fileEntryId\":\"34627\",\"resourcePrimKey\":\"34676\",\"url\":\"/documents/d/pillar/get-arp-on-home-loan\",\"height\":\"260\"}]]></dynamic-content>\n\t</dynamic-element>\n\t<dynamic-element field-reference=\"Text40518169\" index-type=\"keyword\" instance-id=\"LaBcJJGE\" name=\"Text40518169\" type=\"text\">\n\t\t<dynamic-content language-id=\"en_US\"><![CDATA[Refinancing? We can help you get a rate as low as 2.52% APR on your home loan.³]]></dynamic-content>\n\t</dynamic-element>\n</root>"
+}

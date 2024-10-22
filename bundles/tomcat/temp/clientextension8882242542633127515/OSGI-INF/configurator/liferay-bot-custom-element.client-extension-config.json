@@ -1,0 +1,17 @@
+{
+  "com.liferay.client.extension.type.configuration.CETConfiguration~liferay-ticket-custom-element" : {
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/liferay-bot-custom-element",
+    "buildTimestamp" : 1729440151321,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "name" : "Liferay Bot Custom Element",
+    "projectId" : "liferaybotcustomelement",
+    "projectName" : "liferay-bot-custom-element",
+    "properties" : [ ],
+    "sourceCodeURL" : "",
+    "type" : "customElement",
+    "typeSettings" : [ "friendlyURLMapping=liferay-bot-custom-element", "instanceable=false", "urls=main-XTSHYYBV.js\npolyfills-OEPZ4W45.js\nscripts-QYHR5MO2.js", "useESM=true", "htmlElementName=liferay-bot-custom-element", "cssURLs=styles-TPVHZURH.css", "portletCategoryName=category.client-extensions" ],
+    "webContextPath" : "/liferay-bot-custom-element"
+  }
+}

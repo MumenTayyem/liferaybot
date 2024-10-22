@@ -1,0 +1,181 @@
+{
+  "configuration": {
+    "className": "com.liferay.object.admin.rest.dto.v1_0.ObjectDefinition",
+    "parameters": {
+      "containsHeaders": "true",
+      "createStrategy": "UPSERT",
+      "onErrorFail": "false",
+      "updateStrategy": "UPDATE"
+    },
+    "taskItemDelegateName": "DEFAULT"
+  },
+  "items": [
+    {
+      "enableComments": false,
+      "objectRelationships": [
+        {
+          "objectDefinitionSystem2": false,
+          "objectField": {
+            "relationshipType": "oneToMany",
+            "indexed": true,
+            "localized": false,
+            "objectRelationshipExternalReferenceCode": "db2153aa-e05b-4e1e-a588-b086318f9cf6",
+            "objectFieldSettings": [
+              { "name": "objectDefinition1ShortName", "value": "Bot" },
+              {
+                "name": "objectRelationshipERCObjectFieldName",
+                "value": "r_botCommands_c_botERC"
+              }
+            ],
+            "readOnly": "false",
+            "DBType": "Long",
+            "label": { "en_US": "Bot" },
+            "type": "Long",
+            "required": false,
+            "externalReferenceCode": "e634a3de-1ec0-6621-bd29-bf0ab7287d00",
+            "indexedAsKeyword": false,
+            "system": false,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "r_botCommands_c_botId",
+            "objectDefinitionExternalReferenceCode1": "BOT",
+            "state": false,
+            "businessType": "Relationship",
+            "readOnlyConditionExpression": ""
+          },
+          "parameterObjectFieldName": "",
+          "parameterObjectFieldId": 0,
+          "label": { "en_US": "Bot Commands" },
+          "reverse": false,
+          "type": "oneToMany",
+          "externalReferenceCode": "db2153aa-e05b-4e1e-a588-b086318f9cf6",
+          "objectDefinitionModifiable2": true,
+          "system": false,
+          "name": "botCommands",
+          "deletionType": "prevent",
+          "objectDefinitionExternalReferenceCode1": "BOT",
+          "objectDefinitionExternalReferenceCode2": "BOT_COMMAND",
+          "objectDefinitionName2": "TelegramCommand"
+        },
+        {
+          "objectDefinitionSystem2": false,
+          "objectField": {
+            "relationshipType": "oneToMany",
+            "indexed": true,
+            "localized": false,
+            "objectRelationshipExternalReferenceCode": "0bb25e7c-c8cb-8eda-d4b1-5a57d540d022",
+            "objectFieldSettings": [
+              { "name": "objectDefinition1ShortName", "value": "Bot" },
+              {
+                "name": "objectRelationshipERCObjectFieldName",
+                "value": "r_botChats_c_botERC"
+              }
+            ],
+            "readOnly": "false",
+            "DBType": "Long",
+            "label": { "en_US": "Bot" },
+            "type": "Long",
+            "required": false,
+            "externalReferenceCode": "25e50f11-d306-c675-ebb9-9caaed0e9ed4",
+            "indexedAsKeyword": false,
+            "system": false,
+            "indexedLanguageId": "",
+            "unique": false,
+            "name": "r_botChats_c_botId",
+            "objectDefinitionExternalReferenceCode1": "BOT",
+            "state": false,
+            "businessType": "Relationship",
+            "readOnlyConditionExpression": ""
+          },
+          "parameterObjectFieldName": "",
+          "parameterObjectFieldId": 0,
+          "label": { "en_US": "Bot Chats" },
+          "reverse": false,
+          "type": "oneToMany",
+          "externalReferenceCode": "0bb25e7c-c8cb-8eda-d4b1-5a57d540d022",
+          "objectDefinitionModifiable2": true,
+          "system": false,
+          "name": "botChats",
+          "deletionType": "prevent",
+          "objectDefinitionExternalReferenceCode1": "BOT",
+          "objectDefinitionExternalReferenceCode2": "BOT_CHAT",
+          "objectDefinitionName2": "Chat"
+        }
+      ],
+      "objectFolderExternalReferenceCode": "default",
+      "enableCategorization": true,
+      "accountEntryRestrictedObjectFieldName": "",
+      "objectActions": [],
+      "enableLocalization": false,
+      "accountEntryRestricted": false,
+      "externalReferenceCode": "BOT",
+      "objectFields": [
+        {
+          "indexed": true,
+          "localized": false,
+          "objectFieldSettings": [{ "name": "uniqueValues", "value": true }],
+          "readOnly": "false",
+          "DBType": "String",
+          "label": { "en_US": "Bot Name" },
+          "type": "String",
+          "required": true,
+          "externalReferenceCode": "f4b93311-fa19-555b-16cf-9a4f69387c12",
+          "indexedAsKeyword": false,
+          "system": false,
+          "indexedLanguageId": "en_US",
+          "unique": true,
+          "name": "botName",
+          "state": false,
+          "businessType": "Text",
+          "readOnlyConditionExpression": ""
+        },
+        {
+          "indexed": true,
+          "localized": false,
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "DBType": "String",
+          "label": { "en_US": "Bot Token" },
+          "type": "String",
+          "required": true,
+          "externalReferenceCode": "4e595b01-ff43-1deb-31e5-dba17d8a0a4f",
+          "indexedAsKeyword": false,
+          "system": false,
+          "indexedLanguageId": "en_US",
+          "unique": false,
+          "name": "botToken",
+          "state": false,
+          "businessType": "Text",
+          "readOnlyConditionExpression": ""
+        }
+      ],
+      "restContextPath": "/o/c/bots",
+      "scope": "company",
+      "portlet": true,
+      "modifiable": true,
+      "parameterRequired": false,
+      "enableObjectEntryHistory": false,
+      "titleObjectFieldName": "botName",
+      "objectValidationRules": [],
+      "active": true,
+      "defaultLanguageId": "en_US",
+      "label": { "en_US": "Bot" },
+      "panelCategoryKey": "applications_menu.applications.custom.apps",
+      "pluralLabel": { "en_US": "Bots" },
+      "objectLayouts": [],
+      "system": false,
+      "objectViews": [],
+      "enableObjectEntryDraft": false,
+      "name": "Bot",
+      "actions": {
+        "permissions": {},
+        "get": {},
+        "update": {},
+        "delete": {},
+        "exportObjectDefinition": {}
+      },
+      "status": { "label_i18n": "Approved", "code": 0, "label": "approved" }
+    }
+    
+  ]
+}

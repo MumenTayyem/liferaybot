@@ -1,0 +1,21 @@
+{
+  "com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-batch-oauth-application-headless-server" : {
+    ".serviceAddress" : "localhost:8080",
+    ".serviceScheme" : "http",
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/liferay-bot-batch",
+    "buildTimestamp" : 1729363586372,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "homePageURL" : "$[conf:.serviceScheme]://$[conf:.serviceAddress]",
+    "name" : "Liferay Bot Batch OAuth Application Headless Server",
+    "projectId" : "liferaybotbatch",
+    "projectName" : "liferay-bot-batch",
+    "properties" : [ ],
+    "scopes" : [ "C_Bot.everything", "C_BotChat.everything", "C_BotCommand.everything", "Liferay.Headless.Admin.List.Type.everything", "Liferay.Headless.Batch.Engine.everything", "Liferay.Object.Admin.REST.everything" ],
+    "sourceCodeURL" : "",
+    "type" : "oAuthApplicationHeadlessServer",
+    "typeSettings" : [ ".serviceScheme=http", "scopes=C_Bot.everything\nC_BotChat.everything\nC_BotCommand.everything\nLiferay.Headless.Admin.List.Type.everything\nLiferay.Headless.Batch.Engine.everything\nLiferay.Object.Admin.REST.everything", ".serviceAddress=localhost:8080" ],
+    "webContextPath" : "/liferay-bot-batch"
+  }
+}

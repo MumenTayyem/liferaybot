@@ -1,0 +1,34 @@
+2024-08-31 20:10:38.446 INFO  [main][PortalContextLoaderListener:114] JVM arguments: -Djava.util.logging.config.file=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dfile.encoding=UTF-8 -Djava.locale.providers=JRE,COMPAT,CLDR -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat -Dcatalina.home=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat -Djava.io.tmpdir=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp -Xmx10240m
+2024-08-31 20:10:41.390 WARN  [SystemExecutorServiceUtil-1][DialectDetector:73] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2024-08-31 20:10:41.395 INFO  [SystemExecutorServiceUtil-1][DialectDetector:144] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.7
+2024-08-31 20:10:41.631 INFO  [main][ModuleFrameworkImpl:1355] Starting initial bundles
+2024-08-31 20:10:42.021 INFO  [main][InterpolationConfigurationPlugin:109] Configured directory for secrets: /Users/mumentayyem/liferay/liferay-telegram/bundles/osgi/configs
+2024-08-31 20:10:43.623 INFO  [main][ModuleFrameworkImpl:1645] Started initial bundles
+2024-08-31 20:10:43.625 INFO  [main][ModuleFrameworkImpl:1690] Starting dynamic bundles
+2024-08-31 20:10:46.307 WARN  [Start Level: Equinox Container: 80c6bac6-3b8e-495c-afd9-ee83633227a9][SidecarManager:72] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2024-08-31 20:10:53.859 INFO  [main][ModuleFrameworkImpl:1713] Started dynamic bundles
+2024-08-31 20:10:53.862 INFO  [main][ModuleFrameworkImpl:1720] Starting web bundles
+2024-08-31 20:10:56.221 INFO  [main][ModuleFrameworkImpl:1774] Started web bundles
+2024-08-31 20:10:56.225 INFO  [main][ModuleFrameworkImpl:283] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2024-08-31 20:10:59.139 INFO  [main][StartupHelperUtil:97] There are no patches installed
+2024-08-31 20:10:59.500 INFO  [main][LoggingTimer:74] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2024-08-31 20:10:59.620 INFO  [main][LoggingTimer:35] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 121 ms
+2024-08-31 20:10:59.667 INFO  [main][LicenseManager:-1] DXP Development license validation passed
+2024-08-31 20:11:00.699 INFO  [main][AutoDeployDir:152] Auto deploy scanner started for /Users/mumentayyem/liferay/liferay-telegram/bundles/deploy
+2024-08-31 20:11:05.334 INFO  [SystemExecutorServiceUtil-10][Sidecar:103] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2024-08-31 20:11:16.948 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240831201116804JYARYGIM/admin-theme.war
+2024-08-31 20:11:19.254 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240831201116804JYARYGIM/admin-theme.war copied successfully
+2024-08-31 20:11:22.272 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240831201122260XCRBHTNH/classic-theme.war
+2024-08-31 20:11:23.520 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240831201122260XCRBHTNH/classic-theme.war copied successfully
+2024-08-31 20:11:25.244 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240831201125229PPJPTTTX/dialect-theme.war
+2024-08-31 20:11:26.516 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240831201125229PPJPTTTX/dialect-theme.war copied successfully
+2024-08-31 20:11:27.977 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240831201127957YDXEXPYB/minium-theme.war
+2024-08-31 20:11:29.209 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240831201127957YDXEXPYB/minium-theme.war copied successfully
+2024-08-31 20:11:30.680 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240831201130664XOTGBPYL/speedwell-theme.war
+2024-08-31 20:11:31.854 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240831201130664XOTGBPYL/speedwell-theme.war copied successfully
+2024-08-31 22:40:48.047 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m34s485ms).
+2024-08-31 22:47:44.178 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m26s113ms).
+2024-08-31 23:03:57.852 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m13s674ms).
+2024-08-31 23:16:56.317 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m28s450ms).
+2024-08-31 23:34:16.267 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m19s957ms).
+2024-08-31 23:51:37.491 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m21s224ms).

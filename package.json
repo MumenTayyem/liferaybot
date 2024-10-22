@@ -1,0 +1,9 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "client-extensions/liferay-bot-custom-element",
+            "client-extensions/liferay-bot-etc-node"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US" version="1.0">
+	<dynamic-element field-reference="offerTitle" index-type="keyword" name="offerTitle" type="text">
+		<dynamic-content language-id="en_US"><![CDATA[Get 2.52% ARP on a home loan]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element field-reference="image" index-type="text" name="image" type="image">
+		<dynamic-content language-id="en_US">
+			<![CDATA[[$DOCUMENT_JSON:/site-initializer/documents/group/assets/web-content/offers/get-arp-on-home-loan.svg$]]]>
+		</dynamic-content>
+	</dynamic-element>
+	<dynamic-element field-reference="offerDescription" index-type="keyword" name="offerDescription" type="text">
+		<dynamic-content language-id="en_US"><![CDATA[Refinancing? We can help you get a rate as low as 2.52% APR on your home loan.³]]></dynamic-content>
+	</dynamic-element>
+</root>

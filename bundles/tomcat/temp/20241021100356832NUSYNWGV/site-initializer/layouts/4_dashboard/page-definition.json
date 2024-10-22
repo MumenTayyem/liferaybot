@@ -1,0 +1,526 @@
+{
+	"pageElement": {
+		"pageElements": [
+			{
+				"definition": {
+					"fragmentStyle": {
+						"marginBottom": "4",
+						"minHeight": "400px"
+					},
+					"indexed": true,
+					"layout": {
+						"marginBottom": 2
+					}
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"widgetInstance": {
+								"widgetConfig": {
+									"properties": "remoteApp=dashboard",
+									"displayStyleGroupId": "[$GROUP_ID$]"
+								},
+								"widgetName": "[$CLIENT_EXTENSION_ENTRY_ERC:LXC:liferay-pillar-custom-element$]"
+							}
+						},
+						"type": "Widget"
+					}
+				],
+				"type": "Section"
+			},
+			{
+				"definition": {
+					"indexed": true,
+					"layout": {
+						"widthType": "Fixed"
+					}
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"gutters": true,
+							"indexed": true,
+							"modulesPerRow": 3,
+							"numberOfColumns": 3,
+							"reverseOrder": false,
+							"rowViewports": [
+								{
+									"id": "landscapeMobile",
+									"rowViewportDefinition": {
+										"modulesPerRow": 1
+									}
+								},
+								{
+									"id": "portraitMobile",
+									"rowViewportDefinition": {}
+								},
+								{
+									"id": "tablet",
+									"rowViewportDefinition": {}
+								}
+							],
+							"verticalAlignment": "top"
+						},
+						"pageElements": [
+							{
+								"definition": {
+									"columnViewports": [
+										{
+											"columnViewportDefinition": {
+												"size": 12
+											},
+											"id": "landscapeMobile"
+										},
+										{
+											"columnViewportDefinition": {},
+											"id": "portraitMobile"
+										},
+										{
+											"columnViewportDefinition": {},
+											"id": "tablet"
+										}
+									],
+									"size": 4
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"customCSS": ".[$FRAGMENT_CLASS$] {\n   border-bottom: 3px solid #24CFFF;\n}",
+											"fragmentStyle": {
+												"marginBottom": "3",
+												"marginLeft": "3",
+												"marginRight": "3",
+												"paddingBottom": "3",
+												"paddingTop": "3"
+											},
+											"indexed": true,
+											"layout": {
+												"marginBottom": 1,
+												"marginLeft": 1,
+												"marginRight": 1,
+												"paddingBottom": 1,
+												"paddingTop": 1
+											}
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"widgetInstance": {
+														"widgetConfig": {
+															"properties": "remoteapp=account-overview\ntype=cash",
+															"displayStyleGroupId": "[$GROUP_ID$]"
+														},
+														"widgetName": "[$CLIENT_EXTENSION_ENTRY_ERC:LXC:liferay-pillar-custom-element$]"
+													}
+												},
+												"type": "Widget"
+											}
+										],
+										"type": "Section"
+									},
+									{
+										"definition": {
+											"customCSS": ".[$FRAGMENT_CLASS$] {\n   border-bottom: 3px solid #24CFFF;\n}",
+											"fragmentStyle": {
+												"marginBottom": "3",
+												"marginLeft": "3",
+												"marginRight": "3",
+												"paddingBottom": "3",
+												"paddingTop": "3"
+											},
+											"indexed": true,
+											"layout": {
+												"marginBottom": 1,
+												"marginLeft": 1,
+												"marginRight": 1,
+												"paddingBottom": 1,
+												"paddingTop": 1
+											}
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"widgetInstance": {
+														"widgetConfig": {
+															"properties": "remoteapp=account-overview\ntype=investment",
+															"displayStyleGroupId": "[$GROUP_ID$]"
+														},
+														"widgetName": "[$CLIENT_EXTENSION_ENTRY_ERC:LXC:liferay-pillar-custom-element$]"
+													}
+												},
+												"type": "Widget"
+											}
+										],
+										"type": "Section"
+									},
+									{
+										"definition": {
+											"customCSS": ".[$FRAGMENT_CLASS$] {\n   border-bottom: 3px solid #24CFFF;\n}",
+											"fragmentStyle": {
+												"marginBottom": "3",
+												"marginLeft": "3",
+												"marginRight": "3",
+												"paddingBottom": "3",
+												"paddingTop": "3"
+											},
+											"indexed": true,
+											"layout": {
+												"marginBottom": 1,
+												"marginLeft": 1,
+												"marginRight": 1,
+												"paddingBottom": 1,
+												"paddingTop": 1
+											}
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"widgetInstance": {
+														"widgetConfig": {
+															"properties": "remoteapp=account-overview\ntype=liability",
+															"displayStyleGroupId": "[$GROUP_ID$]"
+														},
+														"widgetName": "[$CLIENT_EXTENSION_ENTRY_ERC:LXC:liferay-pillar-custom-element$]"
+													}
+												},
+												"type": "Widget"
+											}
+										],
+										"type": "Section"
+									},
+									{
+										"definition": {
+											"customCSS": ".[$FRAGMENT_CLASS$] {\n   border-bottom: 3px solid #24CFFF;\n}",
+											"fragmentStyle": {
+												"marginBottom": "3",
+												"marginLeft": "3",
+												"marginRight": "3",
+												"paddingBottom": "3",
+												"paddingTop": "3"
+											},
+											"indexed": true,
+											"layout": {
+												"marginBottom": 1,
+												"marginLeft": 1,
+												"marginRight": 1,
+												"paddingBottom": 1,
+												"paddingTop": 1
+											}
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"widgetInstance": {
+														"widgetConfig": {
+															"properties": "remoteapp=recent-activities",
+															"displayStyleGroupId": "[$GROUP_ID$]"
+														},
+														"widgetName": "[$CLIENT_EXTENSION_ENTRY_ERC:LXC:liferay-pillar-custom-element$]"
+													}
+												},
+												"type": "Widget"
+											}
+										],
+										"type": "Section"
+									}
+								],
+								"type": "Column"
+							},
+							{
+								"definition": {
+									"columnViewports": [
+										{
+											"columnViewportDefinition": {
+												"size": 12
+											},
+											"id": "landscapeMobile"
+										},
+										{
+											"columnViewportDefinition": {},
+											"id": "portraitMobile"
+										},
+										{
+											"columnViewportDefinition": {},
+											"id": "tablet"
+										}
+									],
+									"size": 5
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"customCSS": ".[$FRAGMENT_CLASS$] {\n   border-bottom: 3px solid #24CFFF;\n}",
+											"fragmentStyle": {
+												"marginBottom": "3",
+												"marginLeft": "3",
+												"marginRight": "3",
+												"paddingBottom": "3",
+												"paddingTop": "3"
+											},
+											"indexed": true,
+											"layout": {
+												"marginBottom": 1,
+												"marginLeft": 1,
+												"marginRight": 1,
+												"paddingBottom": 1,
+												"paddingTop": 1
+											}
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"widgetInstance": {
+														"widgetConfig": {
+															"properties": "remoteApp=cashflow",
+															"displayStyleGroupId": "[$GROUP_ID$]"
+														},
+														"widgetName": "[$CLIENT_EXTENSION_ENTRY_ERC:LXC:liferay-pillar-custom-element$]"
+													}
+												},
+												"type": "Widget"
+											}
+										],
+										"type": "Section"
+									},
+									{
+										"definition": {
+											"customCSS": ".[$FRAGMENT_CLASS$] {\n   border-bottom: 3px solid #24CFFF;\n}",
+											"fragmentStyle": {
+												"marginBottom": "3",
+												"marginLeft": "3",
+												"marginRight": "3",
+												"paddingBottom": "3",
+												"paddingTop": "3"
+											},
+											"indexed": true,
+											"layout": {
+												"marginBottom": 1,
+												"marginLeft": 1,
+												"marginRight": 1,
+												"paddingBottom": 1,
+												"paddingTop": 1
+											}
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"widgetInstance": {
+														"widgetConfig": {
+															"properties": "remoteApp=budgeting",
+															"displayStyleGroupId": "[$GROUP_ID$]"
+														},
+														"widgetName": "[$CLIENT_EXTENSION_ENTRY_ERC:LXC:liferay-pillar-custom-element$]"
+													}
+												},
+												"type": "Widget"
+											}
+										],
+										"type": "Section"
+									}
+								],
+								"type": "Column"
+							},
+							{
+								"definition": {
+									"columnViewports": [
+										{
+											"columnViewportDefinition": {
+												"size": 12
+											},
+											"id": "landscapeMobile"
+										},
+										{
+											"columnViewportDefinition": {},
+											"id": "portraitMobile"
+										},
+										{
+											"columnViewportDefinition": {},
+											"id": "tablet"
+										}
+									],
+									"size": 3
+								},
+								"pageElements": [
+									{
+										"definition": {
+											"indexed": true,
+											"layout": {}
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"fragment": {
+														"key": "DIALECT-dialect-text"
+													},
+													"fragmentConfig": {
+														"textType": "h5",
+														"truncateText": false
+													},
+													"fragmentFields": [
+														{
+															"id": "element-text",
+															"value": {
+																"fragmentLink": {},
+																"text": {
+																	"value_i18n": {
+																		"en_US": "News &amp; Recommendations"
+																	}
+																}
+															}
+														}
+													],
+													"fragmentStyle": {
+														"marginBottom": "4",
+														"textColor": "colorNeutral10"
+													},
+													"indexed": true
+												},
+												"type": "Fragment"
+											}
+										],
+										"type": "Section"
+									},
+									{
+										"definition": {
+											"fragmentStyle": {
+												"backgroundColor": "colorBrandPrimaryLighten6",
+												"paddingBottom": "5",
+												"paddingLeft": "3",
+												"paddingRight": "3",
+												"paddingTop": "3"
+											},
+											"indexed": true,
+											"layout": {
+												"paddingBottom": 4,
+												"paddingLeft": 1,
+												"paddingRight": 1,
+												"paddingTop": 1
+											}
+										},
+										"pageElements": [
+											{
+												"definition": {
+													"fragment": {
+														"key": "BASIC_COMPONENT-image"
+													},
+													"fragmentConfig": {
+														"imageSize": "w-100"
+													},
+													"fragmentFields": [
+														{
+															"id": "image-square",
+															"value": {
+																"fragmentImage": {
+																	"description": {
+																		"value_i18n": {
+																			"en_US": ""
+																		}
+																	},
+																	"url": {
+																		"mapping": {
+																			"fieldKey": "FileEntry_previewImage",
+																			"itemReference": {
+																				"className": "com.liferay.portal.kernel.repository.model.FileEntry",
+																				"classPK": "[#DOCUMENT_FILE_ENTRY_ID:/site-initializer/documents/group/assets/pages/dashboard/news_and_recommendations.jpg#]"
+																			}
+																		}
+																	}
+																},
+																"fragmentLink": {}
+															}
+														}
+													],
+													"fragmentStyle": {
+														"marginBottom": "2"
+													},
+													"indexed": true
+												},
+												"type": "Fragment"
+											},
+											{
+												"definition": {
+													"fragment": {
+														"key": "DIALECT-dialect-text"
+													},
+													"fragmentConfig": {
+														"textType": "h6",
+														"truncateText": false
+													},
+													"fragmentFields": [
+														{
+															"id": "element-text",
+															"value": {
+																"fragmentLink": {},
+																"text": {
+																	"value_i18n": {
+																		"en_US": "Where smart crypto investments are going"
+																	}
+																}
+															}
+														}
+													],
+													"fragmentStyle": {
+														"marginBottom": "3",
+														"textColor": "colorNeutral9"
+													},
+													"indexed": true
+												},
+												"type": "Fragment"
+											},
+											{
+												"definition": {
+													"fragment": {
+														"key": "DIALECT-dialect-text"
+													},
+													"fragmentConfig": {
+														"textType": "text-paragraph-sm",
+														"truncateText": false
+													},
+													"fragmentFields": [
+														{
+															"id": "element-text",
+															"value": {
+																"fragmentLink": {},
+																"text": {
+																	"value_i18n": {
+																		"en_US": "Cryptocurrency investment used to be dismissed by many as niche. All the crypto in the world was only worth $10B in 2016. Today, it's a completely new paradigm. Your teenager buys crypto from their phone, S&amp;P 500 companies hold digital coins in their balance sheets, and Bitcoin trades at almost $40K..."
+																	}
+																}
+															}
+														}
+													],
+													"fragmentStyle": {
+														"fontWeight": "fontWeightLight",
+														"textColor": "colorNeutral9"
+													},
+													"indexed": true
+												},
+												"type": "Fragment"
+											}
+										],
+										"type": "Section"
+									}
+								],
+								"type": "Column"
+							}
+						],
+						"type": "Row"
+					}
+				],
+				"type": "Section"
+			}
+		],
+		"type": "Root"
+	},
+	"settings": {
+		"styleBook": {
+			"key": "main",
+			"name": "main"
+		},
+		"themeName": "Dialect",
+		"masterPage": {
+			"key": "dashboard"
+		}
+	},
+	"version": 1.1
+}

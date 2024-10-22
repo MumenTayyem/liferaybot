@@ -1,0 +1,16 @@
+2024-09-02 00:23:42.038 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55m15s825ms).
+2024-09-02 01:23:40.939 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59m58s897ms).
+2024-09-02 04:36:47.040 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h13m6s103ms).
+2024-09-02 06:07:20.529 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h30m33s491ms).
+2024-09-02 07:36:32.788 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h29m12s259ms).
+2024-09-02 08:34:16.998 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57m44s211ms).
+2024-09-02 10:36:26.838 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:68] STARTED telegrambots_7.4.13 [1460]
+2024-09-02 10:36:27.246 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-telegram-etc-node-oauth-application-headless-server)][InterpolationConfigurationPlugin:135] Replaced value of configuration property 'homePageURL' for PID com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-telegram-etc-node-oauth-application-headless-server
+2024-09-02 10:36:27.711 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationUserAgentConfiguration~liferay-telegram-etc-node-oauth-application-user-agent)][InterpolationConfigurationPlugin:135] Replaced value of configuration property 'homePageURL' for PID com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationUserAgentConfiguration~liferay-telegram-etc-node-oauth-application-user-agent
+2024-09-02 15:39:07.248 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m16s451ms).
+2024-09-02 16:02:56.862 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m49s615ms).
+2024-09-02 17:19:39.756 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m42s416ms).
+2024-09-02 18:56:38.521 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h36m58s768ms).
+2024-09-02 19:51:19.863 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m41s341ms).
+2024-09-02 20:56:34.285 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5m14s419ms).
+2024-09-02 22:26:19.899 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h29m45s616ms).

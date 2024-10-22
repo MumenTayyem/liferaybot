@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US" version="1.0">
+	<dynamic-element field-reference="resourceTitle" index-type="keyword" name="resourceTitle" type="text">
+		<dynamic-content language-id="en_US"><![CDATA[Wealth Management 2]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element field-reference="resourceDescription" index-type="keyword" name="resourceDescription" type="text">
+		<dynamic-content language-id="en_US"><![CDATA[Pros and cons of converting a traditional IRA to a Roth IRA]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element field-reference="image" index-type="text" name="image" type="image">
+		<dynamic-content language-id="en_US">
+			<![CDATA[[$DOCUMENT_JSON:/site-initializer/documents/group/assets/web-content/resources/resource_3.svg$]]]>
+		</dynamic-content>
+	</dynamic-element>
+</root>

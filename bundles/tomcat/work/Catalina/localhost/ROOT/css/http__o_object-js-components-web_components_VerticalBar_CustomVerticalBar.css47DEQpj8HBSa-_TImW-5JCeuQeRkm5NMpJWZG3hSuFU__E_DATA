@@ -1,0 +1,3 @@
+.lfr__objects-custom-vertical-bar-content .c-slideout-show.sidebar{overflow:auto}.lfr__objects-custom-vertical-bar--left-closed{transform:translateX(-100%);transition:transform .5s}.lfr__objects-custom-vertical-bar--left-open{top:121px;transform:translateX(0);transition:transform .5s}.lfr__objects-custom-vertical-bar--right-closed{transform:translateX(100%);transition:transform .5s}.lfr__objects-custom-vertical-bar--right-open{top:121px;transform:translateX(0);transition:transform .5s}
+
+/*# sourceMappingURL=CustomVerticalBar.css.map */

@@ -1,0 +1,17 @@
+{
+  "com.liferay.client.extension.type.configuration.CETConfiguration~liferay-pillar-custom-element" : {
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/liferay-pillar-custom-elements",
+    "buildTimestamp" : 1729504969411,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "name" : "Liferay Pillar Custom Element",
+    "projectId" : "liferaypillarcustomelements",
+    "projectName" : "liferay-pillar-custom-elements",
+    "properties" : [ ],
+    "sourceCodeURL" : "",
+    "type" : "customElement",
+    "typeSettings" : [ "friendlyURLMapping=liferay-pillar-custom-element", "instanceable=true", "urls=main.c4e61bb07356a925.js\npolyfills.aba353d5960d677c.js\nruntime.126a18780496a00d.js", "useESM=true", "htmlElementName=liferay-pillar-custom-element", "cssURLs=styles.a8c6846415be33c4.css", "portletCategoryName=category.client-extensions" ],
+    "webContextPath" : "/liferay-pillar-custom-elements"
+  }
+}

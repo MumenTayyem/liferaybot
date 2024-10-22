@@ -1,0 +1,110 @@
+{
+  "configuration": {
+    "className": "com.liferay.object.admin.rest.dto.v1_0.ObjectDefinition",
+    "parameters": {
+      "containsHeaders": "true",
+      "createStrategy": "UPSERT",
+      "onErrorFail": "false",
+      "updateStrategy": "UPDATE"
+    },
+    "taskItemDelegateName": "DEFAULT"
+  },
+  "items": [
+    {
+      "enableComments": false,
+      "objectRelationships": [],
+      "objectFolderExternalReferenceCode": "default",
+      "enableCategorization": false,
+      "accountEntryRestrictedObjectFieldName": "",
+      "objectActions": [],
+      "enableLocalization": false,
+      "accountEntryRestricted": false,
+      "externalReferenceCode": "97e868ff-d6f8-abd8-bbc4-7dea137ed0cb",
+      "objectFields": [
+        {
+          "indexed": true,
+          "localized": false,
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "DBType": "String",
+          "label": { "en_US": "First Name" },
+          "type": "String",
+          "required": true,
+          "externalReferenceCode": "6954add3-91a7-73ba-41d3-29a7dc8cd515",
+          "indexedAsKeyword": false,
+          "system": false,
+          "indexedLanguageId": "en_US",
+          "unique": false,
+          "name": "firstName",
+          "state": false,
+          "businessType": "Text",
+          "readOnlyConditionExpression": ""
+        },
+        {
+          "indexed": true,
+          "localized": false,
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "DBType": "String",
+          "label": { "en_US": "Last Name" },
+          "type": "String",
+          "required": true,
+          "externalReferenceCode": "d036ab07-34df-19bb-7727-a52e7396157e",
+          "indexedAsKeyword": false,
+          "system": false,
+          "indexedLanguageId": "en_US",
+          "unique": false,
+          "name": "lastName",
+          "state": false,
+          "businessType": "Text",
+          "readOnlyConditionExpression": ""
+        },
+        {
+          "indexed": false,
+          "localized": false,
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "DBType": "Long",
+          "label": { "en_US": "Chat ID" },
+          "type": "Long",
+          "required": true,
+          "externalReferenceCode": "18b89fdb-6121-bc67-8bcb-a5069726ef20",
+          "indexedAsKeyword": false,
+          "system": false,
+          "indexedLanguageId": "",
+          "unique": false,
+          "name": "chatID",
+          "state": false,
+          "businessType": "LongInteger",
+          "readOnlyConditionExpression": ""
+        }
+      ],
+      "restContextPath": "/o/c/botchats",
+      "scope": "company",
+      "portlet": true,
+      "modifiable": true,
+      "parameterRequired": false,
+      "enableObjectEntryHistory": false,
+      "titleObjectFieldName": "lastName",
+      "objectValidationRules": [],
+      "active": true,
+      "defaultLanguageId": "en_US",
+      "label": { "en_US": "Bot Chat" },
+      "panelCategoryKey": "applications_menu.applications.custom.apps",
+      "pluralLabel": { "en_US": "Bot Chats" },
+      "objectLayouts": [],
+      "system": false,
+      "objectViews": [],
+      "enableObjectEntryDraft": false,
+      "name": "BotChat",
+      "actions": {
+        "permissions": {},
+        "get": {},
+        "update": {},
+        "delete": {},
+        "exportObjectDefinition": {}
+      },
+      "status": { "label_i18n": "Approved", "code": 0, "label": "approved" }
+    }    
+  ]
+}

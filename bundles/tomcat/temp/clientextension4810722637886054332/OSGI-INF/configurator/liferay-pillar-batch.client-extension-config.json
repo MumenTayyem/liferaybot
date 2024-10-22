@@ -1,0 +1,21 @@
+{
+  "com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-pillar-batch-oauth-application-headless-server" : {
+    ".serviceAddress" : "localhost:8080",
+    ".serviceScheme" : "http",
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/liferay-pillar-batch",
+    "buildTimestamp" : 1729504768017,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "homePageURL" : "$[conf:.serviceScheme]://$[conf:.serviceAddress]",
+    "name" : "Liferay Pillar Batch OAuth Application Headless Server",
+    "projectId" : "liferaypillarbatch",
+    "projectName" : "liferay-pillar-batch",
+    "properties" : [ ],
+    "scopes" : [ "C_BankAccount.everything", "C_BankTransaction.everything", "C_BankPayee.everything", "Liferay.Headless.Batch.Engine.everything", "Liferay.Object.Admin.REST.everything", "Liferay.Headless.Admin.User.everything", "Liferay.Headless.Site.everything" ],
+    "sourceCodeURL" : "",
+    "type" : "oAuthApplicationHeadlessServer",
+    "typeSettings" : [ ".serviceScheme=http", "scopes=C_BankAccount.everything\nC_BankTransaction.everything\nC_BankPayee.everything\nLiferay.Headless.Batch.Engine.everything\nLiferay.Object.Admin.REST.everything\nLiferay.Headless.Admin.User.everything\nLiferay.Headless.Site.everything", ".serviceAddress=localhost:8080" ],
+    "webContextPath" : "/liferay-pillar-batch"
+  }
+}

@@ -1,0 +1,425 @@
+{
+	"configuration": {
+		"className": "com.liferay.headless.admin.list.type.dto.v1_0.ListTypeDefinition",
+		"parameters": {
+			"containsHeaders": "true",
+			"createStrategy": "UPSERT",
+			"onErrorFail": "false",
+			"updateStrategy": "UPDATE"
+		},
+		"taskItemDelegateName": "DEFAULT"
+	},
+	"items": [
+		{
+			"externalReferenceCode": "BANK_ACCOUNT_TYPE",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "CASH",
+					"key": "cash",
+					"name": "Cash",
+					"name_i18n": {
+						"en-US": "Cash"
+					}
+				},
+				{
+					"externalReferenceCode": "INVESTMENT",
+					"key": "investment",
+					"name": "Investment",
+					"name_i18n": {
+						"en-US": "Investment"
+					}
+				},
+				{
+					"externalReferenceCode": "LIABILITY",
+					"key": "liability",
+					"name": "Liability",
+					"name_i18n": {
+						"en-US": "Liability"
+					}
+				}
+			],
+			"name": "Bank Account Type",
+			"name_i18n": {
+				"en-US": "Bank Account Type"
+			}
+		},
+		{
+			"externalReferenceCode": "CURRENCY",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "EUR",
+					"key": "eur",
+					"name": "EUR",
+					"name_i18n": {
+						"en-US": "EUR"
+					}
+				},
+				{
+					"externalReferenceCode": "AED",
+					"key": "aed",
+					"name": "AED",
+					"name_i18n": {
+						"en-US": "AED"
+					}
+				},
+				{
+					"externalReferenceCode": "USD",
+					"key": "usd",
+					"name": "USD",
+					"name_i18n": {
+						"en-US": "USD"
+					}
+				}
+			],
+			"name": "Currency",
+			"name_i18n": {
+				"en-US": "Currency"
+			}
+		},
+		{
+			"externalReferenceCode": "TRANSACTION_TYPE",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "BY_IBAN",
+					"key": "byIBAN",
+					"name": "By IBAN",
+					"name_i18n": {
+						"en-US": "By IBAN"
+					}
+				},
+				{
+					"externalReferenceCode": "BETWEEN_ACCOUNTS",
+					"key": "betweenAccounts",
+					"name": "Between Accounts",
+					"name_i18n": {
+						"en-US": "Between Accounts"
+					}
+				},
+				{
+					"externalReferenceCode": "To_A_PAYEE",
+					"key": "toAPayee",
+					"name": "To A Payee",
+					"name_i18n": {
+						"en-US": "To A Payee"
+					}
+				}
+			],
+			"name": "Transaction Type",
+			"name_i18n": {
+				"en-US": "Transaction Type"
+			}
+		},
+		{
+			"externalReferenceCode": "LIABILITY_TYPE",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "MORTGAGE",
+					"key": "mortgage",
+					"name": "Mortgage",
+					"name_i18n": {
+						"en-US": "Mortgage"
+					}
+				},
+				{
+					"externalReferenceCode": "FOOD",
+					"key": "food",
+					"name": "Food",
+					"name_i18n": {
+						"en-US": "Food"
+					}
+				},
+				{
+					"externalReferenceCode": "TRANSPORTATION",
+					"key": "transportation",
+					"name": "Transportation",
+					"name_i18n": {
+						"en-US": "Transportation"
+					}
+				},
+				{
+					"externalReferenceCode": "UTILITIES",
+					"key": "utilities",
+					"name": "Utilities",
+					"name_i18n": {
+						"en-US": "Utilities"
+					}
+				},
+				{
+					"externalReferenceCode": "INSURANCE",
+					"key": "insurance",
+					"name": "Insurance",
+					"name_i18n": {
+						"en-US": "Insurance"
+					}
+				}
+			],
+			"name": "Liability Type",
+			"name_i18n": {
+				"en-US": "Liability Type"
+			}
+		},
+		{
+			"externalReferenceCode": "ACCOUNT_OWNER",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "JUST_ME",
+					"key": "justMe",
+					"name": "Just me",
+					"name_i18n": {
+						"en-US": "Just me"
+					}
+				},
+				{
+					"externalReferenceCode": "ME_AND_ANOTHER_PERSON",
+					"key": "meAndAnotherPerson",
+					"name": "Me and another person",
+					"name_i18n": {
+						"en-US": "Me and another person"
+					}
+				},
+				{
+					"externalReferenceCode": "A_TRUST",
+					"key": "aTrust",
+					"name": "A trust",
+					"name_i18n": {
+						"en-US": "A trust"
+					}
+				}
+			],
+			"name": "Account Owner",
+			"name_i18n": {
+				"en-US": "Account Owner"
+			}
+		},
+		{
+			"externalReferenceCode": "EMPLOYERS",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "RAYLIFE",
+					"key": "raylife",
+					"name": "Raylife",
+					"name_i18n": {
+						"en-US": "Raylife"
+					}
+				},
+				{
+					"externalReferenceCode": "LIFEWAY",
+					"key": "lifeWay",
+					"name": "Life Way",
+					"name_i18n": {
+						"en-US": "Life Way"
+					}
+				},
+				{
+					"externalReferenceCode": "LIFERAY",
+					"key": "liferay",
+					"name": "Liferay",
+					"name_i18n": {
+						"en-US": "Liferay"
+					}
+				}
+			],
+			"name": "Employers",
+			"name_i18n": {
+				"en-US": "Employers"
+			}
+		},
+		{
+			"externalReferenceCode": "EMPLOYMENT_STATUS",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "EMPLOYED",
+					"key": "imEmployed",
+					"name": "I’m Employed",
+					"name_i18n": {
+						"en-US": "I’m Employed"
+					}
+				},
+				{
+					"externalReferenceCode": "SELF_EMPLOYED",
+					"key": "imSelfEmployed",
+					"name": "I’m Self-employed",
+					"name_i18n": {
+						"en-US": "I’m Self-employed"
+					}
+				},
+				{
+					"externalReferenceCode": "UNEMPLOYED",
+					"key": "imUnemployed",
+					"name": "I’m Unemployed",
+					"name_i18n": {
+						"en-US": "I’m Unemployed"
+					}
+				}
+			],
+			"name": "Employment Status",
+			"name_i18n": {
+				"en-US": "Employment Status"
+			}
+		},
+		{
+			"externalReferenceCode": "INVESTMENT_GOALS",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "EDUCATION",
+					"key": "education",
+					"name": "Education",
+					"name_i18n": {
+						"en-US": "Education"
+					}
+				},
+				{
+					"externalReferenceCode": "RETIRMENT",
+					"key": "retirement",
+					"name": "Retirement",
+					"name_i18n": {
+						"en-US": "Retirement"
+					}
+				},
+				{
+					"externalReferenceCode": "GENERAL_INVESTING",
+					"key": "generalInvesting",
+					"name": "General Investing",
+					"name_i18n": {
+						"en-US": "General Investing"
+					}
+				},
+				{
+					"externalReferenceCode": "MAJOR_PURCHASE",
+					"key": "majorPurchase",
+					"name": "Major Purchase",
+					"name_i18n": {
+						"en-US": "Major Purchase"
+					}
+				}
+			],
+			"name": "Investment Goals",
+			"name_i18n": {
+				"en-US": "Investment Goals"
+			}
+		},
+		{
+			"externalReferenceCode": "PORTFOLIO_TYPE",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "MYRI_SIGNATURE_PORTFOLIO",
+					"key": "myriSignaturePortfolio",
+					"name": "Myri signature portfolio",
+					"name_i18n": {
+						"en-US": "Myri signature portfolio"
+					}
+				},
+				{
+					"externalReferenceCode": "SOCIAL_IMPACT_INVESTMENT",
+					"key": "socialImpactInvestmentSII",
+					"name": "Social Impact Investment (SII)",
+					"name_i18n": {
+						"en-US": "Social Impact Investment (SII)"
+					}
+				},
+				{
+					"externalReferenceCode": "CUSTOMIZED",
+					"key": "customized",
+					"name": "Customized",
+					"name_i18n": {
+						"en-US": "Customized"
+					}
+				}
+			],
+			"name": "Portfolio Type",
+			"name_i18n": {
+				"en-US": "Portfolio Type"
+			}
+		},
+		{
+			"externalReferenceCode": "STOCK_ACTION",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "MYRI_SIGNATURE_PORTFOLIO",
+					"key": "sellAll",
+					"name": "Sell all",
+					"name_i18n": {
+						"en-US": "Sell all"
+					}
+				},
+				{
+					"externalReferenceCode": "SOCIAL_IMPACT_INVESTMENT",
+					"key": "sellSome",
+					"name": "Sell some",
+					"name_i18n": {
+						"en-US": "Sell some"
+					}
+				},
+				{
+					"externalReferenceCode": "DO_NOTHING",
+					"key": "doNothing",
+					"name": "Do nothing",
+					"name_i18n": {
+						"en-US": "Do nothing"
+					}
+				},
+				{
+					"externalReferenceCode": "INVEST_MORE",
+					"key": "investMoreInThatStockportfolio",
+					"name": "Invest more in that stock/portfolio",
+					"name_i18n": {
+						"en-US": "Invest more in that stock/portfolio"
+					}
+				}
+			],
+			"name": "Stock Action",
+			"name_i18n": {
+				"en-US": "Stock Action"
+			}
+		},
+		{
+			"externalReferenceCode": "WF_STATUS",
+			"listTypeEntries": [
+				{
+					"externalReferenceCode": "SUBMITTED",
+					"key": "submitted",
+					"name": "Submitted",
+					"name_i18n": {
+						"en-US": "Submitted"
+					}
+				},
+				{
+					"externalReferenceCode": "APPROVED",
+					"key": "approved",
+					"name": "Approved",
+					"name_i18n": {
+						"en-US": "Approved"
+					}
+				},
+				{
+					"externalReferenceCode": "DRAFT",
+					"key": "draft",
+					"name": "Draft",
+					"name_i18n": {
+						"en-US": "Draft"
+					}
+				},
+				{
+					"externalReferenceCode": "REJECTED",
+					"key": "rejected",
+					"name": "Rejected",
+					"name_i18n": {
+						"en-US": "Rejected"
+					}
+				},
+				{
+					"externalReferenceCode": "DONE",
+					"key": "done",
+					"name": "Done",
+					"name_i18n": {
+						"en-US": "Done"
+					}
+				}
+			],
+			"name": "WF Status",
+			"name_i18n": {
+				"en-US": "WF Status"
+			}
+		}
+	]
+}

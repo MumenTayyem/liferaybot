@@ -1,0 +1,3 @@
+.lfr-object__action-builder-notification-option{align-items:center;display:flex;justify-content:space-between}.lfr-object__action-builder-notification-option-label{width:min-content}.lfr-object__action-builder-notification-then{width:320px}.lfr-object__action-builder-then{align-items:center;display:flex;gap:1rem;justify-content:center}.lfr-object__action-builder-then .form-control{width:100%}.lfr-object__action-builder-then .custom-control.custom-checkbox{margin:0}.lfr-object__action-builder-tooltip-icon{color:#a7a9bc}
+
+/*# sourceMappingURL=ThenContainer.css.map */

@@ -1,0 +1,40 @@
+.fragment_1 .main-menu-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .fragment_1 .main-menu-container:hover .items-container {
+            display: block;
+        }
+
+        .fragment_1 .items-container {
+            display: none;
+					  position: absolute;
+            z-index: 1;
+            background-color: white;
+            width: 250px;
+					  padding: 10px;
+            border-radius: 6px;
+					  box-shadow: 0px 0px 14px 5px #ccccccba;
+        }
+
+        .fragment_1 .menu-item,.menu-item a {
+            color: #36474B;
+            font-family: "Merriweather Sans";
+            font-size: 11px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 20px;
+            letter-spacing: 0.55px;
+            text-transform: uppercase;
+            cursor: pointer;
+					  margin-bottom: 5px;
+        }
+
+.fragment_1 .menu-item a{
+border-bottom: 0;
+}
+        .fragment_1 .menu-item.active-item{
+            cursor: unset;
+					  padding-left:10px;
+        }

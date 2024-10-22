@@ -1,0 +1,1237 @@
+2024-10-19 02:02:15.302 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h22m35s551ms).
+2024-10-19 06:14:47.070 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h12m31s768ms).
+2024-10-19 07:15:50.056 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m2s987ms).
+2024-10-19 08:51:19.415 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m29s358ms).
+2024-10-19 09:17:56.673 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m37s259ms).
+2024-10-19 10:18:50.317 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h53s643ms).
+2024-10-19 13:21:46.587 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h2m56s270ms).
+2024-10-19 15:05:37.653 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h43m51s67ms).
+2024-10-19 16:24:27.919 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m50s264ms).
+2024-10-19 16:25:22.839 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s920ms).
+2024-10-19 17:02:12.449 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m49s610ms).
+2024-10-19 17:55:32.229 WARN  [HikariPool-1 housekeeper][HikariPool:788] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m19s781ms).
+2024-10-19 18:35:39.341 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-batch-oauth-application-headless-server)][InterpolationConfigurationPlugin:135] Replaced value of configuration property 'homePageURL' for PID com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-batch-oauth-application-headless-server
+2024-10-19 18:35:39.514 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-batch-oauth-application-headless-server)][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 28444447961636 has client ID id-d290271b-7745-ea19-a348-a6b437bbfff5
+2024-10-19 18:35:43.462 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-headless-server and company ID 28444447961636 has client ID id-1f727a93-d76b-f41b-9289-6d73877a13
+2024-10-19 18:35:43.479 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationUserAgentConfigurationFactory:170] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-user-agent and company ID 28444447961636 has client ID id-657eca76-6efa-bc12-0958-ae3b7a95734
+2024-10-19 18:35:43.507 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 28444447961636 has client ID id-d290271b-7745-ea19-a348-a6b437bbfff5
+2024-10-19 18:35:44.412 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-headless-server and company ID 28444447961636 has client ID id-1f727a93-d76b-f41b-9289-6d73877a13
+2024-10-19 18:35:44.417 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationUserAgentConfigurationFactory:170] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-user-agent and company ID 28444447961636 has client ID id-657eca76-6efa-bc12-0958-ae3b7a95734
+2024-10-19 18:35:44.438 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 28444447961636 has client ID id-d290271b-7745-ea19-a348-a6b437bbfff5
+2024-10-19 18:35:44.719 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-headless-server and company ID 28444447961636 has client ID id-1f727a93-d76b-f41b-9289-6d73877a13
+2024-10-19 18:35:44.734 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationUserAgentConfigurationFactory:170] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-user-agent and company ID 28444447961636 has client ID id-657eca76-6efa-bc12-0958-ae3b7a95734
+2024-10-19 18:35:44.755 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 28444447961636 has client ID id-d290271b-7745-ea19-a348-a6b437bbfff5
+2024-10-19 18:35:45.664 ERROR [fileinstall-directory-watcher][BatchEngineImportTaskExecutorImpl:119] Unable to update batch engine import task {"mvccVersion": 1, "uuid": "46a88dca-3da6-d6ae-f82b-1f713287b819", "externalReferenceCode": "46a88dca-3da6-d6ae-f82b-1f713287b819", "batchEngineImportTaskId": 3, "companyId": 28444447961636, "userId": 20122, "createDate": "Sat Oct 19 18:35:44 GMT 2024", "modifiedDate": "Sat Oct 19 18:35:44 GMT 2024", "batchSize": 100, "callbackURL": "", "className": "com.liferay.object.admin.rest.dto.v1_0.ObjectDefinition", "contentType": "JSON", "endTime": "null", "errorMessage": "", "executeStatus": "STARTED", "fieldNameMapping": "null", "importStrategy": 2, "operation": "CREATE", "parameters": "{containsHeaders=true, updateStrategy=UPDATE, createStrategy=UPSERT, onErrorFail=false}", "processedItemsCount": 0, "startTime": "Sat Oct 19 18:35:44 GMT 2024", "taskItemDelegateName": "DEFAULT", "totalItemsCount": 1}
+com.liferay.object.exception.ObjectFieldRelationshipTypeException: Object field relationship name and DB type cannot be changed
+	at com.liferay.object.service.impl.ObjectFieldLocalServiceImpl._updateObjectField(ObjectFieldLocalServiceImpl.java:1371) ~[?:?]
+	at com.liferay.object.service.impl.ObjectFieldLocalServiceImpl.addOrUpdateCustomObjectField(ObjectFieldLocalServiceImpl.java:191) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_321]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_321]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_321]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_321]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:41) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.transaction.TransactionInterceptor.invoke(TransactionInterceptor.java:60) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.aop.ChainableMethodAdvice.invoke(ChainableMethodAdvice.java:55) ~[portal-kernel.jar:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.change.tracking.internal.aop.CTTransactionAdvice.invoke(CTTransactionAdvice.java:70) ~[?:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopInvocationHandler.invoke(AopInvocationHandler.java:40) ~[portal-impl.jar:?]
+	at com.sun.proxy.$Proxy546.addOrUpdateCustomObjectField(Unknown Source) ~[?:?]
+	at com.liferay.object.service.impl.ObjectFieldLocalServiceImpl.updateObjectField(ObjectFieldLocalServiceImpl.java:618) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_321]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_321]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_321]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_321]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:41) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.transaction.TransactionInterceptor.invoke(TransactionInterceptor.java:60) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.change.tracking.internal.aop.CTTransactionAdvice.invoke(CTTransactionAdvice.java:70) ~[?:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopInvocationHandler.invoke(AopInvocationHandler.java:40) ~[portal-impl.jar:?]
+	at com.sun.proxy.$Proxy546.updateObjectField(Unknown Source) ~[?:?]
+	at com.liferay.object.admin.rest.internal.resource.v1_0.ObjectDefinitionResourceImpl.putObjectDefinition(ObjectDefinitionResourceImpl.java:636) ~[?:?]
+	at com.liferay.object.admin.rest.internal.resource.v1_0.ObjectDefinitionResourceImpl.putObjectDefinitionByExternalReferenceCode(ObjectDefinitionResourceImpl.java:811) ~[?:?]
+	at com.liferay.object.admin.rest.internal.resource.v1_0.BaseObjectDefinitionResourceImpl.lambda$create$1(BaseObjectDefinitionResourceImpl.java:750) ~[?:?]
+	at com.liferay.batch.engine.internal.strategy.BaseBatchEngineImportStrategy.lambda$apply$0(BaseBatchEngineImportStrategy.java:54) ~[?:?]
+	at com.liferay.batch.engine.internal.strategy.OnErrorFailBatchEngineImportStrategy.importItem(OnErrorFailBatchEngineImportStrategy.java:37) ~[?:?]
+	at com.liferay.batch.engine.internal.strategy.BaseBatchEngineImportStrategy.apply(BaseBatchEngineImportStrategy.java:45) ~[?:?]
+	at com.liferay.object.admin.rest.internal.resource.v1_0.BaseObjectDefinitionResourceImpl.create(BaseObjectDefinitionResourceImpl.java:789) ~[?:?]
+	at com.liferay.portal.vulcan.internal.batch.engine.VulcanBatchEngineTaskItemDelegateAdaptor.create(VulcanBatchEngineTaskItemDelegateAdaptor.java:60) ~[?:?]
+	at com.liferay.batch.engine.internal.item.BatchEngineTaskItemDelegateExecutor.saveItems(BatchEngineTaskItemDelegateExecutor.java:79) ~[?:?]
+	at com.liferay.batch.engine.internal.BatchEngineImportTaskExecutorImpl._commitItems(BatchEngineImportTaskExecutorImpl.java:166) ~[?:?]
+	at com.liferay.batch.engine.internal.BatchEngineImportTaskExecutorImpl._importItems(BatchEngineImportTaskExecutorImpl.java:345) ~[?:?]
+	at com.liferay.batch.engine.internal.BatchEngineImportTaskExecutorImpl.lambda$execute$0(BatchEngineImportTaskExecutorImpl.java:110) ~[?:?]
+	at com.liferay.batch.engine.internal.BatchEngineTaskExecutorUtil.execute(BatchEngineTaskExecutorUtil.java:51) ~[?:?]
+	at com.liferay.batch.engine.internal.BatchEngineImportTaskExecutorImpl.execute(BatchEngineImportTaskExecutorImpl.java:108) ~[?:?]
+	at com.liferay.batch.engine.internal.unit.BatchEngineUnitProcessorImpl._execute(BatchEngineUnitProcessorImpl.java:224) ~[?:?]
+	at com.liferay.batch.engine.internal.unit.BatchEngineUnitProcessorImpl.access$100(BatchEngineUnitProcessorImpl.java:66) ~[?:?]
+	at com.liferay.batch.engine.internal.unit.BatchEngineUnitProcessorImpl$1.addingService(BatchEngineUnitProcessorImpl.java:171) ~[?:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264) ~[org.eclipse.osgi.jar:?]
+	at java.util.concurrent.CompletableFuture.uniRun(CompletableFuture.java:719) [?:1.8.0_321]
+	at java.util.concurrent.CompletableFuture.uniRunStage(CompletableFuture.java:731) [?:1.8.0_321]
+	at java.util.concurrent.CompletableFuture.thenRun(CompletableFuture.java:2023) [?:1.8.0_321]
+	at com.liferay.batch.engine.internal.unit.BatchEngineUnitProcessorImpl.processBatchEngineUnits(BatchEngineUnitProcessorImpl.java:109) [bundleFile:?]
+	at com.liferay.batch.engine.internal.bundle.BatchEngineBundleTracker$BatchEngineBundleTrackerCustomizer.addingBundle(BatchEngineBundleTracker.java:115) [bundleFile:?]
+	at com.liferay.batch.engine.internal.bundle.BatchEngineBundleTracker$BatchEngineBundleTrackerCustomizer.addingBundle(BatchEngineBundleTracker.java:70) [bundleFile:?]
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerAdding(BundleTracker.java:475) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerAdding(BundleTracker.java:1) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.BundleTracker$Tracked.bundleChanged(BundleTracker.java:450) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:890) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEventPrivileged(EquinoxEventPublisher.java:230) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:137) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:129) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor.publishModuleEvent(EquinoxContainerAdaptor.java:191) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.container.Module.publishEvent(Module.java:476) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.container.Module.start(Module.java:467) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:426) [org.eclipse.osgi.jar:?]
+	at com.liferay.portal.file.install.internal.DirectoryWatcher._startBundle(DirectoryWatcher.java:971) [bundleFile:?]
+	at com.liferay.portal.file.install.internal.DirectoryWatcher._startBundles(DirectoryWatcher.java:1004) [bundleFile:?]
+	at com.liferay.portal.file.install.internal.DirectoryWatcher._process(DirectoryWatcher.java:843) [bundleFile:?]
+	at com.liferay.portal.file.install.internal.DirectoryWatcher.run(DirectoryWatcher.java:298) [bundleFile:?]
+2024-10-19 18:35:46.732 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-headless-server and company ID 28444447961636 has client ID id-1f727a93-d76b-f41b-9289-6d73877a13
+2024-10-19 18:35:46.742 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationUserAgentConfigurationFactory:170] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-user-agent and company ID 28444447961636 has client ID id-657eca76-6efa-bc12-0958-ae3b7a95734
+2024-10-19 18:35:46.762 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 28444447961636 has client ID id-d290271b-7745-ea19-a348-a6b437bbfff5
+2024-10-19 18:35:46.931 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-headless-server and company ID 28444447961636 has client ID id-1f727a93-d76b-f41b-9289-6d73877a13
+2024-10-19 18:35:46.935 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationUserAgentConfigurationFactory:170] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-user-agent and company ID 28444447961636 has client ID id-657eca76-6efa-bc12-0958-ae3b7a95734
+2024-10-19 18:35:46.955 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 28444447961636 has client ID id-d290271b-7745-ea19-a348-a6b437bbfff5
+2024-10-19 18:35:48.259 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-headless-server and company ID 28444447961636 has client ID id-1f727a93-d76b-f41b-9289-6d73877a13
+2024-10-19 18:35:48.269 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationUserAgentConfigurationFactory:170] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-user-agent and company ID 28444447961636 has client ID id-657eca76-6efa-bc12-0958-ae3b7a95734
+2024-10-19 18:35:48.288 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 28444447961636 has client ID id-d290271b-7745-ea19-a348-a6b437bbfff5
+2024-10-19 18:35:48.747 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:68] STARTED database_7.4.13 [1462]
+2024-10-19 18:36:39.511 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:71] STOPPED database_7.4.13 [1462]
+2024-10-19 18:38:21.372 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-batch-oauth-application-headless-server)][InterpolationConfigurationPlugin:135] Replaced value of configuration property 'homePageURL' for PID com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-batch-oauth-application-headless-server
+2024-10-19 18:38:21.506 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-batch-oauth-application-headless-server)][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 28444447961636 has client ID id-4512a87e-0632-275f-dcbe-28dc194ea7
+2024-10-19 18:38:21.904 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-headless-server and company ID 28444447961636 has client ID id-1f727a93-d76b-f41b-9289-6d73877a13
+2024-10-19 18:38:21.910 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationUserAgentConfigurationFactory:170] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-user-agent and company ID 28444447961636 has client ID id-657eca76-6efa-bc12-0958-ae3b7a95734
+2024-10-19 18:38:21.931 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 28444447961636 has client ID id-4512a87e-0632-275f-dcbe-28dc194ea7
+2024-10-19 18:38:22.050 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-headless-server and company ID 28444447961636 has client ID id-1f727a93-d76b-f41b-9289-6d73877a13
+2024-10-19 18:38:22.057 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationUserAgentConfigurationFactory:170] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-user-agent and company ID 28444447961636 has client ID id-657eca76-6efa-bc12-0958-ae3b7a95734
+2024-10-19 18:38:22.080 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 28444447961636 has client ID id-4512a87e-0632-275f-dcbe-28dc194ea7
+2024-10-19 18:38:22.498 ERROR [fileinstall-directory-watcher][BatchEngineImportTaskExecutorImpl:119] Unable to update batch engine import task {"mvccVersion": 1, "uuid": "155fbfc3-5840-ad10-4814-84bd3bec9712", "externalReferenceCode": "155fbfc3-5840-ad10-4814-84bd3bec9712", "batchEngineImportTaskId": 6, "companyId": 28444447961636, "userId": 20122, "createDate": "Sat Oct 19 18:38:21 GMT 2024", "modifiedDate": "Sat Oct 19 18:38:21 GMT 2024", "batchSize": 100, "callbackURL": "", "className": "com.liferay.object.admin.rest.dto.v1_0.ObjectDefinition", "contentType": "JSON", "endTime": "null", "errorMessage": "", "executeStatus": "STARTED", "fieldNameMapping": "null", "importStrategy": 2, "operation": "CREATE", "parameters": "{containsHeaders=true, updateStrategy=UPDATE, createStrategy=UPSERT, onErrorFail=false}", "processedItemsCount": 0, "startTime": "Sat Oct 19 18:38:21 GMT 2024", "taskItemDelegateName": "DEFAULT", "totalItemsCount": 1}
+com.liferay.object.exception.ObjectFieldNameException$MustNotBeDuplicate: Duplicate name command
+	at com.liferay.object.service.impl.ObjectFieldLocalServiceImpl._validateName(ObjectFieldLocalServiceImpl.java:1659) ~[?:?]
+	at com.liferay.object.service.impl.ObjectFieldLocalServiceImpl._addObjectField(ObjectFieldLocalServiceImpl.java:831) ~[?:?]
+	at com.liferay.object.service.impl.ObjectFieldLocalServiceImpl.addCustomObjectField(ObjectFieldLocalServiceImpl.java:142) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_321]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_321]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_321]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_321]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:41) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.transaction.TransactionInterceptor.invoke(TransactionInterceptor.java:60) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.aop.ChainableMethodAdvice.invoke(ChainableMethodAdvice.java:55) ~[portal-kernel.jar:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.change.tracking.internal.aop.CTTransactionAdvice.invoke(CTTransactionAdvice.java:70) ~[?:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopInvocationHandler.invoke(AopInvocationHandler.java:40) ~[portal-impl.jar:?]
+	at com.sun.proxy.$Proxy546.addCustomObjectField(Unknown Source) ~[?:?]
+	at com.liferay.object.service.impl.ObjectFieldLocalServiceImpl.addOrUpdateCustomObjectField(ObjectFieldLocalServiceImpl.java:183) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_321]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_321]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_321]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_321]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:41) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.transaction.TransactionInterceptor.invoke(TransactionInterceptor.java:60) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.aop.ChainableMethodAdvice.invoke(ChainableMethodAdvice.java:55) ~[portal-kernel.jar:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.change.tracking.internal.aop.CTTransactionAdvice.invoke(CTTransactionAdvice.java:70) ~[?:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopInvocationHandler.invoke(AopInvocationHandler.java:40) ~[portal-impl.jar:?]
+	at com.sun.proxy.$Proxy546.addOrUpdateCustomObjectField(Unknown Source) ~[?:?]
+	at com.liferay.object.service.impl.ObjectFieldLocalServiceImpl.updateObjectField(ObjectFieldLocalServiceImpl.java:618) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_321]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_321]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_321]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_321]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:41) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.transaction.TransactionInterceptor.invoke(TransactionInterceptor.java:60) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.change.tracking.internal.aop.CTTransactionAdvice.invoke(CTTransactionAdvice.java:70) ~[?:?]
+	at com.liferay.portal.spring.aop.AopMethodInvocationImpl.proceed(AopMethodInvocationImpl.java:48) ~[portal-impl.jar:?]
+	at com.liferay.portal.spring.aop.AopInvocationHandler.invoke(AopInvocationHandler.java:40) ~[portal-impl.jar:?]
+	at com.sun.proxy.$Proxy546.updateObjectField(Unknown Source) ~[?:?]
+	at com.liferay.object.admin.rest.internal.resource.v1_0.ObjectDefinitionResourceImpl.putObjectDefinition(ObjectDefinitionResourceImpl.java:636) ~[?:?]
+	at com.liferay.object.admin.rest.internal.resource.v1_0.ObjectDefinitionResourceImpl.putObjectDefinitionByExternalReferenceCode(ObjectDefinitionResourceImpl.java:811) ~[?:?]
+	at com.liferay.object.admin.rest.internal.resource.v1_0.BaseObjectDefinitionResourceImpl.lambda$create$1(BaseObjectDefinitionResourceImpl.java:750) ~[?:?]
+	at com.liferay.batch.engine.internal.strategy.BaseBatchEngineImportStrategy.lambda$apply$0(BaseBatchEngineImportStrategy.java:54) ~[?:?]
+	at com.liferay.batch.engine.internal.strategy.OnErrorFailBatchEngineImportStrategy.importItem(OnErrorFailBatchEngineImportStrategy.java:37) ~[?:?]
+	at com.liferay.batch.engine.internal.strategy.BaseBatchEngineImportStrategy.apply(BaseBatchEngineImportStrategy.java:45) ~[?:?]
+	at com.liferay.object.admin.rest.internal.resource.v1_0.BaseObjectDefinitionResourceImpl.create(BaseObjectDefinitionResourceImpl.java:789) ~[?:?]
+	at com.liferay.portal.vulcan.internal.batch.engine.VulcanBatchEngineTaskItemDelegateAdaptor.create(VulcanBatchEngineTaskItemDelegateAdaptor.java:60) ~[?:?]
+	at com.liferay.batch.engine.internal.item.BatchEngineTaskItemDelegateExecutor.saveItems(BatchEngineTaskItemDelegateExecutor.java:79) ~[?:?]
+	at com.liferay.batch.engine.internal.BatchEngineImportTaskExecutorImpl._commitItems(BatchEngineImportTaskExecutorImpl.java:166) ~[?:?]
+	at com.liferay.batch.engine.internal.BatchEngineImportTaskExecutorImpl._importItems(BatchEngineImportTaskExecutorImpl.java:345) ~[?:?]
+	at com.liferay.batch.engine.internal.BatchEngineImportTaskExecutorImpl.lambda$execute$0(BatchEngineImportTaskExecutorImpl.java:110) ~[?:?]
+	at com.liferay.batch.engine.internal.BatchEngineTaskExecutorUtil.execute(BatchEngineTaskExecutorUtil.java:51) ~[?:?]
+	at com.liferay.batch.engine.internal.BatchEngineImportTaskExecutorImpl.execute(BatchEngineImportTaskExecutorImpl.java:108) ~[?:?]
+	at com.liferay.batch.engine.internal.unit.BatchEngineUnitProcessorImpl._execute(BatchEngineUnitProcessorImpl.java:224) ~[?:?]
+	at com.liferay.batch.engine.internal.unit.BatchEngineUnitProcessorImpl.access$100(BatchEngineUnitProcessorImpl.java:66) ~[?:?]
+	at com.liferay.batch.engine.internal.unit.BatchEngineUnitProcessorImpl$1.addingService(BatchEngineUnitProcessorImpl.java:171) ~[?:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:943) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.ServiceTracker$Tracked.customizerAdding(ServiceTracker.java:1) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.trackInitial(AbstractTracked.java:183) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:321) ~[org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.ServiceTracker.open(ServiceTracker.java:264) ~[org.eclipse.osgi.jar:?]
+	at java.util.concurrent.CompletableFuture.uniRun(CompletableFuture.java:719) [?:1.8.0_321]
+	at java.util.concurrent.CompletableFuture.uniRunStage(CompletableFuture.java:731) [?:1.8.0_321]
+	at java.util.concurrent.CompletableFuture.thenRun(CompletableFuture.java:2023) [?:1.8.0_321]
+	at com.liferay.batch.engine.internal.unit.BatchEngineUnitProcessorImpl.processBatchEngineUnits(BatchEngineUnitProcessorImpl.java:109) [bundleFile:?]
+	at com.liferay.batch.engine.internal.bundle.BatchEngineBundleTracker$BatchEngineBundleTrackerCustomizer.addingBundle(BatchEngineBundleTracker.java:115) [bundleFile:?]
+	at com.liferay.batch.engine.internal.bundle.BatchEngineBundleTracker$BatchEngineBundleTrackerCustomizer.addingBundle(BatchEngineBundleTracker.java:70) [bundleFile:?]
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerAdding(BundleTracker.java:475) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.BundleTracker$Tracked.customizerAdding(BundleTracker.java:1) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.trackAdding(AbstractTracked.java:256) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.AbstractTracked.track(AbstractTracked.java:229) [org.eclipse.osgi.jar:?]
+	at org.osgi.util.tracker.BundleTracker$Tracked.bundleChanged(BundleTracker.java:450) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:890) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEventPrivileged(EquinoxEventPublisher.java:230) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:137) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:129) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor.publishModuleEvent(EquinoxContainerAdaptor.java:191) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.container.Module.publishEvent(Module.java:476) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.container.Module.start(Module.java:467) [org.eclipse.osgi.jar:?]
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:426) [org.eclipse.osgi.jar:?]
+	at com.liferay.portal.file.install.internal.DirectoryWatcher._startBundle(DirectoryWatcher.java:971) [bundleFile:?]
+	at com.liferay.portal.file.install.internal.DirectoryWatcher._startBundles(DirectoryWatcher.java:1004) [bundleFile:?]
+	at com.liferay.portal.file.install.internal.DirectoryWatcher._process(DirectoryWatcher.java:843) [bundleFile:?]
+	at com.liferay.portal.file.install.internal.DirectoryWatcher.run(DirectoryWatcher.java:298) [bundleFile:?]
+2024-10-19 18:38:22.588 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-headless-server and company ID 28444447961636 has client ID id-1f727a93-d76b-f41b-9289-6d73877a13
+2024-10-19 18:38:22.594 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationUserAgentConfigurationFactory:170] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-user-agent and company ID 28444447961636 has client ID id-657eca76-6efa-bc12-0958-ae3b7a95734
+2024-10-19 18:38:22.609 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 28444447961636 has client ID id-4512a87e-0632-275f-dcbe-28dc194ea7
+2024-10-19 18:38:22.688 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-headless-server and company ID 28444447961636 has client ID id-1f727a93-d76b-f41b-9289-6d73877a13
+2024-10-19 18:38:22.694 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationUserAgentConfigurationFactory:170] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-user-agent and company ID 28444447961636 has client ID id-657eca76-6efa-bc12-0958-ae3b7a95734
+2024-10-19 18:38:22.708 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 28444447961636 has client ID id-4512a87e-0632-275f-dcbe-28dc194ea7
+2024-10-19 18:38:23.505 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-headless-server and company ID 28444447961636 has client ID id-1f727a93-d76b-f41b-9289-6d73877a13
+2024-10-19 18:38:23.508 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationUserAgentConfigurationFactory:170] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-user-agent and company ID 28444447961636 has client ID id-657eca76-6efa-bc12-0958-ae3b7a95734
+2024-10-19 18:38:23.524 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 28444447961636 has client ID id-4512a87e-0632-275f-dcbe-28dc194ea7
+2024-10-19 18:38:23.599 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-headless-server and company ID 28444447961636 has client ID id-1f727a93-d76b-f41b-9289-6d73877a13
+2024-10-19 18:38:23.603 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationUserAgentConfigurationFactory:170] OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-user-agent and company ID 28444447961636 has client ID id-657eca76-6efa-bc12-0958-ae3b7a95734
+2024-10-19 18:38:23.618 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 28444447961636 has client ID id-4512a87e-0632-275f-dcbe-28dc194ea7
+2024-10-19 18:38:24.570 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:68] STARTED database_7.4.13 [1463]
+2024-10-19 18:39:15.497 INFO  [main][PortalContextLoaderListener:114] JVM arguments: -Djava.util.logging.config.file=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dfile.encoding=UTF-8 -Djava.locale.providers=JRE,COMPAT,CLDR -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat -Dcatalina.home=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat -Djava.io.tmpdir=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp -Xmx10240m
+2024-10-19 18:39:17.009 WARN  [SystemExecutorServiceUtil-1][DialectDetector:73] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2024-10-19 18:39:17.011 INFO  [SystemExecutorServiceUtil-1][DialectDetector:144] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.7
+2024-10-19 18:39:17.199 INFO  [SystemExecutorServiceUtil-1][DBInitUtil:100] Create tables and populate with default data
+2024-10-19 18:39:17.661 INFO  [main][ModuleFrameworkImpl:1355] Starting initial bundles
+2024-10-19 18:39:18.052 INFO  [main][InterpolationConfigurationPlugin:109] Configured directory for secrets: /Users/mumentayyem/liferay/liferay-telegram/bundles/osgi/configs
+2024-10-19 18:39:19.533 INFO  [main][ModuleFrameworkImpl:1645] Started initial bundles
+2024-10-19 18:39:19.535 INFO  [main][ModuleFrameworkImpl:1690] Starting dynamic bundles
+2024-10-19 18:39:22.355 WARN  [Start Level: Equinox Container: ed5dfdf0-a781-4d9e-b7f7-c019ca652271][SidecarManager:72] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2024-10-19 18:39:32.154 INFO  [main][ModuleFrameworkImpl:1713] Started dynamic bundles
+2024-10-19 18:39:32.158 INFO  [main][ModuleFrameworkImpl:1720] Starting web bundles
+2024-10-19 18:39:34.475 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-telegram-etc-node-oauth-application-headless-server)][InterpolationConfigurationPlugin:135] Replaced value of configuration property 'homePageURL' for PID com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-telegram-etc-node-oauth-application-headless-server
+2024-10-19 18:39:34.489 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationUserAgentConfiguration~liferay-telegram-etc-node-oauth-application-user-agent)][InterpolationConfigurationPlugin:135] Replaced value of configuration property 'homePageURL' for PID com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationUserAgentConfiguration~liferay-telegram-etc-node-oauth-application-user-agent
+2024-10-19 18:39:34.542 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-batch-oauth-application-headless-server)][InterpolationConfigurationPlugin:135] Replaced value of configuration property 'homePageURL' for PID com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-batch-oauth-application-headless-server
+2024-10-19 18:39:34.629 INFO  [main][ModuleFrameworkImpl:1774] Started web bundles
+2024-10-19 18:39:34.629 INFO  [main][ModuleFrameworkImpl:283] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2024-10-19 18:39:38.779 INFO  [main][StartupHelperUtil:97] There are no patches installed
+2024-10-19 18:39:38.888 INFO  [main][LoggingTimer:74] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2024-10-19 18:39:39.186 INFO  [main][LoggingTimer:35] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 298 ms
+2024-10-19 18:39:39.399 INFO  [main][LicenseManager:-1] Failed to find directory /Users/mumentayyem/liferay/liferay-telegram/bundles/data/license
+2024-10-19 18:39:39.400 INFO  [main][LicenseManager:-1] No binary licenses found
+2024-10-19 18:39:40.476 INFO  [main][AutoDeployDir:152] Auto deploy scanner started for /Users/mumentayyem/liferay/liferay-telegram/bundles/deploy
+2024-10-19 18:39:41.142 INFO  [SystemExecutorServiceUtil-4][Sidecar:103] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2024-10-19 18:39:58.386 WARN  [liferay/mail-2][MailMessageListener:116] Email test@domain.invalid will be ignored because it is included in mail.send.blacklist
+2024-10-19 18:39:58.386 WARN  [liferay/mail-3][MailMessageListener:116] Email test@domain.invalid will be ignored because it is included in mail.send.blacklist
+2024-10-19 18:39:58.434 WARN  [liferay/mail-3][MailMessageListener:42] Skipping email because the sender is not specified
+2024-10-19 18:39:58.435 WARN  [liferay/mail-2][MailMessageListener:42] Skipping email because the sender is not specified
+2024-10-19 18:40:09.015 INFO  [main][VerifyProcess:65] Verifying com.liferay.search.experiences.internal.verify.SXPServiceVerifyProcess
+2024-10-19 18:40:10.450 INFO  [main][VerifyProcess:78] Completed verification process com.liferay.search.experiences.internal.verify.SXPServiceVerifyProcess in 1439 ms
+2024-10-19 18:40:10.472 INFO  [main][VerifyProcess:65] Verifying com.liferay.portal.security.service.access.policy.internal.verify.SAPServiceVerifyProcess
+2024-10-19 18:40:10.473 INFO  [main][LoggingTimer:74] Starting com.liferay.portal.security.service.access.policy.internal.verify.SAPServiceVerifyProcess#verifyDefaultSAPEntry
+2024-10-19 18:40:10.582 INFO  [main][LoggingTimer:35] Completed com.liferay.portal.security.service.access.policy.internal.verify.SAPServiceVerifyProcess#verifyDefaultSAPEntry in 108 ms
+2024-10-19 18:40:10.583 INFO  [main][VerifyProcess:78] Completed verification process com.liferay.portal.security.service.access.policy.internal.verify.SAPServiceVerifyProcess in 111 ms
+2024-10-19 18:40:10.607 INFO  [main][VerifyProcess:65] Verifying com.liferay.portal.search.tuning.synonyms.web.internal.verify.SynonymSetsDatabaseImporterVerifyProcess
+2024-10-19 18:40:11.931 INFO  [main][VerifyProcess:78] Completed verification process com.liferay.portal.search.tuning.synonyms.web.internal.verify.SynonymSetsDatabaseImporterVerifyProcess in 1322 ms
+2024-10-19 18:40:15.313 INFO  [fileinstall-directory-watcher][LicenseManager:-1] DXP Development license validation passed
+2024-10-19 18:40:15.315 INFO  [fileinstall-directory-watcher][LicenseManager:-1] License registered for DXP Development
+2024-10-19 18:40:15.370 INFO  [SystemExecutorServiceUtil-8-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:65] Verifying com.liferay.commerce.product.internal.verify.CommerceProductServiceVerifyProcess
+2024-10-19 18:40:15.371 INFO  [SystemExecutorServiceUtil-8-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][LoggingTimer:74] Starting com.liferay.commerce.product.internal.verify.CommerceProductServiceVerifyProcess#verifyCPMeasurementUnits
+2024-10-19 18:40:15.379 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184015324CWIHWPNT/admin-theme.war
+2024-10-19 18:40:15.941 INFO  [SystemExecutorServiceUtil-8-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][LoggingTimer:35] Completed com.liferay.commerce.product.internal.verify.CommerceProductServiceVerifyProcess#verifyCPMeasurementUnits in 570 ms
+2024-10-19 18:40:15.942 INFO  [SystemExecutorServiceUtil-8-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:78] Completed verification process com.liferay.commerce.product.internal.verify.CommerceProductServiceVerifyProcess in 572 ms
+2024-10-19 18:40:17.143 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184015324CWIHWPNT/admin-theme.war copied successfully
+2024-10-19 18:40:19.665 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184019649SNEYVBAJ/classic-theme.war
+2024-10-19 18:40:22.329 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184019649SNEYVBAJ/classic-theme.war copied successfully
+2024-10-19 18:40:24.328 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184024307GHVRLKOX/dialect-theme.war
+2024-10-19 18:40:25.867 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184024307GHVRLKOX/dialect-theme.war copied successfully
+2024-10-19 18:40:27.850 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184027831JJHRREUW/minium-theme.war
+2024-10-19 18:40:29.542 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184027831JJHRREUW/minium-theme.war copied successfully
+2024-10-19 18:40:31.190 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184031167PCXZKSHI/speedwell-theme.war
+2024-10-19 18:40:32.908 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184031167PCXZKSHI/speedwell-theme.war copied successfully
+2024-10-19 18:40:33.308 INFO  [SystemExecutorServiceUtil-8-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:65] Verifying com.liferay.commerce.internal.verify.CommerceAccountServiceVerifyProcess
+2024-10-19 18:40:33.309 INFO  [SystemExecutorServiceUtil-8-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][LoggingTimer:74] Starting com.liferay.commerce.internal.verify.CommerceAccountServiceVerifyProcess#verifyAccountRoles
+2024-10-19 18:40:33.328 INFO  [SystemExecutorServiceUtil-8-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][LoggingTimer:35] Completed com.liferay.commerce.internal.verify.CommerceAccountServiceVerifyProcess#verifyAccountRoles in 18 ms
+2024-10-19 18:40:33.330 INFO  [SystemExecutorServiceUtil-8-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][LoggingTimer:74] Starting com.liferay.commerce.internal.verify.CommerceAccountServiceVerifyProcess#verifyAccountGroup
+2024-10-19 18:40:33.339 INFO  [SystemExecutorServiceUtil-8-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][LoggingTimer:35] Completed com.liferay.commerce.internal.verify.CommerceAccountServiceVerifyProcess#verifyAccountGroup in 9 ms
+2024-10-19 18:40:33.340 INFO  [SystemExecutorServiceUtil-8-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:78] Completed verification process com.liferay.commerce.internal.verify.CommerceAccountServiceVerifyProcess in 32 ms
+2024-10-19 18:40:38.659 INFO  [SystemExecutorServiceUtil-8-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:65] Verifying com.liferay.portal.search.tuning.rankings.web.internal.verify.RankingsDatabaseImporterVerifyProcess
+2024-10-19 18:40:38.978 INFO  [SystemExecutorServiceUtil-8-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:78] Completed verification process com.liferay.portal.search.tuning.rankings.web.internal.verify.RankingsDatabaseImporterVerifyProcess in 318 ms
+2024-10-19 18:40:39.056 INFO  [SystemExecutorServiceUtil-8-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:65] Verifying com.liferay.adaptive.media.document.library.thumbnails.internal.verify.DocumentLibraryThumbnailsConfigurationVerifyProcess
+2024-10-19 18:40:39.108 INFO  [SystemExecutorServiceUtil-8-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:78] Completed verification process com.liferay.adaptive.media.document.library.thumbnails.internal.verify.DocumentLibraryThumbnailsConfigurationVerifyProcess in 52 ms
+2024-10-19 18:40:41.299 INFO  [SystemExecutorServiceUtil-8-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:65] Verifying com.liferay.commerce.price.list.internal.verify.CommercePriceListServiceVerifyProcess
+2024-10-19 18:40:41.302 INFO  [SystemExecutorServiceUtil-8-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][LoggingTimer:74] Starting com.liferay.commerce.price.list.internal.verify.CommercePriceListServiceVerifyProcess#verifyBasePriceLists
+2024-10-19 18:40:41.347 INFO  [SystemExecutorServiceUtil-8-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][LoggingTimer:35] Completed com.liferay.commerce.price.list.internal.verify.CommercePriceListServiceVerifyProcess#verifyBasePriceLists in 45 ms
+2024-10-19 18:40:41.348 INFO  [SystemExecutorServiceUtil-8-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:78] Completed verification process com.liferay.commerce.price.list.internal.verify.CommercePriceListServiceVerifyProcess in 49 ms
+2024-10-19 18:41:09.990 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:516] Initializing com.liferay.site.initializer.welcome for group 20117
+2024-10-19 18:41:10.075 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateSAPEntries took 21 ms
+2024-10-19 18:41:10.083 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateListTypeDefinitions took 6 ms
+2024-10-19 18:41:10.146 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addAccountGroups took 62 ms
+2024-10-19 18:41:10.148 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addSiteSettings took 0 ms
+2024-10-19 18:41:10.155 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateDataDefinitions took 6 ms
+2024-10-19 18:41:10.156 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addSiteConfiguration took 0 ms
+2024-10-19 18:41:10.157 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addStyleBookEntries took 1 ms
+2024-10-19 18:41:10.157 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateUserGroups took 0 ms
+2024-10-19 18:41:10.158 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateObjectFolders took 1 ms
+2024-10-19 18:41:10.169 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateRoles took 11 ms
+2024-10-19 18:41:10.170 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking setPLOEntries took 0 ms
+2024-10-19 18:41:10.170 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateExpandoColumns took 0 ms
+2024-10-19 18:41:10.171 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateDDMStructures took 0 ms
+2024-10-19 18:41:10.171 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateDepotEntries took 0 ms
+2024-10-19 18:41:10.171 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addAccounts took 0 ms
+2024-10-19 18:41:10.172 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateOrganizations took 0 ms
+2024-10-19 18:41:10.172 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addAccountsOrganizations took 0 ms
+2024-10-19 18:41:10.172 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateKnowledgeBaseArticles took 0 ms
+2024-10-19 18:41:10.173 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateTaxonomyVocabularies took 1 ms
+2024-10-19 18:41:10.174 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addPortletSettings took 0 ms
+2024-10-19 18:41:10.175 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addWorkflowDefinitions took 1 ms
+2024-10-19 18:41:13.957 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateDocuments took 3780 ms
+2024-10-19 18:41:13.965 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addKeywords took 5 ms
+2024-10-19 18:41:14.528 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateLayouts took 562 ms
+2024-10-19 18:41:14.547 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking updateLayoutSets took 19 ms
+2024-10-19 18:41:14.548 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateSXPBlueprint took 0 ms
+2024-10-19 18:41:14.549 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateBlogPostings took 0 ms
+2024-10-19 18:41:14.549 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addFragmentEntries took 0 ms
+2024-10-19 18:41:14.550 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addAccountGroupAssignments took 0 ms
+2024-10-19 18:41:14.550 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addUserAccounts took 0 ms
+2024-10-19 18:41:14.553 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateClientExtensionEntries took 3 ms
+2024-10-19 18:41:14.555 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateSegmentsEntries took 0 ms
+2024-10-19 18:41:14.556 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateAssetLinkEntries took 0 ms
+2024-10-19 18:41:14.556 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addRolesAssignments took 0 ms
+2024-10-19 18:41:14.556 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addUserRoles took 0 ms
+2024-10-19 18:41:14.567 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addObjectDefinitions took 10 ms
+2024-10-19 18:41:14.570 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateObjectRelationships took 0 ms
+2024-10-19 18:41:14.570 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateObjectFields took 0 ms
+2024-10-19 18:41:14.571 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking publishObjectDefinitions took 0 ms
+2024-10-19 18:41:14.571 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addAssetListEntries took 0 ms
+2024-10-19 18:41:14.571 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateNotificationTemplates took 0 ms
+2024-10-19 18:41:14.645 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateDDMTemplates took 73 ms
+2024-10-19 18:41:14.645 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateAccountEntryRestrictions took 0 ms
+2024-10-19 18:41:14.645 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateObjectActions took 0 ms
+2024-10-19 18:41:14.646 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateObjectEntries took 0 ms
+2024-10-19 18:41:14.646 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateJournalArticles took 0 ms
+2024-10-19 18:41:14.646 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addCPDefinitions took 0 ms
+2024-10-19 18:41:17.595 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addLayoutUtilityPageEntries took 2948 ms
+2024-10-19 18:41:17.598 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addLayoutPageTemplates took 1 ms
+2024-10-19 18:41:20.125 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateLayoutsContent took 2526 ms
+2024-10-19 18:41:20.128 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addExpandoValues took 1 ms
+2024-10-19 18:41:20.129 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addSegmentsExperiences took 1 ms
+2024-10-19 18:41:20.130 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateResourcePermissions took 1 ms
+2024-10-19 18:41:20.132 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:534] Initialized com.liferay.site.initializer.welcome for group 20117 in 10146 ms
+2024-10-19 18:41:36.618 WARN  [liferay/mail-2][MailMessageListener:116] Email test@domain.invalid will be ignored because it is included in mail.send.blacklist
+2024-10-19 18:41:36.623 WARN  [liferay/mail-2][MailMessageListener:42] Skipping email because the sender is not specified
+2024-10-19 18:41:53.652 ERROR [http-nio-8080-exec-4][BatchingBatch:134] HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_D5E35599], SQL: insert into PortalPreferenceValue (mvccVersion, companyId, portalPreferencesId, index_, key_, largeValue, namespace, smallValue, portalPreferenceValueId) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-10-19 18:41:53.659 ERROR [http-nio-8080-exec-4][SqlExceptionHelper:142] integrity constraint violation: unique constraint or index violation: IX_D5E35599
+2024-10-19 18:41:53.758 ERROR [http-nio-8080-exec-4][AuthVerifierFilter:53] java.util.ConcurrentModificationException
+java.util.ConcurrentModificationException: null
+	at com.liferay.portlet.PortalPreferencesImpl._retryableStore(PortalPreferencesImpl.java:518) ~[portal-impl.jar:?]
+	at com.liferay.portlet.PortalPreferencesImpl.setValue(PortalPreferencesImpl.java:304) ~[portal-impl.jar:?]
+	at com.liferay.portlet.PortalPreferencesImpl.setValues(PortalPreferencesImpl.java:334) ~[portal-impl.jar:?]
+	at com.liferay.enterprise.product.notification.web.internal.EPNManager.confirm(EPNManager.java:41) ~[?:?]
+	at com.liferay.enterprise.product.notification.web.internal.jaxrs.application.EPNApplication.confirm(EPNApplication.java:54) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_321]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_321]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_321]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_321]
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:179) ~[?:?]
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96) ~[?:?]
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:201) ~[?:?]
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:104) ~[?:?]
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59) ~[?:?]
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96) ~[?:?]
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308) ~[?:?]
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121) ~[?:?]
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:265) ~[?:?]
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234) ~[?:?]
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208) ~[?:?]
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160) ~[?:?]
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:225) ~[?:?]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:304) ~[?:?]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:217) ~[?:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555) ~[servlet-api.jar:4.0.FR]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:279) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:147) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:50) ~[?:?]
+	at com.liferay.portal.security.auth.verifier.internal.tracker.AuthVerifierFilterTracker$RemoteAccessFilter.doFilter(AuthVerifierFilterTracker.java:213) ~[bundleFile:?]
+	at org.eclipse.equinox.http.servlet.internal.registration.FilterRegistration.doFilter(FilterRegistration.java:120) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:45) ~[?:?]
+	at com.liferay.portal.security.auth.verifier.internal.tracker.AuthVerifierFilterTracker$AuditFilter.doFilter(AuthVerifierFilterTracker.java:182) ~[bundleFile:?]
+	at org.eclipse.equinox.http.servlet.internal.registration.FilterRegistration.doFilter(FilterRegistration.java:120) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:45) ~[?:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) ~[portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.authverifier.AuthVerifierFilter.processFilter(AuthVerifierFilter.java:203) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.registration.FilterRegistration.doFilter(FilterRegistration.java:120) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.FilterChainImpl.doFilter(FilterChainImpl.java:45) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:71) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at com.liferay.portal.osgi.web.http.servlet.internal.servlet.HttpServletEndpointServlet.service(HttpServletEndpointServlet.java:64) [bundleFile:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:4.0.FR]
+	at com.liferay.portal.module.framework.ModuleFrameworkServletAdapter.service(ModuleFrameworkServletAdapter.java:45) [portal-impl.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:4.0.FR]
+	at com.liferay.shielded.container.internal.proxy.ServletWrapper.service(ServletWrapper.java:103) [com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.90]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-websocket.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.90]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:117) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.change.tracking.internal.servlet.filter.CTCollectionPreviewFilter.processFilter(CTCollectionPreviewFilter.java:57) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.remote.cors.internal.servlet.filter.PortalCORSServletFilter.processFilter(PortalCORSServletFilter.java:159) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.remote.jaxrs.whiteboard.internal.servlet.filter.JAXRSActivationFilter.doFilter(JAXRSActivationFilter.java:73) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:47) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.lockout.LockoutFilter.processFilter(LockoutFilter.java:49) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:243) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:189) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:189) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) [portal-kernel.jar:?]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at com.liferay.portal.url.rewrite.filter.internal.URLRewriteFilter.processFilter(URLRewriteFilter.java:86) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:189) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:109) [portal-kernel.jar:?]
+	at com.liferay.shielded.container.internal.proxy.FilterWrapper.doFilter(FilterWrapper.java:69) [com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [catalina.jar:9.0.90]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [catalina.jar:9.0.90]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [catalina.jar:9.0.90]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) [catalina.jar:9.0.90]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388) [tomcat-coyote.jar:9.0.90]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote.jar:9.0.90]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:936) [tomcat-coyote.jar:9.0.90]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) [tomcat-coyote.jar:9.0.90]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-coyote.jar:9.0.90]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) [tomcat-util.jar:9.0.90]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util.jar:9.0.90]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-util.jar:9.0.90]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_321]
+2024-10-19 18:42:16.131 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-batch-oauth-application-headless-server)][InterpolationConfigurationPlugin:135] Replaced value of configuration property 'homePageURL' for PID com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-batch-oauth-application-headless-server
+2024-10-19 18:42:16.420 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-batch-oauth-application-headless-server)][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 13260680632269 has client ID id-b17a9f73-c459-bb35-1e57-fd07e3f6478
+2024-10-19 18:42:20.473 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 13260680632269 has client ID id-b17a9f73-c459-bb35-1e57-fd07e3f6478
+2024-10-19 18:42:22.251 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 13260680632269 has client ID id-b17a9f73-c459-bb35-1e57-fd07e3f6478
+2024-10-19 18:42:23.489 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 13260680632269 has client ID id-b17a9f73-c459-bb35-1e57-fd07e3f6478
+2024-10-19 18:42:23.646 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 13260680632269 has client ID id-b17a9f73-c459-bb35-1e57-fd07e3f6478
+2024-10-19 18:42:24.731 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 13260680632269 has client ID id-b17a9f73-c459-bb35-1e57-fd07e3f6478
+2024-10-19 18:42:25.076 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:68] STARTED database_7.4.13 [1465]
+2024-10-19 18:46:39.572 INFO  [main][PortalContextLoaderListener:114] JVM arguments: -Djava.util.logging.config.file=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dfile.encoding=UTF-8 -Djava.locale.providers=JRE,COMPAT,CLDR -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat -Dcatalina.home=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat -Djava.io.tmpdir=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp -Xmx10240m
+2024-10-19 18:46:40.947 WARN  [SystemExecutorServiceUtil-1][DialectDetector:73] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2024-10-19 18:46:40.951 INFO  [SystemExecutorServiceUtil-1][DialectDetector:144] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.7
+2024-10-19 18:46:41.065 INFO  [SystemExecutorServiceUtil-1][DBInitUtil:100] Create tables and populate with default data
+2024-10-19 18:46:41.439 INFO  [main][ModuleFrameworkImpl:1355] Starting initial bundles
+2024-10-19 18:46:41.975 INFO  [main][InterpolationConfigurationPlugin:109] Configured directory for secrets: /Users/mumentayyem/liferay/liferay-telegram/bundles/osgi/configs
+2024-10-19 18:46:42.981 INFO  [main][ModuleFrameworkImpl:1645] Started initial bundles
+2024-10-19 18:46:42.983 INFO  [main][ModuleFrameworkImpl:1690] Starting dynamic bundles
+2024-10-19 18:46:46.312 WARN  [Start Level: Equinox Container: 31dfeb66-1cf7-407b-9608-77f70ebe728f][SidecarManager:72] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2024-10-19 18:46:54.756 INFO  [main][ModuleFrameworkImpl:1713] Started dynamic bundles
+2024-10-19 18:46:54.759 INFO  [main][ModuleFrameworkImpl:1720] Starting web bundles
+2024-10-19 18:46:56.962 INFO  [main][ModuleFrameworkImpl:1774] Started web bundles
+2024-10-19 18:46:56.964 INFO  [main][ModuleFrameworkImpl:283] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2024-10-19 18:47:00.869 INFO  [main][StartupHelperUtil:97] There are no patches installed
+2024-10-19 18:47:00.968 INFO  [main][LoggingTimer:74] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2024-10-19 18:47:01.206 INFO  [main][LoggingTimer:35] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 237 ms
+2024-10-19 18:47:01.384 INFO  [main][LicenseManager:-1] Failed to find directory /Users/mumentayyem/liferay/liferay-telegram/bundles/data/license
+2024-10-19 18:47:01.385 INFO  [main][LicenseManager:-1] No binary licenses found
+2024-10-19 18:47:02.231 INFO  [main][AutoDeployDir:152] Auto deploy scanner started for /Users/mumentayyem/liferay/liferay-telegram/bundles/deploy
+2024-10-19 18:47:03.032 INFO  [SystemExecutorServiceUtil-8][Sidecar:103] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2024-10-19 18:47:19.296 WARN  [liferay/mail-2][MailMessageListener:116] Email test@domain.invalid will be ignored because it is included in mail.send.blacklist
+2024-10-19 18:47:19.299 WARN  [liferay/mail-3][MailMessageListener:116] Email test@domain.invalid will be ignored because it is included in mail.send.blacklist
+2024-10-19 18:47:19.326 WARN  [liferay/mail-2][MailMessageListener:42] Skipping email because the sender is not specified
+2024-10-19 18:47:19.326 WARN  [liferay/mail-3][MailMessageListener:42] Skipping email because the sender is not specified
+2024-10-19 18:47:28.246 INFO  [main][VerifyProcess:65] Verifying com.liferay.search.experiences.internal.verify.SXPServiceVerifyProcess
+2024-10-19 18:47:30.039 INFO  [main][VerifyProcess:78] Completed verification process com.liferay.search.experiences.internal.verify.SXPServiceVerifyProcess in 1797 ms
+2024-10-19 18:47:30.066 INFO  [main][VerifyProcess:65] Verifying com.liferay.portal.security.service.access.policy.internal.verify.SAPServiceVerifyProcess
+2024-10-19 18:47:30.067 INFO  [main][LoggingTimer:74] Starting com.liferay.portal.security.service.access.policy.internal.verify.SAPServiceVerifyProcess#verifyDefaultSAPEntry
+2024-10-19 18:47:30.156 INFO  [main][LoggingTimer:35] Completed com.liferay.portal.security.service.access.policy.internal.verify.SAPServiceVerifyProcess#verifyDefaultSAPEntry in 89 ms
+2024-10-19 18:47:30.157 INFO  [main][VerifyProcess:78] Completed verification process com.liferay.portal.security.service.access.policy.internal.verify.SAPServiceVerifyProcess in 90 ms
+2024-10-19 18:47:30.188 INFO  [main][VerifyProcess:65] Verifying com.liferay.portal.search.tuning.synonyms.web.internal.verify.SynonymSetsDatabaseImporterVerifyProcess
+2024-10-19 18:47:31.257 INFO  [main][VerifyProcess:78] Completed verification process com.liferay.portal.search.tuning.synonyms.web.internal.verify.SynonymSetsDatabaseImporterVerifyProcess in 1068 ms
+2024-10-19 18:47:32.602 INFO  [fileinstall-directory-watcher][LicenseManager:-1] DXP Development license validation passed
+2024-10-19 18:47:32.604 INFO  [fileinstall-directory-watcher][LicenseManager:-1] License registered for DXP Development
+2024-10-19 18:47:32.672 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184732616DHARZTPE/admin-theme.war
+2024-10-19 18:47:34.275 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184732616DHARZTPE/admin-theme.war copied successfully
+2024-10-19 18:47:34.698 INFO  [SystemExecutorServiceUtil-6-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:65] Verifying com.liferay.commerce.product.internal.verify.CommerceProductServiceVerifyProcess
+2024-10-19 18:47:34.700 INFO  [SystemExecutorServiceUtil-6-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][LoggingTimer:74] Starting com.liferay.commerce.product.internal.verify.CommerceProductServiceVerifyProcess#verifyCPMeasurementUnits
+2024-10-19 18:47:35.350 INFO  [SystemExecutorServiceUtil-6-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][LoggingTimer:35] Completed com.liferay.commerce.product.internal.verify.CommerceProductServiceVerifyProcess#verifyCPMeasurementUnits in 650 ms
+2024-10-19 18:47:35.352 INFO  [SystemExecutorServiceUtil-6-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:78] Completed verification process com.liferay.commerce.product.internal.verify.CommerceProductServiceVerifyProcess in 654 ms
+2024-10-19 18:47:36.610 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184736597TWYIWPPW/classic-theme.war
+2024-10-19 18:47:38.471 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184736597TWYIWPPW/classic-theme.war copied successfully
+2024-10-19 18:47:40.309 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184740288NUUGHIBD/dialect-theme.war
+2024-10-19 18:47:42.108 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184740288NUUGHIBD/dialect-theme.war copied successfully
+2024-10-19 18:47:43.958 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184743932HPDMJQBP/minium-theme.war
+2024-10-19 18:47:45.368 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184743932HPDMJQBP/minium-theme.war copied successfully
+2024-10-19 18:47:47.127 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184747115QERKMUDY/speedwell-theme.war
+2024-10-19 18:47:48.707 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019184747115QERKMUDY/speedwell-theme.war copied successfully
+2024-10-19 18:47:49.738 INFO  [SystemExecutorServiceUtil-6-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:65] Verifying com.liferay.commerce.internal.verify.CommerceAccountServiceVerifyProcess
+2024-10-19 18:47:49.741 INFO  [SystemExecutorServiceUtil-6-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][LoggingTimer:74] Starting com.liferay.commerce.internal.verify.CommerceAccountServiceVerifyProcess#verifyAccountRoles
+2024-10-19 18:47:49.759 INFO  [SystemExecutorServiceUtil-6-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][LoggingTimer:35] Completed com.liferay.commerce.internal.verify.CommerceAccountServiceVerifyProcess#verifyAccountRoles in 18 ms
+2024-10-19 18:47:49.761 INFO  [SystemExecutorServiceUtil-6-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][LoggingTimer:74] Starting com.liferay.commerce.internal.verify.CommerceAccountServiceVerifyProcess#verifyAccountGroup
+2024-10-19 18:47:49.775 INFO  [SystemExecutorServiceUtil-6-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][LoggingTimer:35] Completed com.liferay.commerce.internal.verify.CommerceAccountServiceVerifyProcess#verifyAccountGroup in 14 ms
+2024-10-19 18:47:49.776 INFO  [SystemExecutorServiceUtil-6-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:78] Completed verification process com.liferay.commerce.internal.verify.CommerceAccountServiceVerifyProcess in 39 ms
+2024-10-19 18:47:55.166 INFO  [SystemExecutorServiceUtil-6-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:65] Verifying com.liferay.portal.search.tuning.rankings.web.internal.verify.RankingsDatabaseImporterVerifyProcess
+2024-10-19 18:47:55.556 INFO  [SystemExecutorServiceUtil-6-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:78] Completed verification process com.liferay.portal.search.tuning.rankings.web.internal.verify.RankingsDatabaseImporterVerifyProcess in 391 ms
+2024-10-19 18:47:55.627 INFO  [SystemExecutorServiceUtil-6-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:65] Verifying com.liferay.adaptive.media.document.library.thumbnails.internal.verify.DocumentLibraryThumbnailsConfigurationVerifyProcess
+2024-10-19 18:47:55.665 INFO  [SystemExecutorServiceUtil-6-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:78] Completed verification process com.liferay.adaptive.media.document.library.thumbnails.internal.verify.DocumentLibraryThumbnailsConfigurationVerifyProcess in 39 ms
+2024-10-19 18:47:57.295 INFO  [SystemExecutorServiceUtil-6-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:65] Verifying com.liferay.commerce.price.list.internal.verify.CommercePriceListServiceVerifyProcess
+2024-10-19 18:47:57.296 INFO  [SystemExecutorServiceUtil-6-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][LoggingTimer:74] Starting com.liferay.commerce.price.list.internal.verify.CommercePriceListServiceVerifyProcess#verifyBasePriceLists
+2024-10-19 18:47:57.324 INFO  [SystemExecutorServiceUtil-6-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][LoggingTimer:35] Completed com.liferay.commerce.price.list.internal.verify.CommercePriceListServiceVerifyProcess#verifyBasePriceLists in 28 ms
+2024-10-19 18:47:57.325 INFO  [SystemExecutorServiceUtil-6-com.liferay.portal.spring.extender.internal.configuration.ServiceConfigurationInitializer-com.liferay.change.tracking.service][VerifyProcess:78] Completed verification process com.liferay.commerce.price.list.internal.verify.CommercePriceListServiceVerifyProcess in 30 ms
+2024-10-19 18:48:24.287 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:516] Initializing com.liferay.site.initializer.welcome for group 20117
+2024-10-19 18:48:24.453 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addAccountGroups took 126 ms
+2024-10-19 18:48:24.455 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addSiteConfiguration took 0 ms
+2024-10-19 18:48:24.464 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateDataDefinitions took 8 ms
+2024-10-19 18:48:24.465 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking setPLOEntries took 0 ms
+2024-10-19 18:48:24.466 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addSiteSettings took 0 ms
+2024-10-19 18:48:24.466 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateDepotEntries took 0 ms
+2024-10-19 18:48:24.466 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addKeywords took 0 ms
+2024-10-19 18:48:24.468 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addStyleBookEntries took 0 ms
+2024-10-19 18:48:24.468 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateDDMStructures took 0 ms
+2024-10-19 18:48:24.472 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateObjectFolders took 1 ms
+2024-10-19 18:48:24.474 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateExpandoColumns took 0 ms
+2024-10-19 18:48:24.474 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateUserGroups took 0 ms
+2024-10-19 18:48:24.474 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateSAPEntries took 0 ms
+2024-10-19 18:48:24.474 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateListTypeDefinitions took 0 ms
+2024-10-19 18:48:24.512 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateRoles took 37 ms
+2024-10-19 18:48:25.250 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateLayouts took 736 ms
+2024-10-19 18:48:25.276 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking updateLayoutSets took 25 ms
+2024-10-19 18:48:25.278 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addAccounts took 1 ms
+2024-10-19 18:48:25.280 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateTaxonomyVocabularies took 2 ms
+2024-10-19 18:48:25.281 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateKnowledgeBaseArticles took 0 ms
+2024-10-19 18:48:25.281 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateOrganizations took 0 ms
+2024-10-19 18:48:25.282 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateSXPBlueprint took 1 ms
+2024-10-19 18:48:28.551 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateDocuments took 3111 ms
+2024-10-19 18:48:28.612 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addWorkflowDefinitions took 0 ms
+2024-10-19 18:48:28.620 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateClientExtensionEntries took 6 ms
+2024-10-19 18:48:28.621 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addUserAccounts took 0 ms
+2024-10-19 18:48:28.621 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateBlogPostings took 0 ms
+2024-10-19 18:48:28.622 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addUserRoles took 0 ms
+2024-10-19 18:48:28.622 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addAccountsOrganizations took 0 ms
+2024-10-19 18:48:28.622 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addAccountGroupAssignments took 0 ms
+2024-10-19 18:48:28.623 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addFragmentEntries took 1 ms
+2024-10-19 18:48:28.624 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateAssetLinkEntries took 0 ms
+2024-10-19 18:48:28.636 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addObjectDefinitions took 11 ms
+2024-10-19 18:48:28.638 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addPortletSettings took 0 ms
+2024-10-19 18:48:28.638 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateSegmentsEntries took 0 ms
+2024-10-19 18:48:28.640 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addRolesAssignments took 0 ms
+2024-10-19 18:48:28.641 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateObjectRelationships took 0 ms
+2024-10-19 18:48:28.642 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateObjectFields took 0 ms
+2024-10-19 18:48:28.644 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking publishObjectDefinitions took 0 ms
+2024-10-19 18:48:28.761 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateDDMTemplates took 117 ms
+2024-10-19 18:48:28.763 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateNotificationTemplates took 1 ms
+2024-10-19 18:48:28.766 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateAccountEntryRestrictions took 0 ms
+2024-10-19 18:48:28.766 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateJournalArticles took 0 ms
+2024-10-19 18:48:28.766 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateObjectActions took 0 ms
+2024-10-19 18:48:28.766 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateObjectEntries took 0 ms
+2024-10-19 18:48:28.767 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addCPDefinitions took 0 ms
+2024-10-19 18:48:31.718 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addLayoutUtilityPageEntries took 2950 ms
+2024-10-19 18:48:31.720 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addAssetListEntries took 0 ms
+2024-10-19 18:48:31.722 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addLayoutPageTemplates took 2 ms
+2024-10-19 18:48:34.506 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateLayoutsContent took 2783 ms
+2024-10-19 18:48:34.511 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addExpandoValues took 1 ms
+2024-10-19 18:48:34.513 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addSegmentsExperiences took 1 ms
+2024-10-19 18:48:34.513 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:5572] Invoking addOrUpdateResourcePermissions took 0 ms
+2024-10-19 18:48:34.517 INFO  [http-nio-8080-exec-1][BundleSiteInitializer:534] Initialized com.liferay.site.initializer.welcome for group 20117 in 10231 ms
+2024-10-19 18:48:56.469 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-batch-oauth-application-headless-server)][InterpolationConfigurationPlugin:135] Replaced value of configuration property 'homePageURL' for PID com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-batch-oauth-application-headless-server
+2024-10-19 18:48:57.105 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-batch-oauth-application-headless-server)][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 14401142882666 has client ID id-11536e8e-7442-376a-4f38-595346a1b40
+2024-10-19 18:49:06.525 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-batch-oauth-application-headless-server)][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 14401142882666 has client ID id-11536e8e-7442-376a-4f38-595346a1b40
+2024-10-19 18:49:06.585 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 14401142882666 has client ID id-11536e8e-7442-376a-4f38-595346a1b40
+2024-10-19 18:49:08.530 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 14401142882666 has client ID id-11536e8e-7442-376a-4f38-595346a1b40
+2024-10-19 18:49:09.928 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 14401142882666 has client ID id-11536e8e-7442-376a-4f38-595346a1b40
+2024-10-19 18:49:10.212 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 14401142882666 has client ID id-11536e8e-7442-376a-4f38-595346a1b40
+2024-10-19 18:49:11.344 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 14401142882666 has client ID id-11536e8e-7442-376a-4f38-595346a1b40
+2024-10-19 18:49:11.542 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 14401142882666 has client ID id-11536e8e-7442-376a-4f38-595346a1b40
+2024-10-19 18:49:12.197 INFO  [fileinstall-directory-watcher][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-batch-oauth-application-headless-server and company ID 14401142882666 has client ID id-11536e8e-7442-376a-4f38-595346a1b40
+2024-10-19 18:49:12.596 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:68] STARTED liferaybotbatch_7.4.13 [1467]
+2024-10-19 18:49:22.253 WARN  [liferay/mail-3][MailMessageListener:116] Email test@domain.invalid will be ignored because it is included in mail.send.blacklist
+2024-10-19 18:49:22.257 WARN  [liferay/mail-3][MailMessageListener:42] Skipping email because the sender is not specified
+2024-10-19 18:51:34.243 ERROR [http-nio-8080-exec-7][PortletRequestDispatcherImpl:295] Unable to dispatch request: java.lang.NullPointerException
+2024-10-19 18:51:34.251 ERROR [http-nio-8080-exec-7][PortletServlet:109] Unable to process portlet com_liferay_oauth2_provider_web_internal_portlet_OAuth2AdminPortlet: org.apache.jasper.JasperException: java.lang.NullPointerException
+javax.portlet.PortletException: org.apache.jasper.JasperException: java.lang.NullPointerException
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:298) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.include(PortletRequestDispatcherImpl.java:114) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:611) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:627) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.doDispatch(MVCPortlet.java:497) ~[portal-kernel.jar:?]
+	at javax.portlet.GenericPortlet.render(GenericPortlet.java:291) ~[portlet.jar:3.0.1]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.render(MVCPortlet.java:300) ~[portal-kernel.jar:?]
+	at com.liferay.oauth2.provider.web.internal.portlet.OAuth2AdminPortlet.render(OAuth2AdminPortlet.java:52) ~[bundleFile:?]
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:118) ~[portal-impl.jar:?]
+	at com.liferay.portlet.ScriptDataPortletFilter.doFilter(ScriptDataPortletFilter.java:49) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:115) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.portlet.PortletFilterUtil.doFilter(PortletFilterUtil.java:62) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.PortletServlet.service(PortletServlet.java:105) ~[portal-kernel.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:147) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:63) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48) ~[?:?]
+	at com.liferay.portlet.internal.InvokerPortletImpl.invoke(InvokerPortletImpl.java:562) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.InvokerPortletImpl.invokeRender(InvokerPortletImpl.java:652) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.InvokerPortletImpl.render(InvokerPortletImpl.java:338) ~[portal-impl.jar:?]
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet.lambda$render$0(MonitoringInvokerPortlet.java:250) ~[?:?]
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet._render(MonitoringInvokerPortlet.java:353) ~[?:?]
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet.render(MonitoringInvokerPortlet.java:248) ~[?:?]
+	at org.apache.jsp.html.portal.render_005fportlet_jsp._jspService(render_005fportlet_jsp.java:1395) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67) ~[jasper.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at com.liferay.portal.kernel.servlet.DirectRequestDispatcher.include(DirectRequestDispatcher.java:53) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.DirectRequestDispatcherFactoryUtil$IndirectRequestDispatcher.include(DirectRequestDispatcherFactoryUtil.java:169) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.TransferHeadersHelperUtil$TransferHeadersRequestDispatcher.include(TransferHeadersHelperUtil.java:152) ~[portal-kernel.jar:?]
+	at com.liferay.portlet.internal.PortletContainerImpl._render(PortletContainerImpl.java:886) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.PortletContainerImpl.lambda$render$2(PortletContainerImpl.java:214) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.PortletContainerImpl._preserveGroupIds(PortletContainerImpl.java:402) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.PortletContainerImpl.render(PortletContainerImpl.java:202) ~[portal-impl.jar:?]
+	at com.liferay.portlet.SecurityPortletContainerWrapper.render(SecurityPortletContainerWrapper.java:125) ~[portal-impl.jar:?]
+	at com.liferay.portlet.RestrictPortletContainerWrapper.lambda$render$0(RestrictPortletContainerWrapper.java:115) ~[portal-impl.jar:?]
+	at com.liferay.portlet.RestrictPortletContainerWrapper._render(RestrictPortletContainerWrapper.java:176) ~[portal-impl.jar:?]
+	at com.liferay.portlet.RestrictPortletContainerWrapper.render(RestrictPortletContainerWrapper.java:113) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.portlet.PortletContainerUtil.render(PortletContainerUtil.java:205) ~[portal-kernel.jar:?]
+	at com.liferay.portal.layoutconfiguration.util.velocity.TemplateProcessor.processMax(TemplateProcessor.java:134) ~[portal-impl.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_321]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_321]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_321]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_321]
+	at freemarker.ext.beans.BeansWrapper.invokeMethod(BeansWrapper.java:1553) ~[bundleFile:?]
+	at freemarker.ext.beans.SimpleMethodModel.exec(SimpleMethodModel.java:73) ~[bundleFile:?]
+	at freemarker.core.MethodCall._eval(MethodCall.java:62) ~[bundleFile:?]
+	at freemarker.core.Expression.eval(Expression.java:101) ~[bundleFile:?]
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:104) ~[bundleFile:?]
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63) ~[bundleFile:?]
+	at freemarker.core.Environment.visit(Environment.java:335) ~[bundleFile:?]
+	at freemarker.core.Environment.visit(Environment.java:341) ~[bundleFile:?]
+	at freemarker.core.Environment.process(Environment.java:314) ~[bundleFile:?]
+	at freemarker.template.Template.process(Template.java:383) ~[bundleFile:?]
+	at com.liferay.portal.template.freemarker.internal.FreeMarkerTemplate.lambda$processTemplate$0(FreeMarkerTemplate.java:149) ~[bundleFile:?]
+	at com.liferay.portal.template.freemarker.internal.FreeMarkerManager.render(FreeMarkerManager.java:355) [bundleFile:?]
+	at com.liferay.portal.template.freemarker.internal.FreeMarkerTemplate.processTemplate(FreeMarkerTemplate.java:136) [bundleFile:?]
+	at com.liferay.portal.template.engine.BaseTemplate.processTemplate(BaseTemplate.java:117) [bundleFile:?]
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageUtil.doProcessTemplate(RuntimePageUtil.java:170) [portal-impl.jar:?]
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageUtil.doDispatch(RuntimePageUtil.java:135) [portal-impl.jar:?]
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageUtil.getProcessedTemplate(RuntimePageUtil.java:63) [portal-impl.jar:?]
+	at com.liferay.application.list.taglib.display.context.logic.PanelAppContentHelper.writeContent(PanelAppContentHelper.java:76) [bundleFile:?]
+	at org.apache.jsp.application_005fcontent.page_jsp._jspService(page_jsp.java:144) [?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111) [javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-9.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:4.0.FR]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:411) [javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-9.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473) [javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-9.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377) [javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-9.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:4.0.FR]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:310) [bundleFile:?]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319) [bundleFile:?]
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:147) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:63) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at com.liferay.portal.kernel.servlet.DirectServletPathRegisterDispatcher.include(DirectServletPathRegisterDispatcher.java:57) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.DirectRequestDispatcherFactoryUtil$IndirectRequestDispatcher.include(DirectRequestDispatcherFactoryUtil.java:169) [portal-kernel.jar:?]
+	at com.liferay.taglib.util.IncludeTag.includePage(IncludeTag.java:400) [bundleFile:?]
+	at com.liferay.taglib.util.IncludeTag.include(IncludeTag.java:375) [bundleFile:?]
+	at com.liferay.taglib.util.IncludeTag.doInclude(IncludeTag.java:208) [bundleFile:?]
+	at com.liferay.taglib.util.IncludeTag.doEndTag(IncludeTag.java:79) [bundleFile:?]
+	at org.apache.jsp.layout.view.control_005fpanel_jsp._jspService(control_005fpanel_jsp.java:109) [?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111) [javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-9.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:4.0.FR]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:411) [javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-9.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473) [javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-9.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377) [javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-9.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:4.0.FR]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:310) [bundleFile:?]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319) [bundleFile:?]
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:147) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:63) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at com.liferay.portal.kernel.servlet.TransferHeadersHelperUtil$TransferHeadersRequestDispatcher.include(TransferHeadersHelperUtil.java:152) [portal-kernel.jar:?]
+	at com.liferay.layout.type.controller.BaseLayoutTypeControllerImpl.includeLayoutContent(BaseLayoutTypeControllerImpl.java:102) [bundleFile:?]
+	at com.liferay.portal.model.impl.LayoutImpl.includeLayoutContent(LayoutImpl.java:1063) [portal-impl.jar:?]
+	at com.liferay.portal.action.LayoutAction.processLayout(LayoutAction.java:427) [portal-impl.jar:?]
+	at com.liferay.portal.action.LayoutAction.execute(LayoutAction.java:165) [portal-impl.jar:?]
+	at com.liferay.portal.struts.PortalRequestProcessor._process(PortalRequestProcessor.java:375) [portal-impl.jar:?]
+	at com.liferay.portal.struts.PortalRequestProcessor.process(PortalRequestProcessor.java:142) [portal-impl.jar:?]
+	at com.liferay.portal.internal.servlet.MainServlet.doGet(MainServlet.java:194) [portal-impl.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529) [servlet-api.jar:4.0.FR]
+	at com.liferay.portal.internal.servlet.MainServlet.service(MainServlet.java:582) [portal-impl.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:4.0.FR]
+	at com.liferay.shielded.container.internal.proxy.ServletWrapper.service(ServletWrapper.java:103) [com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.90]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-websocket.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.90]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:117) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.change.tracking.internal.servlet.filter.CTCollectionPreviewFilter.processFilter(CTCollectionPreviewFilter.java:57) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:47) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.lockout.LockoutFilter.processFilter(LockoutFilter.java:49) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:316) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:116) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at com.liferay.portal.url.rewrite.filter.internal.URLRewriteFilter.processFilter(URLRewriteFilter.java:86) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:109) [portal-kernel.jar:?]
+	at com.liferay.shielded.container.internal.proxy.FilterWrapper.doFilter(FilterWrapper.java:69) [com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:641) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:415) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:347) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:284) [catalina.jar:9.0.90]
+	at com.liferay.friendly.url.internal.servlet.FriendlyURLServlet.service(FriendlyURLServlet.java:555) [bundleFile:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:4.0.FR]
+	at com.liferay.portal.servlet.ServletAdapter.service(ServletAdapter.java:89) [portal-impl.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:4.0.FR]
+	at com.liferay.shielded.container.internal.proxy.ServletWrapper.service(ServletWrapper.java:103) [com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.90]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-websocket.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.90]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:117) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.change.tracking.internal.servlet.filter.CTCollectionPreviewFilter.processFilter(CTCollectionPreviewFilter.java:57) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.portal.i18n.filter.internal.I18nFilter.processFilter(I18nFilter.java:371) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:47) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.lockout.LockoutFilter.processFilter(LockoutFilter.java:49) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:316) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.etag.ETagFilter.processFilter(ETagFilter.java:78) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.autologin.AutoLoginFilter.processFilter(AutoLoginFilter.java:253) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:243) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:116) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:189) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:189) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) [portal-kernel.jar:?]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at com.liferay.portal.url.rewrite.filter.internal.URLRewriteFilter.processFilter(URLRewriteFilter.java:86) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:189) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:109) [portal-kernel.jar:?]
+	at com.liferay.shielded.container.internal.proxy.FilterWrapper.doFilter(FilterWrapper.java:69) [com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [catalina.jar:9.0.90]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [catalina.jar:9.0.90]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [catalina.jar:9.0.90]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) [catalina.jar:9.0.90]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388) [tomcat-coyote.jar:9.0.90]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote.jar:9.0.90]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:936) [tomcat-coyote.jar:9.0.90]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) [tomcat-coyote.jar:9.0.90]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-coyote.jar:9.0.90]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) [tomcat-util.jar:9.0.90]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util.jar:9.0.90]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-util.jar:9.0.90]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_321]
+Caused by: org.apache.jasper.JasperException: java.lang.NullPointerException
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:440) ~[jasper.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473) ~[jasper.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377) ~[jasper.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:310) ~[?:?]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:147) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:63) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48) ~[?:?]
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:282) ~[portal-impl.jar:?]
+	... 242 more
+Caused by: java.lang.NullPointerException
+	at org.apache.jsp.admin.edit_005fapplication_jsp._jspService(edit_005fapplication_jsp.java:241) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111) ~[jasper.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:411) ~[jasper.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473) ~[jasper.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377) ~[jasper.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:310) ~[?:?]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:147) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:63) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48) ~[?:?]
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:282) ~[portal-impl.jar:?]
+	... 242 more
+2024-10-19 18:51:34.306 ERROR [http-nio-8080-exec-7][render_portlet_jsp:122] null
+java.lang.NullPointerException: null
+	at org.apache.jsp.admin.edit_005fapplication_jsp._jspService(edit_005fapplication_jsp.java:241) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111) ~[jasper.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:411) ~[jasper.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473) ~[jasper.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377) ~[jasper.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:310) ~[?:?]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:147) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:63) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48) ~[?:?]
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:282) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.include(PortletRequestDispatcherImpl.java:114) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:611) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:627) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.doDispatch(MVCPortlet.java:497) ~[portal-kernel.jar:?]
+	at javax.portlet.GenericPortlet.render(GenericPortlet.java:291) ~[portlet.jar:3.0.1]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.render(MVCPortlet.java:300) ~[portal-kernel.jar:?]
+2024-10-19 19:09:02.093 INFO  [main][PortalContextLoaderListener:114] JVM arguments: -Djava.util.logging.config.file=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dfile.encoding=UTF-8 -Djava.locale.providers=JRE,COMPAT,CLDR -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat -Dcatalina.home=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat -Djava.io.tmpdir=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp -Xmx10240m
+2024-10-19 19:09:04.924 WARN  [SystemExecutorServiceUtil-1][DialectDetector:73] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+2024-10-19 19:09:04.927 INFO  [SystemExecutorServiceUtil-1][DialectDetector:144] Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.7
+2024-10-19 19:09:05.176 INFO  [main][ModuleFrameworkImpl:1355] Starting initial bundles
+2024-10-19 19:09:05.570 INFO  [main][InterpolationConfigurationPlugin:109] Configured directory for secrets: /Users/mumentayyem/liferay/liferay-telegram/bundles/osgi/configs
+2024-10-19 19:09:07.072 INFO  [main][ModuleFrameworkImpl:1645] Started initial bundles
+2024-10-19 19:09:07.075 INFO  [main][ModuleFrameworkImpl:1690] Starting dynamic bundles
+2024-10-19 19:09:09.805 WARN  [Start Level: Equinox Container: 9b3799d6-873e-46e4-8971-fb998aad201f][SidecarManager:72] Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.
+2024-10-19 19:09:13.900 INFO  [Start Level: Equinox Container: 9b3799d6-873e-46e4-8971-fb998aad201f][InterpolationConfigurationPlugin:135] Replaced value of configuration property 'homePageURL' for PID com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-batch-oauth-application-headless-server
+2024-10-19 19:09:16.960 INFO  [main][ModuleFrameworkImpl:1713] Started dynamic bundles
+2024-10-19 19:09:16.963 INFO  [main][ModuleFrameworkImpl:1720] Starting web bundles
+2024-10-19 19:09:19.340 INFO  [main][ModuleFrameworkImpl:1774] Started web bundles
+2024-10-19 19:09:19.345 INFO  [main][ModuleFrameworkImpl:283] Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles
+2024-10-19 19:09:22.224 INFO  [main][StartupHelperUtil:97] There are no patches installed
+2024-10-19 19:09:22.594 INFO  [main][LoggingTimer:74] Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions
+2024-10-19 19:09:22.730 INFO  [main][LoggingTimer:35] Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 137 ms
+2024-10-19 19:09:22.779 INFO  [main][LicenseManager:-1] DXP Development license validation passed
+2024-10-19 19:09:23.750 INFO  [main][AutoDeployDir:152] Auto deploy scanner started for /Users/mumentayyem/liferay/liferay-telegram/bundles/deploy
+2024-10-19 19:09:28.903 INFO  [SystemExecutorServiceUtil-6][Sidecar:103] Sidecar Elasticsearch liferay started at 127.0.0.1:9201
+2024-10-19 19:09:40.273 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019190940043OPSQLNAQ/admin-theme.war
+2024-10-19 19:09:42.543 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019190940043OPSQLNAQ/admin-theme.war copied successfully
+2024-10-19 19:09:45.698 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019190945679LCZQUMHP/classic-theme.war
+2024-10-19 19:09:47.321 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019190945679LCZQUMHP/classic-theme.war copied successfully
+2024-10-19 19:09:49.238 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019190949220RINPBCIM/dialect-theme.war
+2024-10-19 19:09:50.644 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019190949220RINPBCIM/dialect-theme.war copied successfully
+2024-10-19 19:09:52.401 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019190952385ZDKVDRQS/minium-theme.war
+2024-10-19 19:09:53.818 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019190952385ZDKVDRQS/minium-theme.war copied successfully
+2024-10-19 19:09:55.304 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:34] Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019190955295HZUJCDRC/speedwell-theme.war
+2024-10-19 19:09:56.521 INFO  [fileinstall-directory-watcher][BaseAutoDeployListener:41] Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20241019190955295HZUJCDRC/speedwell-theme.war copied successfully
+2024-10-19 19:11:19.727 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:68] STARTED liferaybotetcnode_7.4.13 [1469]
+2024-10-19 19:11:20.118 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-etc-node-oauth-application-headless-server)][InterpolationConfigurationPlugin:135] Replaced value of configuration property 'homePageURL' for PID com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-etc-node-oauth-application-headless-server
+2024-10-19 19:11:20.650 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-etc-node-oauth-application-headless-server)][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-etc-node-oauth-application-headless-server and company ID 14401142882666 has client ID id-2235b03b-c4e4-ea6c-53c4-c436a62f53d
+2024-10-19 19:11:28.142 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-bot-etc-node-oauth-application-headless-server)][OAuth2ProviderApplicationHeadlessServerConfigurationFactory:193] OAuth 2 application with external reference code liferay-bot-etc-node-oauth-application-headless-server and company ID 14401142882666 has client ID id-2235b03b-c4e4-ea6c-53c4-c436a62f53d
+2024-10-19 19:11:28.163 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationUserAgentConfiguration~liferay-bot-etc-node-oauth-application-user-agent)][InterpolationConfigurationPlugin:135] Replaced value of configuration property 'homePageURL' for PID com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationUserAgentConfiguration~liferay-bot-etc-node-oauth-application-user-agent
+2024-10-19 19:11:28.227 INFO  [CM Event Dispatcher (Fire ConfigurationEvent: pid=com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationUserAgentConfiguration~liferay-bot-etc-node-oauth-application-user-agent)][OAuth2ProviderApplicationUserAgentConfigurationFactory:170] OAuth 2 application with external reference code liferay-bot-etc-node-oauth-application-user-agent and company ID 14401142882666 has client ID id-f25ae065-4e3f-18db-7761-ddd634e2944e
+2024-10-19 19:48:48.818 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:68] STARTED liferaybotcustomelement_7.4.13 [1470]
+2024-10-19 19:51:26.117 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:71] STOPPED liferaybotcustomelement_7.4.13 [1470]
+2024-10-19 19:51:28.580 ERROR [http-nio-8080-exec-8][PortletRequestDispatcherImpl:295] Unable to dispatch request: java.lang.NullPointerException
+2024-10-19 19:51:28.589 ERROR [http-nio-8080-exec-8][PortletServlet:109] Unable to process portlet com_liferay_client_extension_web_internal_portlet_ClientExtensionAdminPortlet: org.apache.jasper.JasperException: java.lang.NullPointerException
+javax.portlet.PortletException: org.apache.jasper.JasperException: java.lang.NullPointerException
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:298) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.include(PortletRequestDispatcherImpl.java:114) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:611) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:627) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.doDispatch(MVCPortlet.java:497) ~[portal-kernel.jar:?]
+	at javax.portlet.GenericPortlet.render(GenericPortlet.java:291) ~[portlet.jar:3.0.1]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.render(MVCPortlet.java:300) ~[portal-kernel.jar:?]
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:118) ~[portal-impl.jar:?]
+	at com.liferay.portlet.ScriptDataPortletFilter.doFilter(ScriptDataPortletFilter.java:49) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.FilterChainImpl.doFilter(FilterChainImpl.java:115) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.portlet.PortletFilterUtil.doFilter(PortletFilterUtil.java:62) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.PortletServlet.service(PortletServlet.java:105) ~[portal-kernel.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:147) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:63) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48) ~[?:?]
+	at com.liferay.portlet.internal.InvokerPortletImpl.invoke(InvokerPortletImpl.java:562) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.InvokerPortletImpl.invokeRender(InvokerPortletImpl.java:652) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.InvokerPortletImpl.render(InvokerPortletImpl.java:338) ~[portal-impl.jar:?]
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet.lambda$render$0(MonitoringInvokerPortlet.java:250) ~[?:?]
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet._render(MonitoringInvokerPortlet.java:353) ~[?:?]
+	at com.liferay.portal.monitoring.internal.portlet.MonitoringInvokerPortlet.render(MonitoringInvokerPortlet.java:248) ~[?:?]
+	at org.apache.jsp.html.portal.render_005fportlet_jsp._jspService(render_005fportlet_jsp.java:1395) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67) ~[jasper.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at com.liferay.portal.kernel.servlet.DirectRequestDispatcher.include(DirectRequestDispatcher.java:53) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.DirectRequestDispatcherFactoryUtil$IndirectRequestDispatcher.include(DirectRequestDispatcherFactoryUtil.java:169) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.TransferHeadersHelperUtil$TransferHeadersRequestDispatcher.include(TransferHeadersHelperUtil.java:152) ~[portal-kernel.jar:?]
+	at com.liferay.portlet.internal.PortletContainerImpl._render(PortletContainerImpl.java:886) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.PortletContainerImpl.lambda$render$2(PortletContainerImpl.java:214) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.PortletContainerImpl._preserveGroupIds(PortletContainerImpl.java:402) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.PortletContainerImpl.render(PortletContainerImpl.java:202) ~[portal-impl.jar:?]
+	at com.liferay.portlet.SecurityPortletContainerWrapper.render(SecurityPortletContainerWrapper.java:125) ~[portal-impl.jar:?]
+	at com.liferay.portlet.RestrictPortletContainerWrapper.lambda$render$0(RestrictPortletContainerWrapper.java:115) ~[portal-impl.jar:?]
+	at com.liferay.portlet.RestrictPortletContainerWrapper._render(RestrictPortletContainerWrapper.java:176) ~[portal-impl.jar:?]
+	at com.liferay.portlet.RestrictPortletContainerWrapper.render(RestrictPortletContainerWrapper.java:113) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.portlet.PortletContainerUtil.render(PortletContainerUtil.java:205) ~[portal-kernel.jar:?]
+	at com.liferay.portal.layoutconfiguration.util.velocity.TemplateProcessor.processMax(TemplateProcessor.java:134) ~[portal-impl.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_321]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_321]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_321]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_321]
+	at freemarker.ext.beans.BeansWrapper.invokeMethod(BeansWrapper.java:1553) ~[bundleFile:?]
+	at freemarker.ext.beans.SimpleMethodModel.exec(SimpleMethodModel.java:73) ~[bundleFile:?]
+	at freemarker.core.MethodCall._eval(MethodCall.java:62) ~[bundleFile:?]
+	at freemarker.core.Expression.eval(Expression.java:101) ~[bundleFile:?]
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:104) ~[bundleFile:?]
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63) ~[bundleFile:?]
+	at freemarker.core.Environment.visit(Environment.java:335) ~[bundleFile:?]
+	at freemarker.core.Environment.visit(Environment.java:341) ~[bundleFile:?]
+	at freemarker.core.Environment.process(Environment.java:314) ~[bundleFile:?]
+	at freemarker.template.Template.process(Template.java:383) ~[bundleFile:?]
+	at com.liferay.portal.template.freemarker.internal.FreeMarkerTemplate.lambda$processTemplate$0(FreeMarkerTemplate.java:149) ~[bundleFile:?]
+	at com.liferay.portal.template.freemarker.internal.FreeMarkerManager.render(FreeMarkerManager.java:355) [bundleFile:?]
+	at com.liferay.portal.template.freemarker.internal.FreeMarkerTemplate.processTemplate(FreeMarkerTemplate.java:136) [bundleFile:?]
+	at com.liferay.portal.template.engine.BaseTemplate.processTemplate(BaseTemplate.java:117) [bundleFile:?]
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageUtil.doProcessTemplate(RuntimePageUtil.java:170) [portal-impl.jar:?]
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageUtil.doDispatch(RuntimePageUtil.java:135) [portal-impl.jar:?]
+	at com.liferay.portal.layoutconfiguration.util.RuntimePageUtil.getProcessedTemplate(RuntimePageUtil.java:63) [portal-impl.jar:?]
+	at com.liferay.application.list.taglib.display.context.logic.PanelAppContentHelper.writeContent(PanelAppContentHelper.java:76) [bundleFile:?]
+	at org.apache.jsp.application_005fcontent.page_jsp._jspService(page_jsp.java:144) [?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111) [javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-9.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:4.0.FR]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:411) [javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-9.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473) [javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-9.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377) [javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-9.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:4.0.FR]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:310) [bundleFile:?]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319) [bundleFile:?]
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:147) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:63) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at com.liferay.portal.kernel.servlet.DirectServletPathRegisterDispatcher.include(DirectServletPathRegisterDispatcher.java:57) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.DirectRequestDispatcherFactoryUtil$IndirectRequestDispatcher.include(DirectRequestDispatcherFactoryUtil.java:169) [portal-kernel.jar:?]
+	at com.liferay.taglib.util.IncludeTag.includePage(IncludeTag.java:400) [bundleFile:?]
+	at com.liferay.taglib.util.IncludeTag.include(IncludeTag.java:375) [bundleFile:?]
+	at com.liferay.taglib.util.IncludeTag.doInclude(IncludeTag.java:208) [bundleFile:?]
+	at com.liferay.taglib.util.IncludeTag.doEndTag(IncludeTag.java:79) [bundleFile:?]
+	at org.apache.jsp.layout.view.control_005fpanel_jsp._jspService(control_005fpanel_jsp.java:109) [?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111) [javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-9.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:4.0.FR]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:411) [javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-9.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473) [javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-9.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377) [javax.servlet.jsp-2.3.3-b02.LIFERAY-PATCHED-9.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:4.0.FR]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:310) [bundleFile:?]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319) [bundleFile:?]
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:147) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:63) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48) [org.eclipse.equinox.http.servlet-1.2.2.v20211118-0920.LIFERAY-PATCHED-4.jar:?]
+	at com.liferay.portal.kernel.servlet.TransferHeadersHelperUtil$TransferHeadersRequestDispatcher.include(TransferHeadersHelperUtil.java:152) [portal-kernel.jar:?]
+	at com.liferay.layout.type.controller.BaseLayoutTypeControllerImpl.includeLayoutContent(BaseLayoutTypeControllerImpl.java:102) [bundleFile:?]
+	at com.liferay.portal.model.impl.LayoutImpl.includeLayoutContent(LayoutImpl.java:1063) [portal-impl.jar:?]
+	at com.liferay.portal.action.LayoutAction.processLayout(LayoutAction.java:427) [portal-impl.jar:?]
+	at com.liferay.portal.action.LayoutAction.execute(LayoutAction.java:165) [portal-impl.jar:?]
+	at com.liferay.portal.struts.PortalRequestProcessor._process(PortalRequestProcessor.java:375) [portal-impl.jar:?]
+	at com.liferay.portal.struts.PortalRequestProcessor.process(PortalRequestProcessor.java:142) [portal-impl.jar:?]
+	at com.liferay.portal.internal.servlet.MainServlet.doGet(MainServlet.java:194) [portal-impl.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529) [servlet-api.jar:4.0.FR]
+	at com.liferay.portal.internal.servlet.MainServlet.service(MainServlet.java:582) [portal-impl.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:4.0.FR]
+	at com.liferay.shielded.container.internal.proxy.ServletWrapper.service(ServletWrapper.java:103) [com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.90]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-websocket.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.90]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:117) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.change.tracking.internal.servlet.filter.CTCollectionPreviewFilter.processFilter(CTCollectionPreviewFilter.java:57) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:47) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.lockout.LockoutFilter.processFilter(LockoutFilter.java:49) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:316) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:116) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at com.liferay.portal.url.rewrite.filter.internal.URLRewriteFilter.processFilter(URLRewriteFilter.java:86) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:109) [portal-kernel.jar:?]
+	at com.liferay.shielded.container.internal.proxy.FilterWrapper.doFilter(FilterWrapper.java:69) [com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:641) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:415) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:347) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:284) [catalina.jar:9.0.90]
+	at com.liferay.friendly.url.internal.servlet.FriendlyURLServlet.service(FriendlyURLServlet.java:555) [bundleFile:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:4.0.FR]
+	at com.liferay.portal.servlet.ServletAdapter.service(ServletAdapter.java:89) [portal-impl.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:4.0.FR]
+	at com.liferay.shielded.container.internal.proxy.ServletWrapper.service(ServletWrapper.java:103) [com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.90]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-websocket.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.90]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:117) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.change.tracking.internal.servlet.filter.CTCollectionPreviewFilter.processFilter(CTCollectionPreviewFilter.java:57) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.portal.i18n.filter.internal.I18nFilter.processFilter(I18nFilter.java:371) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.password.modified.PasswordModifiedFilter.processFilter(PasswordModifiedFilter.java:47) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.lockout.LockoutFilter.processFilter(LockoutFilter.java:49) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.secure.BaseAuthFilter.processFilter(BaseAuthFilter.java:316) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.etag.ETagFilter.processFilter(ETagFilter.java:78) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.autologin.AutoLoginFilter.processFilter(AutoLoginFilter.java:253) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:243) [portal-impl.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:138) [portal-kernel.jar:?]
+	at com.liferay.portal.monitoring.internal.servlet.filter.MonitoringFilter.processFilter(MonitoringFilter.java:116) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:189) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:189) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) [portal-kernel.jar:?]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.handleRewrite(RuleChain.java:176) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.RuleChain.doRules(RuleChain.java:145) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriter.processRequest(UrlRewriter.java:92) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:389) [urlrewritefilter-4.0.4.jar:4.0.4]
+	at com.liferay.portal.url.rewrite.filter.internal.URLRewriteFilter.processFilter(URLRewriteFilter.java:86) [bundleFile:?]
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:40) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:168) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:189) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:92) [portal-kernel.jar:?]
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:109) [portal-kernel.jar:?]
+	at com.liferay.shielded.container.internal.proxy.FilterWrapper.doFilter(FilterWrapper.java:69) [com.liferay.shielded.container.impl.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [catalina.jar:9.0.90]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [catalina.jar:9.0.90]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [catalina.jar:9.0.90]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [catalina.jar:9.0.90]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) [catalina.jar:9.0.90]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388) [tomcat-coyote.jar:9.0.90]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote.jar:9.0.90]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:936) [tomcat-coyote.jar:9.0.90]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) [tomcat-coyote.jar:9.0.90]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-coyote.jar:9.0.90]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) [tomcat-util.jar:9.0.90]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util.jar:9.0.90]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-util.jar:9.0.90]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_321]
+Caused by: org.apache.jasper.JasperException: java.lang.NullPointerException
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:440) ~[jasper.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473) ~[jasper.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377) ~[jasper.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:310) ~[?:?]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:147) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:63) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48) ~[?:?]
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:282) ~[portal-impl.jar:?]
+	... 241 more
+Caused by: java.lang.NullPointerException
+	at com.liferay.client.extension.web.internal.display.context.ViewClientExtensionEntryDisplayContext.getTitle(ViewClientExtensionEntryDisplayContext.java:114) ~[bundleFile:?]
+	at org.apache.jsp.admin.view_005fclient_005fextension_005fentry_jsp._jspService(view_005fclient_005fextension_005fentry_jsp.java:209) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111) ~[jasper.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:411) ~[jasper.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473) ~[jasper.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377) ~[jasper.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:310) ~[?:?]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:147) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:63) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48) ~[?:?]
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:282) ~[portal-impl.jar:?]
+	... 241 more
+2024-10-19 19:51:28.661 ERROR [http-nio-8080-exec-8][render_portlet_jsp:122] null
+java.lang.NullPointerException: null
+	at com.liferay.client.extension.web.internal.display.context.ViewClientExtensionEntryDisplayContext.getTitle(ViewClientExtensionEntryDisplayContext.java:114) ~[?:?]
+	at org.apache.jsp.admin.view_005fclient_005fextension_005fentry_jsp._jspService(view_005fclient_005fextension_005fentry_jsp.java:209) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111) ~[jasper.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:411) ~[jasper.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:473) ~[jasper.jar:9.0.90]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:377) ~[jasper.jar:9.0.90]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) ~[servlet-api.jar:4.0.FR]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:310) ~[?:?]
+	at com.liferay.portal.osgi.web.servlet.jsp.compiler.internal.JspServlet.service(JspServlet.java:319) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:147) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:63) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:120) ~[?:?]
+	at org.eclipse.equinox.http.servlet.internal.servlet.RequestDispatcherAdaptor.include(RequestDispatcherAdaptor.java:48) ~[?:?]
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.dispatch(PortletRequestDispatcherImpl.java:282) ~[portal-impl.jar:?]
+	at com.liferay.portlet.internal.PortletRequestDispatcherImpl.include(PortletRequestDispatcherImpl.java:114) ~[portal-impl.jar:?]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:611) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.include(MVCPortlet.java:627) ~[portal-kernel.jar:?]
+	at com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet.doDispatch(MVCPortlet.java:497) ~[portal-kernel.jar:?]
+	at javax.portlet.GenericPortlet.render(GenericPortlet.java:291) ~[portlet.jar:3.0.1]
+2024-10-19 19:52:02.070 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:68] STARTED liferaybotcustomelement_7.4.13 [1471]
+2024-10-19 20:29:04.939 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:71] STOPPED liferaybotcustomelement_7.4.13 [1471]
+2024-10-19 20:29:40.792 INFO  [fileinstall-directory-watcher][BundleStartStopLogger:68] STARTED liferaybotcustomelement_7.4.13 [1472]

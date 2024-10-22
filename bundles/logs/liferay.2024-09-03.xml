@@ -1,0 +1,110 @@
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1725321714921" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m35s23ms).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1725332647617" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h2m12s696ms).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1725339006230" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h45m58s613ms).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1725349689852" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h58m3s622ms).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1725354243683" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h15m53s831ms).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1725355579855" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m16s172ms).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" timestamp="1725357429062" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-headless-server and company ID 28444447961636 has client ID id-1f727a93-d76b-f41b-9289-6d73877a13]]></log4j:message>
+<log4j:locationInfo class="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" method="_addOrUpdateOAuth2Application" file="OAuth2ProviderApplicationHeadlessServerConfigurationFactory.java" line="193"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationUserAgentConfigurationFactory" timestamp="1725357429087" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-user-agent and company ID 28444447961636 has client ID id-657eca76-6efa-bc12-0958-ae3b7a95734]]></log4j:message>
+<log4j:locationInfo class="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationUserAgentConfigurationFactory" method="_addOrUpdateOAuth2Application" file="OAuth2ProviderApplicationUserAgentConfigurationFactory.java" line="170"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" timestamp="1725357429405" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-headless-server and company ID 28444447961636 has client ID id-1f727a93-d76b-f41b-9289-6d73877a13]]></log4j:message>
+<log4j:locationInfo class="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" method="_addOrUpdateOAuth2Application" file="OAuth2ProviderApplicationHeadlessServerConfigurationFactory.java" line="193"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationUserAgentConfigurationFactory" timestamp="1725357429410" level="INFO" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-user-agent and company ID 28444447961636 has client ID id-657eca76-6efa-bc12-0958-ae3b7a95734]]></log4j:message>
+<log4j:locationInfo class="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationUserAgentConfigurationFactory" method="_addOrUpdateOAuth2Application" file="OAuth2ProviderApplicationUserAgentConfigurationFactory.java" line="170"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" timestamp="1725357617081" level="INFO" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-headless-server and company ID 28444447961636 has client ID id-1f727a93-d76b-f41b-9289-6d73877a13]]></log4j:message>
+<log4j:locationInfo class="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" method="_addOrUpdateOAuth2Application" file="OAuth2ProviderApplicationHeadlessServerConfigurationFactory.java" line="193"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationUserAgentConfigurationFactory" timestamp="1725357617103" level="INFO" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-user-agent and company ID 28444447961636 has client ID id-657eca76-6efa-bc12-0958-ae3b7a95734]]></log4j:message>
+<log4j:locationInfo class="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationUserAgentConfigurationFactory" method="_addOrUpdateOAuth2Application" file="OAuth2ProviderApplicationUserAgentConfigurationFactory.java" line="170"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" timestamp="1725357617351" level="INFO" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-headless-server and company ID 28444447961636 has client ID id-1f727a93-d76b-f41b-9289-6d73877a13]]></log4j:message>
+<log4j:locationInfo class="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationHeadlessServerConfigurationFactory" method="_addOrUpdateOAuth2Application" file="OAuth2ProviderApplicationHeadlessServerConfigurationFactory.java" line="193"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationUserAgentConfigurationFactory" timestamp="1725357617362" level="INFO" thread="http-nio-8080-exec-7">
+<log4j:message><![CDATA[OAuth 2 application with external reference code liferay-telegram-etc-node-oauth-application-user-agent and company ID 28444447961636 has client ID id-657eca76-6efa-bc12-0958-ae3b7a95734]]></log4j:message>
+<log4j:locationInfo class="com.liferay.oauth2.provider.internal.configuration.OAuth2ProviderApplicationUserAgentConfigurationFactory" method="_addOrUpdateOAuth2Application" file="OAuth2ProviderApplicationUserAgentConfigurationFactory.java" line="170"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1725375533115" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h1m1s174ms).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1725382853131" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h2m26ms).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1725386512433" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h59s303ms).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1725389152237" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=43m59s803ms).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1725393831863" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h17m59s626ms).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1725397544712" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m52s848ms).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1725400624371" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51m19s658ms).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1725407968898" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h6m53s974ms).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+

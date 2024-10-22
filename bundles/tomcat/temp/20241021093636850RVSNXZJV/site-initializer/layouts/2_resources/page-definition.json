@@ -1,0 +1,261 @@
+{
+    "pageElement": {
+        "pageElements": [
+            {
+                "definition": {
+                    "fragmentStyle": {
+                        "backgroundColor": "colorBrandPrimaryLighten6",
+                        "marginBottom": "5",
+                        "marginTop": "5",
+                        "paddingBottom": "7",
+                        "paddingLeft": "5",
+                        "paddingRight": "5",
+                        "paddingTop": "5"
+                    },
+                    "indexed": true,
+                    "layout": {
+                        "align": "Center",
+                        "contentDisplay": "FlexColumn",
+                        "justify": "SpaceBetween",
+                        "marginBottom": 4,
+                        "marginTop": 4,
+                        "paddingBottom": 8,
+                        "paddingLeft": 4,
+                        "paddingRight": 4,
+                        "paddingTop": 4,
+                        "widthType": "Fixed"
+                    }
+                },
+                "pageElements": [
+                    {
+                        "definition": {
+                            "fragment": {
+                                "key": "DIALECT-dialect-text"
+                            },
+                            "fragmentConfig": {
+                                "textType": "h1",
+                                "truncateText": false
+                            },
+                            "fragmentFields": [
+                                {
+                                    "id": "element-text",
+                                    "value": {
+                                        "fragmentLink": {},
+                                        "text": {
+                                            "value_i18n": {
+                                                "en_US": "Wealth Management Resources"
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "fragmentStyle": {
+                                "fontWeight": "fontWeightLight",
+                                "marginBottom": "6",
+                                "textColor": "colorNeutral10"
+                            },
+                            "indexed": true
+                        },
+                        "type": "Fragment"
+                    },
+                    {
+                        "definition": {
+                            "collectionConfig": {
+                                "collectionReference": {
+                                    "className": "com.liferay.asset.list.model.AssetListEntry",
+                                    "classPK": "[$ASSET_LIST_ENTRY_ID:RESOURCES$]"
+                                },
+                                "collectionType": "Collection"
+                            },
+                            "collectionViewports": [
+                                {
+                                    "collectionViewportDefinition": {
+                                        "numberOfColumns": 1
+                                    },
+                                    "id": "landscapeMobile"
+                                },
+                                {
+                                    "collectionViewportDefinition": {
+                                        "numberOfColumns": 1
+                                    },
+                                    "id": "portraitMobile"
+                                },
+                                {
+                                    "collectionViewportDefinition": {
+                                        "numberOfColumns": 1
+                                    },
+                                    "id": "tablet"
+                                }
+                            ],
+                            "displayAllItems": true,
+                            "displayAllPages": true,
+                            "layout": {
+                                "align": "Start",
+                                "flexWrap": "Wrap"
+                            },
+                            "listItemStyle": "",
+                            "listStyle": "",
+                            "numberOfColumns": 4,
+                            "numberOfItems": 5,
+                            "numberOfItemsPerPage": 20,
+                            "numberOfPages": 5,
+                            "paginationType": "None",
+                            "showAllItems": false,
+                            "templateKey": ""
+                        },
+                        "pageElements": [
+                            {
+                                "definition": {
+                                    "collectionItemConfig": {}
+                                },
+                                "pageElements": [
+                                    {
+                                        "definition": {
+                                            "fragmentStyle": {
+                                                "borderColor": "colorNeutral5",
+                                                "borderRadius": "5px",
+                                                "borderWidth": "1px",
+                                                "marginBottom": "3",
+                                                "marginTop": "3",
+                                                "opacity": "",
+                                                "paddingBottom": "2",
+                                                "paddingLeft": "2",
+                                                "paddingRight": "2",
+                                                "paddingTop": "2",
+                                                "textAlign": "center"
+                                            },
+                                            "indexed": true,
+                                            "layout": {
+                                                "borderColor": "colorNeutral5",
+                                                "marginBottom": 1,
+                                                "marginTop": 1
+                                            }
+                                        },
+                                        "pageElements": [
+                                            {
+                                                "definition": {
+                                                    "fragment": {
+                                                        "key": "DIALECT-dialect-text"
+                                                    },
+                                                    "fragmentConfig": {
+                                                        "textType": "text-small-caps",
+                                                        "truncateText": false
+                                                    },
+                                                    "fragmentFields": [
+                                                        {
+                                                            "id": "element-text",
+                                                            "value": {
+                                                                "fragmentLink": {},
+                                                                "text": {
+                                                                    "mapping": {
+                                                                        "fieldKey": "resourceTitle",
+                                                                        "itemReference": {
+                                                                            "contextSource": "CollectionItem"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    ],
+                                                    "fragmentStyle": {
+                                                        "fontWeight": "fontWeightLight",
+                                                        "marginBottom": "3"
+                                                    },
+                                                    "indexed": true
+                                                },
+                                                "type": "Fragment"
+                                            },
+                                            {
+                                                "definition": {
+                                                    "fragment": {
+                                                        "key": "BASIC_COMPONENT-image"
+                                                    },
+                                                    "fragmentConfig": {
+                                                        "imageSize": "w-100"
+                                                    },
+                                                    "fragmentFields": [
+                                                        {
+                                                            "id": "image-square",
+                                                            "value": {
+                                                                "fragmentImage": {
+                                                                    "url": {
+                                                                        "mapping": {
+                                                                            "fieldKey": "image",
+                                                                            "itemReference": {
+                                                                                "contextSource": "CollectionItem"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "fragmentLink": {}
+                                                            }
+                                                        }
+                                                    ],
+                                                    "fragmentStyle": {
+                                                        "height": "200px",
+                                                        "width": "200px"
+                                                    },
+                                                    "indexed": true
+                                                },
+                                                "type": "Fragment"
+                                            },
+                                            {
+                                                "definition": {
+                                                    "fragment": {
+                                                        "key": "DIALECT-dialect-text"
+                                                    },
+                                                    "fragmentConfig": {
+                                                        "textType": "text-paragraph-sm",
+                                                        "truncateText": false
+                                                    },
+                                                    "fragmentFields": [
+                                                        {
+                                                            "id": "element-text",
+                                                            "value": {
+                                                                "fragmentLink": {},
+                                                                "text": {
+                                                                    "mapping": {
+                                                                        "fieldKey": "resourceDescription",
+                                                                        "itemReference": {
+                                                                            "contextSource": "CollectionItem"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    ],
+                                                    "fragmentStyle": {
+                                                        "fontWeight": "fontWeightLight",
+                                                        "marginBottom": "3",
+                                                        "textColor": "colorNeutral10"
+                                                    },
+                                                    "indexed": true
+                                                },
+                                                "type": "Fragment"
+                                            }
+                                        ],
+                                        "type": "Section"
+                                    }
+                                ],
+                                "type": "CollectionItem"
+                            }
+                        ],
+                        "type": "Collection"
+                    }
+                ],
+                "type": "Section"
+            }
+        ],
+        "type": "Root"
+    },
+    "settings": {
+        "styleBook": {
+			"key": "main",
+			"name": "main"
+		},
+        "themeName": "Dialect",
+		"masterPage": {
+			"key": "main"
+		}
+	}
+}

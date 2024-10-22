@@ -1,0 +1,3 @@
+.sidebar-container{bottom:0;position:fixed;right:0;top:168px;transform:translateX(100%);transition:transform .3s ease-in-out;width:422px;z-index:52}.sidebar-container .ddm-empty{display:none}.sidebar-container .list-group-item:hover{background-color:#f0f5ff}.sidebar-container .navbar-collapse{padding-left:16px}.sidebar-container.open{transform:translateX(0%)}.sidebar-container .sidebar-body{overflow:visible}.sidebar-container .sidebar-body .ddm-form-tabs{display:none}.sidebar-container .sidebar-light{background-color:#fff}
+
+/*# sourceMappingURL=Sidebar.css.map */

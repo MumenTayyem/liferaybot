@@ -1,0 +1,21 @@
+{
+  "com.liferay.oauth2.provider.configuration.OAuth2ProviderApplicationHeadlessServerConfiguration~liferay-pillar-site-initializer-wm-oauth-application-headless-server" : {
+    ".serviceAddress" : "localhost:8080",
+    ".serviceScheme" : "http",
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/liferay-pillar-site-initializer-wm",
+    "buildTimestamp" : 1729503367593,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "homePageURL" : "$[conf:.serviceScheme]://$[conf:.serviceAddress]",
+    "name" : "Liferay Pillar WM OAuth Application Headless Server",
+    "projectId" : "liferaypillarsiteinitializerwm",
+    "projectName" : "liferay-pillar-site-initializer-wm",
+    "properties" : [ ],
+    "scopes" : [ "Liferay.Headless.Site.everything" ],
+    "sourceCodeURL" : "",
+    "type" : "oAuthApplicationHeadlessServer",
+    "typeSettings" : [ ".serviceScheme=http", "scopes=Liferay.Headless.Site.everything", ".serviceAddress=localhost:8080" ],
+    "webContextPath" : "/liferay-pillar-site-initializer-wm"
+  }
+}

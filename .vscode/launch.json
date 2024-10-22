@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "env": {
+                "LIFERAY_ROUTES_DXP": "${workspaceFolder}/bundles/routes/default/dxp",
+                "LIFERAY_ROUTES_BOT_ETC_NODE": "${workspaceFolder}/bundles/routes/default/liferay-bot-etc-node"
+            },
+            "type": "node",
+            "request": "launch",
+            "name": "Bots ",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "index.mjs",
+            "cwd": "${workspaceFolder}/client-extensions/liferay-bot-etc-node"
+        }
+    ]
+}

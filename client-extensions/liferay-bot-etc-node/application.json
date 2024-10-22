@@ -1,0 +1,12 @@
+{
+    "config.node.config.trees": [
+        "${LIFERAY_ROUTES_BOT_ETC_NODE}",
+        "${LIFERAY_ROUTES_DXP}"
+    ],
+    "liferay.oauth.application.external.reference.codes": [
+        "liferay-bot-etc-node-oauth-application-user-agent",
+        "liferay-bot-etc-node-oauth-application-headless-server"
+    ],
+    "readyPath": "/ready",
+	"server.port": 3001
+}

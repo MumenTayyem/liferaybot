@@ -1,0 +1,360 @@
+<log4j:event logger="com.liferay.portal.spring.context.PortalContextLoaderListener" timestamp="1724840856859" level="INFO" thread="main">
+<log4j:message><![CDATA[JVM arguments: -Djava.util.logging.config.file=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/conf/logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dorg.apache.catalina.security.SecurityListener.UMASK=0027 -Dfile.encoding=UTF-8 -Djava.locale.providers=JRE,COMPAT,CLDR -Djava.net.preferIPv4Stack=true -Duser.timezone=GMT -Xms2560m -Xmx2560m -XX:MaxNewSize=1536m -XX:MaxMetaspaceSize=768m -XX:MetaspaceSize=768m -XX:NewSize=1536m -XX:SurvivorRatio=7 -Dignore.endorsed.dirs= -Dcatalina.base=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat -Dcatalina.home=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat -Djava.io.tmpdir=/Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp -Xmx10240m]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.log.LogWrapper" method="info" file="LogWrapper.java" line="114"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.spring.hibernate.DialectDetector" timestamp="1724840865663" level="WARN" thread="SystemExecutorServiceUtil-1">
+<log4j:message><![CDATA[Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.spring.hibernate.DialectDetector" method="getDialect" file="DialectDetector.java" line="73"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.spring.hibernate.DialectDetector" timestamp="1724840865668" level="INFO" thread="SystemExecutorServiceUtil-1">
+<log4j:message><![CDATA[Using dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect for HSQL Database Engine 2.7]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.spring.hibernate.DialectDetector" method="getDialect" file="DialectDetector.java" line="144"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1724840865873" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting initial bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_setUpInitialBundles" file="ModuleFrameworkImpl.java" line="1355"/>
+</log4j:event>
+
+<log4j:event logger="org.apache.felix.configadmin.plugin.interpolation.InterpolationConfigurationPlugin" timestamp="1724840867511" level="INFO" thread="main">
+<log4j:message><![CDATA[Configured directory for secrets: /Users/mumentayyem/liferay/liferay-telegram/bundles/osgi/configs]]></log4j:message>
+<log4j:locationInfo class="org.apache.felix.configadmin.plugin.interpolation.InterpolationConfigurationPlugin" method="&lt;init&gt;" file="InterpolationConfigurationPlugin.java" line="109"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1724840868644" level="INFO" thread="main">
+<log4j:message><![CDATA[Started initial bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_setUpInitialBundles" file="ModuleFrameworkImpl.java" line="1645"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1724840868646" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting dynamic bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1690"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.search.elasticsearch7.internal.sidecar.SidecarManager" timestamp="1724840872481" level="WARN" thread="Start Level: Equinox Container: 6e6ab330-cae0-4ace-84aa-c73d73516b47">
+<log4j:message><![CDATA[Liferay automatically starts a child process of Elasticsearch named sidecar for convenient development and demonstration purposes. Do NOT use sidecar in production. Refer to the documentation for details on the limitations of sidecar and instructions on configuring a remote Elasticsearch connection in the Control Panel.]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.search.elasticsearch7.internal.sidecar.SidecarManager" method="applyConfigurations" file="SidecarManager.java" line="72"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1724840881687" level="INFO" thread="main">
+<log4j:message><![CDATA[Started dynamic bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1713"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1724840881689" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting web bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1720"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1724840884259" level="INFO" thread="main">
+<log4j:message><![CDATA[Started web bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="_startDynamicBundles" file="ModuleFrameworkImpl.java" line="1774"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.bootstrap.ModuleFrameworkImpl" timestamp="1724840884260" level="INFO" thread="main">
+<log4j:message><![CDATA[Navigate to Control Panel > System > Gogo Shell and enter "lb" to see all bundles]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.bootstrap.ModuleFrameworkImpl" method="startFramework" file="ModuleFrameworkImpl.java" line="283"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.events.StartupHelperUtil" timestamp="1724840886943" level="INFO" thread="main">
+<log4j:message><![CDATA[There are no patches installed]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.events.StartupHelperUtil" method="printPatchLevel" file="StartupHelperUtil.java" line="97"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1724840887276" level="INFO" thread="main">
+<log4j:message><![CDATA[Starting com.liferay.portal.events.StartupHelperUtil#initResourceActions]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="&lt;init&gt;" file="LoggingTimer.java" line="74"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.util.LoggingTimer" timestamp="1724840887423" level="INFO" thread="main">
+<log4j:message><![CDATA[Completed com.liferay.portal.events.StartupHelperUtil#initResourceActions in 147 ms]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.util.LoggingTimer" method="close" file="LoggingTimer.java" line="35"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.license.LicenseManager" timestamp="1724840887444" level="INFO" thread="main">
+<log4j:message><![CDATA[Failed to find directory /Users/mumentayyem/liferay/liferay-telegram/bundles/data/license]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.license.LicenseManager" method="e" file="null" line="-1"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.license.LicenseManager" timestamp="1724840887445" level="INFO" thread="main">
+<log4j:message><![CDATA[No binary licenses found]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.license.LicenseManager" method="a" file="null" line="-1"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" timestamp="1724840888393" level="INFO" thread="main">
+<log4j:message><![CDATA[Auto deploy scanner started for /Users/mumentayyem/liferay/liferay-telegram/bundles/deploy]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" method="start" file="AutoDeployDir.java" line="152"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.search.elasticsearch7.internal.sidecar.Sidecar" timestamp="1724840890891" level="INFO" thread="SystemExecutorServiceUtil-5">
+<log4j:message><![CDATA[Sidecar Elasticsearch liferay started at 127.0.0.1:9201]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.search.elasticsearch7.internal.sidecar.Sidecar" method="start" file="Sidecar.java" line="103"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1724840899972" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240828102819811NYILTTYV/admin-theme.war]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="34"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1724840903072" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240828102819811NYILTTYV/admin-theme.war copied successfully]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="41"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1724840907466" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240828102827445MNXSSIYC/classic-theme.war]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="34"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1724840909903" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240828102827445MNXSSIYC/classic-theme.war copied successfully]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="41"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1724840911627" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240828102831615QNRODVRB/dialect-theme.war]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="34"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1724840913019" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240828102831615QNRODVRB/dialect-theme.war copied successfully]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="41"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1724840914556" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240828102834540LQECTGSB/minium-theme.war]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="34"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1724840915857" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240828102834540LQECTGSB/minium-theme.war copied successfully]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="41"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1724840917379" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Copying themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240828102837367XBSWTVBB/speedwell-theme.war]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="34"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" timestamp="1724840919569" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[Themes for /Users/mumentayyem/liferay/liferay-telegram/bundles/tomcat/temp/20240828102837367XBSWTVBB/speedwell-theme.war copied successfully]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.BaseAutoDeployListener" method="deploy" file="BaseAutoDeployListener.java" line="41"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" timestamp="1724841042633" level="INFO" thread="com.liferay.portal.kernel.deploy.auto.AutoDeployScanner">
+<log4j:message><![CDATA[Processing activation-key-dxpdevelopment-7.4-developeractivationkeys.xml]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.kernel.deploy.auto.AutoDeployDir" method="processFile" file="AutoDeployDir.java" line="212"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.license.LicenseManager" timestamp="1724841048719" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[DXP Development license validation passed]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.license.LicenseManager" method="a" file="null" line="-1"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.portal.license.LicenseManager" timestamp="1724841048722" level="INFO" thread="fileinstall-directory-watcher">
+<log4j:message><![CDATA[License registered for DXP Development]]></log4j:message>
+<log4j:locationInfo class="com.liferay.portal.license.LicenseManager" method="registerLicense" file="null" line="-1"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" timestamp="1724841058947" level="ERROR" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB], SQL: insert into PortletPreferences (mvccVersion, ctCollectionId, companyId, ownerId, ownerType, plid, portletId, portletPreferencesId) values (?, ?, ?, ?, ?, ?, ?, ?)]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" method="performExecution" file="BatchingBatch.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" timestamp="1724841058963" level="ERROR" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" method="logExceptions" file="SqlExceptionHelper.java" line="142"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" timestamp="1724841058990" level="ERROR" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB], SQL: insert into PortletPreferences (mvccVersion, ctCollectionId, companyId, ownerId, ownerType, plid, portletId, portletPreferencesId) values (?, ?, ?, ?, ?, ?, ?, ?)]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" method="performExecution" file="BatchingBatch.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" timestamp="1724841058994" level="ERROR" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" method="logExceptions" file="SqlExceptionHelper.java" line="142"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" timestamp="1724841058998" level="ERROR" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB], SQL: insert into PortletPreferences (mvccVersion, ctCollectionId, companyId, ownerId, ownerType, plid, portletId, portletPreferencesId) values (?, ?, ?, ?, ?, ?, ?, ?)]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" method="performExecution" file="BatchingBatch.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" timestamp="1724841059000" level="ERROR" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" method="logExceptions" file="SqlExceptionHelper.java" line="142"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" timestamp="1724841059084" level="ERROR" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB], SQL: insert into PortletPreferences (mvccVersion, ctCollectionId, companyId, ownerId, ownerType, plid, portletId, portletPreferencesId) values (?, ?, ?, ?, ?, ?, ?, ?)]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" method="performExecution" file="BatchingBatch.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" timestamp="1724841059085" level="ERROR" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" method="logExceptions" file="SqlExceptionHelper.java" line="142"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" timestamp="1724841059092" level="ERROR" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB], SQL: insert into PortletPreferences (mvccVersion, ctCollectionId, companyId, ownerId, ownerType, plid, portletId, portletPreferencesId) values (?, ?, ?, ?, ?, ?, ?, ?)]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" method="performExecution" file="BatchingBatch.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" timestamp="1724841059094" level="ERROR" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" method="logExceptions" file="SqlExceptionHelper.java" line="142"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" timestamp="1724841059095" level="ERROR" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB], SQL: insert into PortletPreferences (mvccVersion, ctCollectionId, companyId, ownerId, ownerType, plid, portletId, portletPreferencesId) values (?, ?, ?, ?, ?, ?, ?, ?)]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" method="performExecution" file="BatchingBatch.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" timestamp="1724841059096" level="ERROR" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" method="logExceptions" file="SqlExceptionHelper.java" line="142"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" timestamp="1724841062443" level="ERROR" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB], SQL: insert into PortletPreferences (mvccVersion, ctCollectionId, companyId, ownerId, ownerType, plid, portletId, portletPreferencesId) values (?, ?, ?, ?, ?, ?, ?, ?)]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" method="performExecution" file="BatchingBatch.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" timestamp="1724841062449" level="ERROR" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" method="logExceptions" file="SqlExceptionHelper.java" line="142"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" timestamp="1724841062453" level="ERROR" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB], SQL: insert into PortletPreferences (mvccVersion, ctCollectionId, companyId, ownerId, ownerType, plid, portletId, portletPreferencesId) values (?, ?, ?, ?, ?, ?, ?, ?)]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" method="performExecution" file="BatchingBatch.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" timestamp="1724841062454" level="ERROR" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" method="logExceptions" file="SqlExceptionHelper.java" line="142"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" timestamp="1724841062454" level="ERROR" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB], SQL: insert into PortletPreferences (mvccVersion, ctCollectionId, companyId, ownerId, ownerType, plid, portletId, portletPreferencesId) values (?, ?, ?, ?, ?, ?, ?, ?)]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" method="performExecution" file="BatchingBatch.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" timestamp="1724841062455" level="ERROR" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" method="logExceptions" file="SqlExceptionHelper.java" line="142"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" timestamp="1724841062488" level="ERROR" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB], SQL: insert into PortletPreferences (mvccVersion, ctCollectionId, companyId, ownerId, ownerType, plid, portletId, portletPreferencesId) values (?, ?, ?, ?, ?, ?, ?, ?)]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" method="performExecution" file="BatchingBatch.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" timestamp="1724841062488" level="ERROR" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" method="logExceptions" file="SqlExceptionHelper.java" line="142"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" timestamp="1724841062490" level="ERROR" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB], SQL: insert into PortletPreferences (mvccVersion, ctCollectionId, companyId, ownerId, ownerType, plid, portletId, portletPreferencesId) values (?, ?, ?, ?, ?, ?, ?, ?)]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" method="performExecution" file="BatchingBatch.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" timestamp="1724841062491" level="ERROR" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" method="logExceptions" file="SqlExceptionHelper.java" line="142"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" timestamp="1724841062492" level="ERROR" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB], SQL: insert into PortletPreferences (mvccVersion, ctCollectionId, companyId, ownerId, ownerType, plid, portletId, portletPreferencesId) values (?, ?, ?, ?, ?, ?, ?, ?)]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" method="performExecution" file="BatchingBatch.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" timestamp="1724841062494" level="ERROR" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" method="logExceptions" file="SqlExceptionHelper.java" line="142"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" timestamp="1724841062648" level="ERROR" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB], SQL: insert into PortletPreferences (mvccVersion, ctCollectionId, companyId, ownerId, ownerType, plid, portletId, portletPreferencesId) values (?, ?, ?, ?, ?, ?, ?, ?)]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" method="performExecution" file="BatchingBatch.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" timestamp="1724841062649" level="ERROR" thread="http-nio-8080-exec-5">
+<log4j:message><![CDATA[integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" method="logExceptions" file="SqlExceptionHelper.java" line="142"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" timestamp="1724841062655" level="ERROR" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB], SQL: insert into PortletPreferences (mvccVersion, ctCollectionId, companyId, ownerId, ownerType, plid, portletId, portletPreferencesId) values (?, ?, ?, ?, ?, ?, ?, ?)]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" method="performExecution" file="BatchingBatch.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" timestamp="1724841062655" level="ERROR" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" method="logExceptions" file="SqlExceptionHelper.java" line="142"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" timestamp="1724841062659" level="ERROR" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB], SQL: insert into PortletPreferences (mvccVersion, ctCollectionId, companyId, ownerId, ownerType, plid, portletId, portletPreferencesId) values (?, ?, ?, ?, ?, ?, ?, ?)]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" method="performExecution" file="BatchingBatch.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" timestamp="1724841062660" level="ERROR" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" method="logExceptions" file="SqlExceptionHelper.java" line="142"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" timestamp="1724841062673" level="ERROR" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB], SQL: insert into PortletPreferences (mvccVersion, ctCollectionId, companyId, ownerId, ownerType, plid, portletId, portletPreferencesId) values (?, ?, ?, ?, ?, ?, ?, ?)]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" method="performExecution" file="BatchingBatch.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" timestamp="1724841062673" level="ERROR" thread="http-nio-8080-exec-8">
+<log4j:message><![CDATA[integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" method="logExceptions" file="SqlExceptionHelper.java" line="142"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" timestamp="1724841062677" level="ERROR" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB], SQL: insert into PortletPreferences (mvccVersion, ctCollectionId, companyId, ownerId, ownerType, plid, portletId, portletPreferencesId) values (?, ?, ?, ?, ?, ?, ?, ?)]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" method="performExecution" file="BatchingBatch.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" timestamp="1724841062677" level="ERROR" thread="http-nio-8080-exec-10">
+<log4j:message><![CDATA[integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" method="logExceptions" file="SqlExceptionHelper.java" line="142"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" timestamp="1724841062681" level="ERROR" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[HHH000315: Exception executing batch [java.sql.BatchUpdateException: integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB], SQL: insert into PortletPreferences (mvccVersion, ctCollectionId, companyId, ownerId, ownerType, plid, portletId, portletPreferencesId) values (?, ?, ?, ?, ?, ?, ?, ?)]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.batch.internal.BatchingBatch" method="performExecution" file="BatchingBatch.java" line="134"/>
+</log4j:event>
+
+<log4j:event logger="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" timestamp="1724841062682" level="ERROR" thread="http-nio-8080-exec-6">
+<log4j:message><![CDATA[integrity constraint violation: unique constraint or index violation: IX_8CCEB8CB]]></log4j:message>
+<log4j:locationInfo class="org.hibernate.engine.jdbc.spi.SqlExceptionHelper" method="logExceptions" file="SqlExceptionHelper.java" line="142"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.mail.messaging.MailMessageListener" timestamp="1724841111201" level="WARN" thread="liferay/mail-2">
+<log4j:message><![CDATA[Email test@domain.invalid will be ignored because it is included in mail.send.blacklist]]></log4j:message>
+<log4j:locationInfo class="com.liferay.mail.messaging.MailMessageListener" method="filterInternetAddress" file="MailMessageListener.java" line="116"/>
+</log4j:event>
+
+<log4j:event logger="com.liferay.mail.messaging.MailMessageListener" timestamp="1724841111205" level="WARN" thread="liferay/mail-2">
+<log4j:message><![CDATA[Skipping email because the sender is not specified]]></log4j:message>
+<log4j:locationInfo class="com.liferay.mail.messaging.MailMessageListener" method="doMailMessage" file="MailMessageListener.java" line="42"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1724842811030" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m55s167ms).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+
+<log4j:event logger="com.zaxxer.hikari.pool.HikariPool" timestamp="1724852057541" level="WARN" thread="HikariPool-1 housekeeper">
+<log4j:message><![CDATA[HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h27m5s980ms).]]></log4j:message>
+<log4j:locationInfo class="com.zaxxer.hikari.pool.HikariPool$HouseKeeper" method="run" file="HikariPool.java" line="788"/>
+</log4j:event>
+

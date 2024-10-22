@@ -1,0 +1,14 @@
+<div id="container_${fragmentEntryLinkNamespace}" class="fragment_19">
+    <lfr-drop-zone data-lfr-drop-zone-id="dropzone_${fragmentEntryLinkNamespace}" data-lfr-priority="1"></lfr-drop-zone>
+ </div>
+ <script>
+    container = document.getElementById("container_${ fragmentEntryLinkNamespace }");
+ 
+    if (Liferay.ThemeDisplay.isSignedIn()){
+       container.classList.remove("d-none");
+       container.classList.add("d-block");
+    }else{
+       container.classList.remove("d-block");
+       container.classList.add("d-none");
+    }
+ </script>
