@@ -6,8 +6,8 @@
     "configurations": [
         {
             "env": {
-                "LIFERAY_ROUTES_DXP": "${workspaceFolder}/bundles/routes/default/dxp",
-                "LIFERAY_ROUTES_BOT_ETC_NODE": "${workspaceFolder}/bundles/routes/default/liferay-bot-etc-node"
+                "LIFERAY_ROUTES_DXP": "/Users/mumentayyem/liferay/liferay-telegram/bundles/routes/default/dxp",
+                "LIFERAY_ROUTES_CLIENT_EXTENSION": "/Users/mumentayyem/liferay/liferay-telegram/bundles/routes/default/liferay-bot-etc-node"
             },
             "type": "node",
             "request": "launch",

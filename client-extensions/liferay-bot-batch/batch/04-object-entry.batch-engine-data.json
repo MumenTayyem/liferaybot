@@ -1,0 +1,25 @@
+{
+  "configuration": {
+    "className": "com.liferay.object.rest.dto.v1_0.ObjectEntry",
+    "parameters": {
+      "containsHeaders": "true",
+      "createStrategy": "UPSERT",
+      "onErrorFail": "false",
+      "taskItemDelegateName": "C_Bot",
+      "updateStrategy": "UPDATE"
+    },
+    "taskItemDelegateName": "C_Bot"
+  },
+  "items": [
+    {
+      "externalReferenceCode": "LIFERAY_BOT",
+      "status": {
+        "code": 0,
+        "label": "approved",
+        "label_i18n": "Approved"
+      },
+      "botName": "Liferay Bot",
+      "botToken": "7269544984:AAGhECPzWFGFD3NZ_wed8diI4jIZ4b74R6w"
+    }
+  ]
+}

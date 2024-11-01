@@ -1,0 +1,7 @@
+assemble:
+    - from: assets
+      into: static
+liferay-bot-font-awesome:
+    name: Liferay Bot Font Awesome
+    type: globalCSS
+    url: font-awesome.css

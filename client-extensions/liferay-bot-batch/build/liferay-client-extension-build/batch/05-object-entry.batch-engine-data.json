@@ -1,0 +1,180 @@
+{
+  "configuration": {
+    "className": "com.liferay.object.rest.dto.v1_0.ObjectEntry",
+    "parameters": {
+      "containsHeaders": "true",
+      "createStrategy": "UPSERT",
+      "onErrorFail": "false",
+      "taskItemDelegateName": "C_BotCommand",
+      "updateStrategy": "UPDATE"
+    },
+    "taskItemDelegateName": "C_BotCommand"
+  },
+  "items": [
+    {
+      "externalReferenceCode": "BOT_COMMAND_FAQ",
+      "status": {
+        "code": 0,
+        "label": "approved",
+        "label_i18n": "Approved"
+      },
+      "responseType": {
+        "key": "text",
+        "name": "Text"
+      },
+      "botCommandsERC": "LIFERAY_BOT",
+      "response": "",
+      "previousCommandERC": "",
+      "r_previousCommand_c_botCommandId": 0,
+      "r_previousCommand_c_botCommandERC": "",
+      "description": "Answers common questions users may have.",
+      "r_botCommands_c_botERC": "LIFERAY_BOT",
+      "title": "Frequently Asked Questions",
+      "command": "/faq"
+    },
+    {
+      "externalReferenceCode": "BOT_COMMAND_CONTACT",
+      "status": {
+        "code": 0,
+        "label": "approved",
+        "label_i18n": "Approved"
+      },
+      "responseType": {
+        "key": "text",
+        "name": "Text"
+      },
+      "botCommandsERC": "LIFERAY_BOT",
+      "response": "You can reach us via email at *enablement@liferay.com*. We’re here to help!",
+      "previousCommandERC": "",
+      "r_previousCommand_c_botCommandId": 0,
+      "r_previousCommand_c_botCommandERC": "",
+      "description": "Provides contact details for the company.",
+      "r_botCommands_c_botERC": "LIFERAY_BOT",
+      "title": "Contact Information",
+      "command": "/contact"
+    },
+    {
+      "externalReferenceCode": "BOT_COMMAND_SAAS",
+      "status": {
+        "code": 0,
+        "label": "approved",
+        "label_i18n": "Approved"
+      }, 
+      "responseType": {
+        "key": "text",
+        "name": "Text"
+      },
+      "botCommandsERC": "LIFERAY_BOT",
+      "response": "Rely on experts to manage, host, and scale your Liferay application and infrastructure so that you can focus on growing your business.\\n\\n✅ Fully managed services including infrastructure and application management, hosting and security\\n\\n✅ 99.8% SLA of Liferay DXP application\\n\\n✅ Automatic Liferay DXP updates and fixes",
+      "previousCommandERC": "BOT_COMMAND_FAQ",
+      "r_previousCommand_c_botCommandERC": "BOT_COMMAND_FAQ",
+      "description": "What is Liferay's SaaS offering",
+      "r_botCommands_c_botERC": "LIFERAY_BOT",
+      "title": "SaaS Introduction",
+      "command": "/whatissaas"
+    },
+    {
+      "externalReferenceCode": "BOT_COMMAND_PAAS",
+      "status": {
+        "code": 0,
+        "label": "approved",
+        "label_i18n": "Approved"
+      },
+      "responseType": {
+        "key": "text",
+        "name": "Text"
+      },
+      "botCommandsERC": "LIFERAY_BOT",
+      "response": "Simplify the deployment and management of your project by letting Liferay handle the cloud infrastructure, so you can focus on maintaining your application.\\n\\n✅ *99.95% Infrastructure SLA*\\n\\n✅ *Built-in CI/CD capabilities*\\n\\n✅ *Environment management*\\n\\n✅ *Advanced monitoring features*",
+      "previousCommandERC": "BOT_COMMAND_FAQ",
+      "r_previousCommand_c_botCommandERC": "BOT_COMMAND_FAQ",
+      "description": "What is Liferay's PaaS offering",
+      "r_botCommands_c_botERC": "LIFERAY_BOT",
+      "title": "PaaS Introduction",
+      "command": "/whatispaas"
+    },
+    {
+      "externalReferenceCode": "BOT_COMMAND_SERVICES",
+      "status": {
+        "code": 0,
+        "label": "approved",
+        "label_i18n": "Approved"
+      },
+      "responseType": {
+        "key": "text",
+        "name": "Text"
+      },
+      "botCommandsERC": "LIFERAY_BOT",
+      "response": "Liferay provides a range of services primarily focused on digital experience and enterprise solutions. Here are some key offerings:\n\nDigital Experience Platform (DXP): Liferay’s core product that helps organizations create, manage, and optimize digital experiences across various channels.\n\nPortal Solutions: Tools for building intranets, extranets, and public-facing websites that can integrate with existing systems and provide a cohesive user experience.\n\nCollaboration Tools: Features like document management, forums, wikis, and social networking to facilitate communication and collaboration within organizations.\n\nContent Management: A robust content management system (CMS) for creating, managing, and delivering content seamlessly across different platforms.\n\nIntegration Capabilities: APIs and connectors for integrating with third-party applications and services, ensuring a connected ecosystem.\n\nCustomization and Development Tools: Frameworks and SDKs that allow developers to customize applications and extend functionalities according to business needs.\n\nCloud Solutions: Options for deploying Liferay on-premises or in the cloud, providing flexibility for organizations.\n\nAnalytics and Personalization: Tools to analyze user behavior and personalize experiences based on insights gained from data.\n\nSupport and Training: Professional services including consulting, training, and support to help organizations maximize their use of Liferay products.\n\nThese services are designed to enhance user engagement, streamline operations, and drive digital transformation for businesses.",
+      "previousCommandERC": "",
+      "r_previousCommand_c_botCommandId": 0,
+      "r_previousCommand_c_botCommandERC": "",
+      "description": "Lists the services provided by the company.",
+      "r_botCommands_c_botERC": "LIFERAY_BOT",
+      "title": "Our Services",
+      "command": "/services"
+    },
+    {
+      "externalReferenceCode": "BOT_COMMAND_SELF_HOSTED",
+      "status": {
+        "code": 0,
+        "label": "approved",
+        "label_i18n": "Approved"
+      }, 
+      "responseType": {
+        "key": "text",
+        "name": "Text"
+      },
+      "botCommandsERC": "LIFERAY_BOT",
+      "response": "Deploy Liferay DXP in either on-premise or self-hosted cloud models, giving you complete control over your application and infrastructure so that you can meet your specific IT requirements.\\n\\n✅ *Access to all Liferay capabilities*\\n\\n✅ *Compatible with Azure, AWS, or Google Cloud Platform (GCP)*\\n\\n✅ *Enterprise subscription that includes support, maintenance, and legal assurance*",
+      "previousCommandERC": "BOT_COMMAND_FAQ",
+      "r_previousCommand_c_botCommandERC": "BOT_COMMAND_FAQ",
+      "description": "What is Liferay's Self-Hosted Offering",
+      "r_botCommands_c_botERC": "LIFERAY_BOT",
+      "title": "Self-Hosted Introduction",
+      "command": "/whatisselfhosted"
+    },
+    {
+      "externalReferenceCode": "BOT_COMMAND_START",
+      "status": {
+        "code": 0,
+        "label": "approved",
+        "label_i18n": "Approved"
+      },
+      "responseType": {
+        "key": "text",
+        "name": "Text"
+      },
+      "botCommandsERC": "LIFERAY_BOT",
+      "response": "Welcome to Liferay's bot!\\n\\nHere, you can learn more about our services and how we can help you.\\n\\nType /help to see the available commands.",
+      "previousCommandERC": "",
+      "r_previousCommand_c_botCommandId": 0,
+      "r_previousCommand_c_botCommandERC": "",
+      "description": "Initiates the interaction with the bot.",
+      "r_botCommands_c_botERC": "LIFERAY_BOT",
+      "title": "Welcome",
+      "command": "/start"
+    },
+    {
+      "externalReferenceCode": "BOT_COMMAND_HELP",
+      "status": {
+        "code": 0,
+        "label": "approved",
+        "label_i18n": "Approved"
+      },
+      "responseType": {
+        "key": "text",
+        "name": "Text"
+      },
+      "botCommandsERC": "LIFERAY_BOT",
+      "response": "Here are the commands you can use:\\n\\n/contact - Get our contact information\\n\\n/faq - Frequently Asked Questions\\n\\n/services - See what Liferay offers",
+      "previousCommandERC": "",
+      "r_previousCommand_c_botCommandId": 0,
+      "r_previousCommand_c_botCommandERC": "",
+      "description": "Provides a list of available commands for the user.",
+      "r_botCommands_c_botERC": "LIFERAY_BOT",
+      "title": "Help Menu",
+      "command": "/help"
+    }
+  ]
+}

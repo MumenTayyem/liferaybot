@@ -1,4 +1,5 @@
 import getToken from "./get-token.mjs";
+import fetch from 'node-fetch';
 
 export default async function tokenizedFetch(url, method, body = null) {
   const tokenObj = await getToken();

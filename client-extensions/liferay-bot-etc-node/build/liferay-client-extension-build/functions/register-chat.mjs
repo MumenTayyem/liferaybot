@@ -11,7 +11,7 @@ const POST_CHAT_API = "/o/c/botchats/";
 const GET_CHAT_API = "/o/c/botchats/";
 
 export default async function registerChat(botId, chat) {
-  const chatExists = await checkIfChatExists(chat);
+  const chatExists = await checkIfChatExists(chat.id);
 
   if (chatExists) {
     logger.info("Chat already exists; no need to register.");
@@ -23,11 +23,11 @@ export default async function registerChat(botId, chat) {
   const body = JSON.stringify({
     firstName: chat.first_name,
     lastName: chat.last_name,
-    chatID: chat,
+    chatID: chat.id,
     r_botChats_c_botId: botId,
   });
 
-  const x = await tokenizedFetch(postUrl, "POST", body).catch((err) =>
+  await tokenizedFetch(postUrl, "POST", body).catch((err) =>
     handleError("registerChat.post", err)
   );
 }

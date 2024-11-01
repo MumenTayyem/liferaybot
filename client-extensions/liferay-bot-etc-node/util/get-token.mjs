@@ -1,5 +1,6 @@
 import {lookupConfig, lxcConfig} from '@rotty3000/config-node';
 import {applicationExternalReferenceCodes} from './constants.mjs';
+import fetch from 'node-fetch';
 
 const serverOauthApp = lxcConfig.oauthApplication(applicationExternalReferenceCodes.OAUTH_SERVER_EXTERNAL_REFERENCE_CODE);
 
@@ -30,6 +31,13 @@ export default async function getToken(){
     
     if (tokenResponse.ok)
         return await tokenResponse.json();
-    else
+    else{
+        console.log(`URL: ${url}`);
+        console.log(`tokenURL: ${tokenURL}`);
+        console.log(`clientId: ${clientId}`);
+        console.log(`clientSecret: ${clientSecret}`);
+        console.log(`tokenResponse.status: ${tokenResponse.status}`);
+        console.log(`tokenResponse.statusText: ${tokenResponse.statusText}`);
         throw new Error("getToken(): Could not generate token!");
+    }
 }

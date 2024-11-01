@@ -1,0 +1,17 @@
+{
+  "com.liferay.client.extension.type.configuration.CETConfiguration~liferay-bot-font-awesome" : {
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/liferay-bot-font-awesome",
+    "buildTimestamp" : 1730458003077,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "name" : "Liferay Bot Font Awesome",
+    "projectId" : "liferaybotfontawesome",
+    "projectName" : "liferay-bot-font-awesome",
+    "properties" : [ ],
+    "sourceCodeURL" : "",
+    "type" : "globalCSS",
+    "typeSettings" : [ "url=font-awesome.css" ],
+    "webContextPath" : "/liferay-bot-font-awesome"
+  }
+}

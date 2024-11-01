@@ -1,6 +1,6 @@
 import { lookupConfig, lxcConfig } from "@rotty3000/config-node";
-import * as cors from "cors";
-import  verify from "jsonwebtoken";
+import cors from "cors";
+import jwt from "jsonwebtoken";
 import jwktopem  from "jwk-to-pem";
 import  fetch  from "node-fetch";
 import {applicationExternalReferenceCodes} from "./constants.mjs";
@@ -26,7 +26,7 @@ const corsOptions = {
 };
 
 export async function corsWithReady(req, res, next) {
-  if (req.originalUrl === lookupConfig("ready.path")) {
+  if (req.originalUrl === lookupConfig("readyPath")) {
     return next();
   }
   return cors(corsOptions)(req, res, next);
@@ -44,7 +44,7 @@ async function clientLiferayJWT(req, res, next) {
     if (jwksResponse.status === 200) {
       const jwks = await jwksResponse.json();
       const jwksPublicKey = jwktopem(jwks.keys[0]);
-      const decoded = verify(bearerToken, jwksPublicKey, {
+      const decoded = jwt.verify(bearerToken, jwksPublicKey, {
         algorithms: ["RS256"],
         ignoreExpiration: true,
       });
@@ -75,7 +75,7 @@ async function clientLiferayJWT(req, res, next) {
   }
 }
 export async function liferayJWT(req, res, next) {
-  if (req.path === lookupConfig("ready.path")) {
+  if (req.path === lookupConfig("readyPath")) {
     return next();
   } else {
     return clientLiferayJWT(req, res, next);

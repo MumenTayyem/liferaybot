@@ -10,9 +10,6 @@ liferay-bot-batch-oauth-application-headless-server:
     .serviceScheme: http
     name: Liferay Bot Batch OAuth Application Headless Server
     scopes:
-        - C_Bot.everything
-        - C_BotChat.everything
-        - C_BotCommand.everything
         - Liferay.Headless.Admin.List.Type.everything
         - Liferay.Headless.Batch.Engine.everything
         - Liferay.Object.Admin.REST.everything

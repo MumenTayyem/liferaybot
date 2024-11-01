@@ -12,12 +12,12 @@ import {
 import { logger } from "./util/logger.mjs";
 import { lookupConfig } from "@rotty3000/config-node";
 import { readyRouter } from "./routes/public/ready.mjs";
-import initializeBots from "./functions/initialize-telegram-bots.mjs";
+import { botRemovedRouter } from "./routes/bots/bot-removed.mjs";
+import { botRegisteredRouter } from "./routes/bots/bot-registered.mjs";
+import initializeTelegramBots from './functions/initialize-telegram-bots.mjs';
 
 const serverPort = lookupConfig("server.port");
-console.log("MOMEN");
-console.log("Printing port number:")
-console.log(serverPort);
+
 const app = express();
 
 app.use(express.json());
@@ -26,10 +26,12 @@ app.use(liferayJWT);
 
 app.use(readyRouter);
 
-await initializeBots();
+app.use(botRegisteredRouter);
+app.use(botRemovedRouter);
+
+await initializeTelegramBots();
 
 app.listen(serverPort, () => {
   logger.log(`App listening on ${serverPort}`);
 });
-
 export default app;

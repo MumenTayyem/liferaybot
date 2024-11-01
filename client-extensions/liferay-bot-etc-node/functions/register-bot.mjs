@@ -2,8 +2,9 @@ import TelegramBot from "node-telegram-bot-api";
 import registerChat from "./register-chat.mjs";
 import getCommandAndNextCommands from "./get-command-and-next-commands.mjs";
 import fixNewLines from "../util/fix-new-lines.mjs";
-import getCommand from "./get-command.mjs";
 import getAvailableCommands from "./get-available-commands.mjs";
+import getGeminiAnswer from "./get-gemini-answer.mjs";
+import removeSpecialChars from "../util/remove-special-chars.mjs";
 
 export default async function registerBot(botInfo) {
   const bot = new TelegramBot(botInfo.token, { polling: true });
@@ -17,14 +18,26 @@ export default async function registerBot(botInfo) {
     }))
   );
 
-  const test = await bot.getMyCommands();
-
-  bot.onText(/\/\w+/, async (msg) => {
+  bot.onText(/\/\w+/g, async (msg) => {
     const chatId = msg.chat.id;
     const command = msg.text;
 
-    const x = await registerChat(botInfo.id, chatId);
+    await bot.sendChatAction(chatId, 'typing');
+
     await processCommand(command, chatId);
+    await registerChat(botInfo.id, msg.chat);
+  });
+
+  bot.onText(/^(?!\/\w+).+/g, async (msg) => {
+    const chatId = msg.chat.id;
+    const command = msg.text;
+
+    await bot.sendChatAction(chatId, 'typing');
+
+    const response = removeSpecialChars(await getGeminiAnswer(command));
+
+    await bot.sendMessage(chatId, response, {parse_mode: "Markdown"});
+    await registerChat(botInfo.id, msg.chat);
   });
 
   async function processCommand(commandText, chatId, query = null) {
@@ -35,27 +48,13 @@ export default async function registerBot(botInfo) {
       return;
     }
 
-    let message = fixNewLines(`\*${command.response}*`);
-
-    switch (command.responseType) {
-      case "listOfCommands":
-        message = fixNewLines(`\*${command.response}*`);
+    let message = `🌟*${command.title}*🌟\n\n\n`;
         
-        command.nextCommands.forEach(c => {
-          message+= `\n\n${c.command}: ${c.description}`
-        });
+    message+= fixNewLines(`\*${command.response}*`);
+    command.nextCommands.forEach((c,i) => {
+      message+= `${i==0?'':'\n\n'}*${c.command}*: ${c.description}`
+    });
 
-        await bot.sendMessage(chatId, message, {parse_mode: "Markdown"});
-        break;
-      case "text":
-        message = fixNewLines(`\*${command.response}*`);
-        
-        command.nextCommands.forEach(c => {
-          message+= `\n\n${c.command}: ${c.description}`
-        });
-
-        const x = await bot.sendMessage(chatId, message, {parse_mode: "Markdown"});
-        break;
-    }
+    await bot.sendMessage(chatId, message, {parse_mode: "Markdown"});
   }
 }

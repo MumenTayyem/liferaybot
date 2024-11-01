@@ -1,1 +1,5 @@
 .gradle
+bundles
+
+node_modules
+node_modules_cache

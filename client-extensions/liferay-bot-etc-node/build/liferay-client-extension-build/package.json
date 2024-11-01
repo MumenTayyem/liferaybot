@@ -1,13 +1,15 @@
 {
-  "name": "telegram-bots",
+  "name": "liferay-bot-etc-node",
   "version": "1.0.0",
   "main": "index.mjs",
   "scripts": {
-    "start": "node index.mjs"
+    "start": "node index.mjs",
+    "deploy": "blade gw clean build && cd dist && lcp deploy --ext liferay-bot-etc-node.zip"
   },
   "author": "Mumen Tayyem",
   "license": "ISC",
   "description": "",
+  "liferay.home": "/Users/mumentayyem/liferay/liferay-telegram/bundles",
   "dependencies": {
     "@rotty3000/config-node": "^0.4.1",
     "cors": "^2.8.5",

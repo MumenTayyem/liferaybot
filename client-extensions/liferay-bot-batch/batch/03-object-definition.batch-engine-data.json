@@ -105,7 +105,8 @@
       "objectFolderExternalReferenceCode": "default",
       "enableCategorization": true,
       "accountEntryRestrictedObjectFieldName": "",
-      "objectActions": [],
+      "objectActions": [
+      ],
       "enableLocalization": false,
       "accountEntryRestricted": false,
       "externalReferenceCode": "BOT",
@@ -167,15 +168,7 @@
       "objectViews": [],
       "enableObjectEntryDraft": false,
       "name": "Bot",
-      "actions": {
-        "permissions": {},
-        "get": {},
-        "update": {},
-        "delete": {},
-        "exportObjectDefinition": {}
-      },
       "status": { "label_i18n": "Approved", "code": 0, "label": "approved" }
     }
-    
   ]
 }

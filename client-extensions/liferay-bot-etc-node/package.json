@@ -1,9 +1,10 @@
 {
-  "name": "telegram-bots",
+  "name": "liferay-bot-etc-node",
   "version": "1.0.0",
   "main": "index.mjs",
   "scripts": {
-    "start": "node index.mjs"
+    "start": "node index.mjs",
+    "deploy": "blade gw clean build && cd dist && lcp deploy --ext liferay-bot-etc-node.zip"
   },
   "author": "Mumen Tayyem",
   "license": "ISC",

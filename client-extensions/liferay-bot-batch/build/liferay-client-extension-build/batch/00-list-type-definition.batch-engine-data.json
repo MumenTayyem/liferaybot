@@ -22,14 +22,6 @@
 					}
 				},
 				{
-					"externalReferenceCode": "LIST_OF_COMMANDS",
-					"key": "listOfCommands",
-					"name": "List of Commands",
-					"name_i18n": {
-						"en-US": "List of Commands"
-					}
-				},
-				{
 					"externalReferenceCode": "WEBHOOK",
 					"key": "webhook",
 					"name": "Webhook",
