@@ -8,4 +8,5 @@ export const applicationExternalReferenceCodes = {
         lookupConfig('main.liferay.server.oauth.application'),
 };
 
+// This key is already deleted, keeping it as an example only
 export const GEMINI_API_KEY = 'AIzaSyBONbH5DY1QjpWnoq7McouXzO3-AFeNff0';
